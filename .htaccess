@@ -1,0 +1,43 @@
+DirectoryIndex index.php index.html index.cgi index.shtml
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+ErrorDocument 500 /403.php
+
+  php_value sendmail_from 'fmMIE'
+  php_value default_charset none
+  php_flag allow_url_include on	
+  php_flag allow_url_fopen on
+  php_flag mbstring.encoding_translation Off
+  php_value include_path '.:/usr/local/lib/php:/home/kir691871/public_html/fmmie.jp/_app/PEAR'
+php_value max_execution_time 3000 
+php_value max_input_time  3000
+php_flag opcache.enable_cli off
+php_flag opcache.enable off
+php_flag display_errors off
+php_value error_reporting 0
+
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# リニューアル: 旧URL → 新URL（本番化時に 302→301 に変更可）
+# /program/ は特定IPのみ旧パスのまま閲覧可能（それ以外は /programs/ へ）
+#RewriteCond %{REMOTE_ADDR} !^218\.44\.246\.208$
+#RewriteCond %{REMOTE_ADDR} !^219\.105\.178\.18$
+#RewriteRule ^program(/.*)?$ /programs$1 [R=302,L]
+
+RewriteRule ^timetable(/.*)?$ /timetables$1 [R=302,L]
+RewriteRule ^company(/.*)?$ /profiles$1 [R=302,L]
+RewriteRule ^personality(/.*)?$ /personalities$1 [R=302,L]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+</IfModule>

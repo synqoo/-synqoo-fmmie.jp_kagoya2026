@@ -1,0 +1,110 @@
+ <?php
+  $GA_ACCOUNT = "MO-49703788-1";
+  $GA_PIXEL = "/ga.php";
+ 
+  function googleAnalyticsGetImageUrl() {
+    global $GA_ACCOUNT, $GA_PIXEL;
+    $url = "";
+    $url .= $GA_PIXEL . "?";
+    $url .= "utmac=" . $GA_ACCOUNT;
+    $url .= "&utmn=" . rand(0, 0x7fffffff);
+    $referer = $_SERVER["HTTP_REFERER"];
+    $query = $_SERVER["QUERY_STRING"];
+    $path = $_SERVER["REQUEST_URI"];
+    if (empty($referer)) {
+      $referer = "-";
+    }
+    $url .= "&utmr=" . urlencode($referer);
+    if (!empty($path)) {
+      $url .= "&utmp=" . urlencode($path);
+    }
+    $url .= "&guid=ON";
+    return str_replace("&", "&amp;", $url);
+  }
+?>
+<MTSetVars>
+mobileURL=<$mt:BlogURL encode_html="1"$>m
+</MTSetVars>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache">
+<title><$mt:EntryTitle encode_html="1"$> - <$mt:BlogName encode_html="1"$></title>
+   <style type="text/css">
+   <!--
+      .nocss {
+         display: none;
+      }
+      #blogdesc {
+      }
+      .areatitle {
+         color: #BB0F05;
+         padding: 4px;
+      }
+      .areabody {
+      }
+      .evenline {
+         background-color: #e6ecf2;
+      }
+      .oddline {
+         background-color: #ffffff;
+      }
+      .areanav {
+         background-color: #dae0e6;
+         color: #ffffff;
+      }
+   -->
+   </style>
+</head>
+<MTFor replace="https://","http://">
+   <body bgcolor="#ffffff" text="#333333" style="font-size:small;">
+<!-- header -->
+<div align="center">
+<img src="<$mt:BlogURL encode_html="1"$>images/m_main.jpg" style="keitai-fit: center;" /><br><br>
+   <div align="center" id="shortcuts">
+   [<a href="<$mt:BlogURL encode_html="1"$>m_index.php"  accesskey="0">ﾄｯﾌﾟに戻る</a>]
+   </div>
+  </div>
+<!-- /header -->
+<br>
+<!-- entry&comments -->
+   <hr color="#FFC2CC" class="nocss" />
+   <div class="areatitle">
+   <b>
+<img src="http://fmmie.jp/program/radio-spirit/mtkkimage.php?mtkk_size=70&mtkk_emoji=memo.gif" width="12" height="12" border="0" />
+<$mt:EntryTitle$>
+   </b>
+   </div>
+   <hr color="#FFC2CC" class="nocss" />
+   <hr color="#FFC2CC" class="nocss" />
+   <div class="areanav">
+<img src="http://fmmie.jp/program/radio-spirit/mtkkimage.php?mtkk_size=79&mtkk_emoji=clock.gif" width="12" height="12" border="0" />
+   <time datetime="<$mt:EntryDate format_name="iso8601"$>" itemprop="datePublished"><$mt:EntryDate format="%x"$></time>
+   </div>
+   <hr color="#FFC2CC" class="nocss" />
+<hr>
+   <div class="areabody">
+<div class="asset-body">
+    <$mt:EntryBody$>
+    <$mt:EntryMore$>
+   </div>
+   </div>
+<!-- /entry&comments -->
+<hr>
+<br>
+
+<!-- footer -->
+<a name="footer"></a>
+<hr color="#BB0F05">
+<div align="center">
+<a href="<$mt:BlogURL encode_html="1"$>m_index.php">
+<img src="http://fmmie.jp/_include/img/2015/m/mobile_footerlogo.gif" alt="レディオキューブFM三重"  border="0" />
+</a><br> (c)radio3 FM MIE<br>[JONU-FM 78.9MHz]
+</div>
+<?php
+  $googleAnalyticsImageUrl = googleAnalyticsGetImageUrl();
+  echo '<img src="' . $googleAnalyticsImageUrl . '" />';
+?>
+<!-- /footer -->
+   </body></MTFor>
+</html>

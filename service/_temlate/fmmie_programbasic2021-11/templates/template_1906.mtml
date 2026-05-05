@@ -1,0 +1,157 @@
+<?php
+session_start();
+$_session['reg']=0;
+require_once '/home/kir691871/public_html/fmmie.jp/_app/functions.php';
+saveinput($_POST);
+$fm_id=28;
+formz_config($fm_id);
+
+if($_POST['act']==1){
+	require_once '/home/kir691871/public_html/fmmie.jp/_app/formz_validate.php';
+	if (!is_array($error)){
+		require_once '/home/kir691871/public_html/fmmie.jp/_app/formz_regist.php';
+	}else{
+		$_session['reg']=0;
+	}
+}
+  // Copyright 2010 Google Inc. All Rights Reserved.
+ 
+  $GA_ACCOUNT = "MO-49703788-1";
+  $GA_PIXEL = "/ga.php";
+ 
+  function googleAnalyticsGetImageUrl() {
+    global $GA_ACCOUNT, $GA_PIXEL;
+    $url = "";
+    $url .= $GA_PIXEL . "?";
+    $url .= "utmac=" . $GA_ACCOUNT;
+    $url .= "&utmn=" . rand(0, 0x7fffffff);
+    $referer = $_SERVER["HTTP_REFERER"];
+    $query = $_SERVER["QUERY_STRING"];
+    $path = $_SERVER["REQUEST_URI"];
+    if (empty($referer)) {
+      $referer = "-";
+    }
+    $url .= "&utmr=" . urlencode($referer);
+    if (!empty($path)) {
+      $url .= "&utmp=" . urlencode($path);
+    }
+    $url .= "&guid=ON";
+    return str_replace("&", "&amp;", $url);
+  }
+
+?>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Cache-Control" content="no-cache"><title>メッセージ</title></head>
+<body>
+<body>
+<div id="container">
+<img src="images/m_main.jpg" />
+<form action="" method="post" <?php if($submitmode==1){echo 'style="display:none;"';}?>>
+	<?php echo $error['topmob'] ?>
+	・入力いただきました個人情報は、[radio³　Best Mix Sunday]受付以外では使用しません。詳しくは、<a href="http://fmmie.jp/ktai/privacy/index.php">プライバシーポリシー</a>をご参照ください。<br />
+	・<font color="#ff0000">*</font>印は入力必須項目です。<br /><br />
+	
+	
+	<h2><font color="#00aa00">メッセージ</font></h2>
+	<p><span class="tag">ラジオネーム<font color="#ff0000">*</font></span>
+		<input value="<?php echo $_POST['u_radioname'] ?>" type="text" name="u_radioname" size="20" class="con" style="ime-mode: active" istyle="1″ format="*M" mode="hiragana"　/>
+		<font color="#ff0000"><?php echo $error['u_radioname'] ?></font>
+	</p>
+	<p><span class="tag">リクエスト曲</span>
+		<input value="<?php echo $_POST['r_songtitle'] ?>" type="text" name="r_songtitle" size="20" class="con" style="ime-mode: active" istyle="1″ format="*M" mode="hiragana"　/>
+		<font color="#ff0000"><?php echo $error['r_songtitle'] ?></font>
+	</p>
+	<p><span class="tag">アーティスト名</span>
+		<input value="<?php echo $_POST['r_artist'] ?>" type="text" name="r_artist" size="20" class="con" style="ime-mode: active" istyle="1″ format="*M" mode="hiragana"　/>
+		<font color="#ff0000"><?php echo $error['r_artist'] ?></font>
+	</p>
+	<p><span class="tag">メッセージ</span>
+		<textarea name="r_message" class="" rows="4"><?php echo $_POST['r_message'] ?></textarea>
+	</p>
+	<hr class="req_sep_bar" />
+	<p><span class="tag">メールアドレス<font color="#ff0000">*</font></span>
+		<input value="<?php echo $_POST['u_email'] ?>" type="text" name="u_email" size="20" class="con" style="ime-mode: inactive" istyle="3″ format="*x"　mode="alphabet" 　/>
+		<font color="#ff0000"><?php echo $error['u_email'] ?></font>
+	</p>
+	<p><span class="tag">お名前 <font color="#ff0000">*</font></span>
+		<input value="<?php echo $_POST['u_name'] ?>" type="text" name="u_name" size="20" class="con" style="ime-mode: active" istyle="1″ format="*M" mode="hiragana"　/>
+		<font color="#ff0000"><?php echo $error['u_name'] ?></font>
+	</p>
+	
+	<h2><font color="#00aa00">よろしければお書き添えください</font></h2>
+	<p><span class="tag">性別</span>
+		<span class="formz-list-item"><input type="radio" name="u_sex" id="l" value="女性" <?php if($_POST['u_sex']=='女性'){echo 'checked=\"checked\"';}?> /> <label for="l" class="formz-list-item-label">女性</label></span>
+		<span class="formz-list-item"><input type="radio" name="u_sex" id="m" value="男性" <?php if($_POST['u_sex']=='男性'){echo 'checked=\"checked\"';}?> /> <label for="m" class="formz-list-item-label">男性</label></span>
+		<font color="#ff0000"><?php echo $error['u_sex'] ?></font>
+	</p>
+	<p><span class="tag">年齢</span>
+		<input value="<?php echo $_POST['u_age'] ?>" type="number" name="u_age"  size="4" class="textfield" istyle="4″ format="*N" mode="numeric" />　歳
+		<font color="#ff0000"><?php echo $error['u_age'] ?></font>
+	</p>
+	<p><span class="tag">郵便番号</span>
+		<input value="<?php echo $_POST['u_zip'] ?>" type="text" name="u_zip" size="9" class="textfield" onKeyUp="AjaxZip3.zip2addr(this,'','u_address','u_address');" istyle="4″ format="*N" mode="numeric" 　/>
+		<font color="#ff0000"><?php echo $error['u_zip'] ?></font>
+	</p>
+	<p><span class="tag">都道府県・市町</span>
+		<input value="<?php echo $_POST['u_address'] ?>" type="text" name="u_address" size="20" class="con" style="ime-mode: active" istyle="1″ format="*M" mode="hiragana"　/>
+		<font color="#ff0000"><?php echo $error['u_address'] ?></font>
+	</p>
+	<p><span class="tag">番地</span>
+		<input value="<?php echo $_POST['u_address2'] ?>" type="text" name="u_address2" size="20" class="con" style="ime-mode: active" istyle="1″ format="*M" mode="hiragana"　/>
+		<font color="#ff0000"><?php echo $error['u_address2'] ?></font>
+	</p>
+	<p><span class="tag">マンション等</span>
+		<input value="<?php echo $_POST['u_address3'] ?>" type="text" name="u_address3" size="20" class="con" style="ime-mode: active" istyle="1″ format="*M" mode="hiragana"　/>
+		<font color="#ff0000"><?php echo $error['u_address3'] ?></font>
+	</p>
+	<p><span class="tag">電話番号</span>
+		<input value="<?php echo $_POST['u_tel'] ?>" type="text" name="u_tel" size="20" class="con" style="ime-mode: active" istyle="1″ format="*M" mode="hiragana"　/>
+		<font color="#ff0000"><?php echo $error['u_tel'] ?></font>
+	</p>
+	<hr clear="all" />
+	<input type="checkbox" name="savedata" id="savedata" value="1" <?php if($_POST['savedata']==1){echo 'checked="checked"';} ?>/>お名前などの入力項目をブラウザに保存する。 
+	<input type="hidden" name="send_user" value="" />
+	<input type="hidden" name="send_admin" value="" />
+	<input type="hidden" name="a_test" value="<?= $testmode ?>" />
+	<input type="hidden" name="form_type" value="1" />
+	<input type="hidden" name="act" value="1" />
+	<input type="hidden" name="mob" value="1" />
+	<input type="hidden" name="form_id" value="28" />
+	
+	
+	<?php if($submitmode==0){?>
+		<input type="submit" value="送 信" class="formz-submit" />
+	<?php }else{ ?>
+		<span class="error_red"><?= $submit_mess ?></span>
+	<?php }?>
+	
+</form>
+
+
+
+
+
+
+
+
+<br />
+<br />
+<div id="ret_top"><a href="#main">▲ Topに戻る</a></div>
+<br />
+<!-- footer -->
+<a name="footer"></a>
+<hr color="#BB0F05">
+<div align="center">
+<a href="<$mt:BlogURL encode_html="1"$>m_index.php" accesskey="0">
+<img src="http://fmmie.jp/_include/img/2015/m/mobile_footerlogo.gif" alt="レディオキューブFM三重"  border="0" />
+</a><br> (c)radio3 FM MIE<br>[JONU-FM 78.9MHz]
+</div>
+<!-- /footer -->
+<?php
+  $googleAnalyticsImageUrl = googleAnalyticsGetImageUrl();
+  echo '<img src="' . $googleAnalyticsImageUrl . '" />';
+?>
+</body>
+</html>

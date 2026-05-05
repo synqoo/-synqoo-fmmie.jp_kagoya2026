@@ -1,0 +1,121 @@
+/**
+ * 放送楽曲一覧テーブル
+ * /musics/played.php
+ */
+
+.played-section {
+  margin-bottom: 2rem;
+}
+
+.played-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--primary-dark, #333);
+  width:100%;
+  margin:10px auto;
+  max-width: var(--layout-max-width);
+}
+
+.played-table-wrap {
+  overflow-x: auto;
+  width:100%;
+  margin:0 auto;
+  max-width: var(--layout-max-width);
+}
+
+.played-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+.played-table th,
+.played-table td {
+  padding: 0.5rem 0.25rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.played-table thead th {
+  background: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+}
+
+.played-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.played-table tbody tr:hover {
+  background: #f0f0f0;
+}
+
+.played-col-time {
+  width: 6em;
+  white-space: nowrap;
+}
+
+.played-col-music {
+  min-width: 10em;
+}
+
+.played-amazon-link {
+  color: var(--link-color, #1967d2);
+  text-decoration: underline;
+}
+.played-amazon-link:hover {
+  text-decoration: none;
+}
+
+.played-col-artist {
+  min-width: 8em;
+}
+
+.played-col-program {
+  min-width: 8em;
+}
+
+.played-empty {
+  color: #888;
+  font-style: italic;
+  padding: 1rem 0;
+  width:100%;
+  margin:0 auto;
+  max-width: var(--layout-max-width);
+}
+
+.played-search-old-wrap {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  max-width: var(--layout-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.played-search-old-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary-dark, #333);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.played-search-old-btn:hover {
+  background: var(--primary, #555);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.played-search-old-btn:focus {
+  outline: 2px solid var(--primary-dark, #333);
+  outline-offset: 2px;
+}

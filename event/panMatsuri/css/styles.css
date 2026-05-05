@@ -1,0 +1,330 @@
+/* ========================================
+   レディオキューブパン祭り
+   /service/panMatsuri/
+   prefix: pm-
+======================================== */
+
+/* パンまつり専用カラー（暖色系・色相バリエーション） */
+.pm-container {
+    --pm-brown: #8B5E3C;
+    --pm-brown-dark: #6D4528;
+    --pm-brown-light: #A0714F;
+    --pm-cream: #FFFAF3;
+    --pm-yellow-light: #FFF8E1;
+    --pm-peach: #FFF0E5;
+    --pm-apricot: #FFE8CC;
+    --pm-rose-light: #FFF0F0;
+    --pm-border-peach: #F5D4BC;
+    --pm-border-rose: #F0D0CF;
+    --pm-orange-warm: #D4813A;
+
+    max-width: var(--layout-max-width);
+    margin: 0 auto;
+    padding: var(--space-lg) var(--layout-inline-padding);
+}
+
+/* ========================================
+   ヘッダー・見出し画像エリア
+======================================== */
+.pm-header {
+    margin-bottom: var(--space-xl);
+}
+
+.pm-hero-img {
+    width: 100%;
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-md);
+    overflow: hidden;
+}
+
+.pm-hero-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-md);
+}
+
+.pm-header__title {
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    color: var(--pm-brown-dark);
+    text-align: center;
+    margin: 0;
+}
+
+/* ========================================
+   イベントセクション（カードリスト）
+======================================== */
+.pm-section {
+    margin-bottom: var(--space-xl);
+}
+
+.pm-events {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+.pm-event {
+    background: var(--pm-cream);
+    padding: var(--space-lg);
+    overflow: hidden;
+    border: 1px solid var(--pm-border-peach);
+}
+
+.pm-event__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.pm-event__date {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    margin: 0 0 var(--space-xs) 0;
+    color: var(--text-main);
+    border-bottom: 1px solid var(--pm-border-peach);;
+}
+
+.pm-sat { color: #1565C0; }
+.pm-sun { color: #C62828; }
+
+.pm-event__time,
+.pm-event__place {
+    margin: 0 0 var(--space-xs) 0;
+    color: var(--text-main);
+}
+
+.pm-event__note {
+    margin: 0 0 var(--space-md) 0;
+    font-size: var(--font-size-base);
+    color: var(--text-muted);
+}
+
+/* ========================================
+   ボタン共通
+======================================== */
+.pm-btn {
+    display: inline-block;
+    padding: var(--space-sm) var(--space-lg);
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    border: 2px solid var(--pm-brown);
+    background: transparent;
+    color: var(--pm-brown);
+    cursor: pointer;
+    transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.pm-btn:hover {
+    background: var(--pm-brown);
+    color: #fff;
+    text-decoration: none;
+}
+
+.pm-btn--primary {
+    background: var(--pm-brown);
+    color: #fff;
+    border-color: var(--pm-brown);
+}
+
+.pm-btn--primary:hover {
+    background: var(--pm-brown-dark);
+    border-color: var(--pm-brown-dark);
+    color: #fff;
+}
+
+.pm-btn--detail {
+    align-self: flex-start;
+}
+
+/* ========================================
+   カード内 詳細エリア（展開部分）
+======================================== */
+.pm-event__detail {
+    margin-top: var(--space-xs);
+    padding-top: var(--space-lg);
+    /* border-top: 1px solid var(--pm-border-peach); */
+}
+
+.pm-event__detail-title {
+    /* font-size: var(--font-size-h4);
+    font-weight: 700;
+    margin: 0 0 var(--space-md) 0;
+    color: var(--pm-brown-dark); */
+    margin:  var(--space-md) 0 0 0;
+}
+
+/* 出店者カード（カード内のインナーカード・5カラム） */
+.pm-cards {
+    margin-top: var(--space-sm);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--space-xs);
+}
+
+.pm-card {
+    background: var(--pm-peach);
+    border-radius: var(--radius-sm);
+    padding: var(--space-xs) var(--space-xs);
+    border: 1px solid var(--pm-border-peach);
+    font-size: 0.8rem;
+}
+
+.pm-card__name {
+    font-weight: 700;
+    margin: 0 0 2px 0;
+    color: var(--pm-brown-dark);
+    line-height: 1.1 !important;
+}
+
+.pm-card__addr {
+    margin: 0;
+    font-size: 0.85em;
+    color: var(--text-muted);
+    line-height: 1.3;
+}
+
+/* チラシダウンロード */
+.pm-event__flyer {
+    margin: var(--space-md) 0 0 0;
+}
+
+.pm-event__flyer a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    color: var(--pm-brown);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.pm-event__flyer a:hover {
+    color: var(--pm-brown-dark);
+    text-decoration: underline;
+}
+
+.pm-event__flyer i {
+    font-size: 1.1em;
+}
+
+/* ========================================
+   区切り線
+======================================== */
+.pm-divider {
+    border: none;
+    border-top: 1px solid var(--pm-border-peach);
+    margin: var(--space-xl) 0;
+}
+
+/* ========================================
+   パン屋さん口コミ募集（原稿b）
+======================================== */
+.pm-article img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.pm-article__title {
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    margin: 0 0 var(--space-lg) 0;
+    color: var(--pm-brown-dark);
+    text-align: center;
+    position: relative;
+    padding-bottom: var(--space-sm);
+    display:none;
+}
+
+.pm-article__title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: var(--pm-orange-warm);
+    border-radius: 2px;
+}
+
+.pm-article__body p {
+    margin: 0 0 var(--space-md) 0;
+    line-height: 1.8;
+    color: var(--text-main);
+    font-weight: 300;
+
+}
+
+.pm-article__lead-text{
+    font-weight: 600;
+    color: var(--pm-orange-warm);
+}
+.pm-article__lead {
+    font-size: clamp(1.1rem, 1rem + 0.5vw, 1.3rem);
+    font-weight: 600;
+    line-height: 1.9;
+    background: #E0FFA8;
+    padding: var(--space-md) var(--space-lg);
+    border-radius: 0 0 10px 10px;
+}
+
+.pm-article__closing {
+    font-weight: 600;
+    font-size: clamp(1.05rem, 1rem + 0.3vw, 1.2rem);
+    text-align: center;
+}
+
+.pm-article__examples {
+    list-style: none;
+    margin: var(--space-lg) 0;
+    padding: var(--space-md) var(--space-lg);
+    background: var(--pm-rose-light);
+    border-radius: var(--radius-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    width: 86%;
+  margin: 50px auto;
+}
+
+.pm-article__examples li {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    line-height: 1.7;
+    color: var(--text-main);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px dashed var(--pm-border-rose);
+}
+
+.pm-article__examples li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.pm-article__examples li i {
+    color: var(--pm-orange-warm);
+    flex-shrink: 0;
+    margin-top: 0.25em;
+    font-size: 1.1em;
+}
+
+.pm-article__cta {
+    margin: var(--space-xl) 0 0 0;
+    text-align: center;
+}
+
+.pm-article__cta .pm-btn {
+    margin: 0;
+}
+
+.pm-qr {
+    text-align: center;
+    padding: var(--space-xl) 0;
+}

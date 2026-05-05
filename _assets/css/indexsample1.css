@@ -1,0 +1,80 @@
+/* =========================================
+   Index Sample 1 - Custom Styles
+   このファイルは indexsample1.php 専用のスタイルです
+   utilities.css や index_objects.css を上書きします
+   ========================================= */
+
+/* 1. index-header-nowonair欄の背景色を透明に、背景画像を設定 */
+.index-header-nowonair {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-radius: var(--radius-md);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-header-nowonair .nowonair-widget {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* 2. nowplayingの背景色を透明に */
+.nowplaying {
+  background: transparent !important;
+  border: none !important; 
+}
+
+/* 3. index-header-timetableの背景色を透明に */
+.index-header-timetable {
+  background-color: transparent;
+}
+
+/* 4. ページの背景画像にbg1.pngを追加（既存の背景画像と重ねて表示） */
+/* bg1.pngをbody要素の疑似要素で重ねて表示（スクロール可能） */
+body {
+  position: relative;
+  /* utilities.cssの背景画像を上書き */
+  background-image: none !important;
+}
+
+body::before {
+  content: '';
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  min-height: 100vh !important;
+  background-color: transparent !important;
+  background-image: url('/_assets/img/index_obj/bg1.png') !important;
+  background-size: 65% auto !important;
+  background-position: center 70px !important;
+  background-repeat: no-repeat !important;
+  background-blend-mode: normal !important;
+  mix-blend-mode: normal !important;
+  opacity: 1 !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+  display: block !important;
+  /* 32bit RGBA PNGのアルファチャンネルを正しく表示するためのハードウェアアクセラレーション */
+  /* transform: translateZ(0); パフォーマンス向上のため削除（スクロールが重くなる原因） */
+  /* will-change: transform; パフォーマンス向上のため削除（適切に使用されていないと逆効果） */
+  /* -webkit-backface-visibility: hidden; パフォーマンス向上のため削除 */
+  /* backface-visibility: hidden; パフォーマンス向上のため削除 */
+}
+
+/* メインコンテンツを前面に表示 */
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* topbannerzとindex-containerの間に300pxの間隔を追加 */
+.topbannerz {
+  margin-top: 300px !important;
+}
+
+.index-header{
+    margin-top: 50px;
+}

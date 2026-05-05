@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="�ǣ�����FM	�޹���	">
+  <rect width="512" height="512" fill="#2B7898"/>
+  <circle cx="256" cy="256" r="192" fill="#0ea5e9" opacity="0.35"/>
+  <g fill="#fff">
+    <text x="256" y="288" text-anchor="middle" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="176" font-weight="900" letter-spacing="2">FM</text>
+  </g>
+</svg>

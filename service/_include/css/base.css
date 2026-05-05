@@ -1,0 +1,60 @@
+/* =========================================
+   Responsive Breakpoints (Sample)
+   モバイルファーストでの一般的な例
+   ========================================= */
+
+/* 画面幅 480px 以上（小さめスマホ → ふつうのスマホ） */
+@media (min-width: 480px) {
+  /* 例：.container の左右余白を少し広げる */
+  .container {
+    width: min(
+      100% - var(--layout-inline-padding) * 2,
+      var(--layout-max-width)
+    );
+  }
+}
+
+/* 画面幅 768px 以上（タブレット・小さめPC） */
+@media (min-width: 768px) {
+  /* 例：記事レイアウトなどで2カラムにする */
+  .layout-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--space-lg);
+  }
+
+  /* 例：ヘッダーのナビを横並びにする */
+  .site-header__nav {
+    display: flex;
+    gap: var(--space-md);
+  }
+}
+
+/* 画面幅 1024px 以上（一般的なノートPC・横向きタブレット） */
+@media (min-width: 1024px) {
+  /* 例：コンテンツ幅を少し広くする */
+  :root {
+    --layout-max-width: 1200px;
+  }
+
+  /* 例：ヒーローセクションを左右2カラムに */
+  .hero {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    align-items: center;
+    gap: var(--space-xl);
+  }
+}
+
+/* 画面幅 1280px 以上（大きめデスクトップ） */
+@media (min-width: 1280px) {
+  /* 例：全体を少しゆったりさせる */
+  :root {
+    --layout-inline-padding: 3.5rem;
+  }
+
+  /* 例：カードグリッドを3列以上にしやすくする */
+  .grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

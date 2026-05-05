@@ -1,0 +1,57 @@
+
+<nav class="widget-recent-entries widget">
+<h3 class="widget-header"><i class="fa fa-star" aria-hidden="true"></i> パーソナリティ </h3>
+<img src="/program/weekendpalette/images/kiyota10.jpg" width="50%" height="50%"  />
+<p><a href="/personality/announcer/kiyotaNozomi.php">清田のぞみ</a></p>
+</nav>
+<nav class="widget-recent-entries widget">
+<h3 class="widget-header"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> #eフラ on Twitter</h3>
+<div class="magictw">
+<?php include('/home/kir691871/public_html/fmmie.jp/_include/espo_twitter.php'); ?>
+</div>
+</nav>
+<mt:If tag="BlogEntryCount">
+  <mt:Entries lastn="10">
+    <mt:EntriesHeader>
+<nav class="widget-recent-entries widget">
+  <h3 class="widget-header"><i class="fa fa-list" aria-hidden="true"></i> 最近のブログ記事</h3>
+  <div class="widget-content">
+    <ul class="widget-list">
+    </mt:EntriesHeader>
+      <li class="widget-list-item"><a href="<$mt:EntryPermalink$>"><$mt:EntryTitle$></a></li>
+    <mt:EntriesFooter>
+    </ul>
+  </div>
+</nav>
+    </mt:EntriesFooter>
+  </mt:Entries>
+</mt:If>
+
+<mt:IfArchiveTypeEnabled archive_type="Monthly">
+  <mt:ArchiveList archive_type="Monthly">
+    <mt:ArchiveListHeader>
+<nav class="widget-archive-dropdown widget">
+  <h3 class="widget-header"><i class="fa fa-archive" aria-hidden="true"></i> アーカイブ</h3>
+  <div class="widget-content">
+    <select onChange="document.location = this.value" >
+      <option>月を選択...</option>
+    </mt:ArchiveListHeader>
+      <option value="<$mt:ArchiveLink encode_html="1"$>"><$mt:ArchiveTitle$></option>
+    <mt:ArchiveListFooter>
+    </select>
+  </div>
+</nav>
+    </mt:ArchiveListFooter>
+  </mt:ArchiveList>
+</mt:IfArchiveTypeEnabled>
+
+
+<nav class=" widget">
+<h3 class="widget-header op"><i class="fa fa-book" aria-hidden="true"></i> PRESS最新号</h3>
+<?php include('/home/kir691871/public_html/fmmie.jp/timetable/press.php');   ?>
+</nav>
+
+<nav class=" widget">
+<h3 class="widget-header op"><i class="fa fa-bullhorn" aria-hidden="true"></i> PickUp</h3>
+<?php include('/home/kir691871/public_html/fmmie.jp/special/_pickup.php');   ?>
+</nav>

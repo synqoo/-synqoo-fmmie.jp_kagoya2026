@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- メイングラデーション -->
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f0f7ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e3f2ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 放射状グラデーション（アクセント） -->
+    <radialGradient id="radialGlow" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#e8f4ff;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="radialGlow2" cx="70%" cy="80%">
+      <stop offset="0%" style="stop-color:#ddeeff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- ベースグラデーション -->
+  <rect width="1920" height="1080" fill="url(#mainGradient)" />
+  
+  <!-- 放射状のアクセント -->
+  <rect width="1920" height="1080" fill="url(#radialGlow)" />
+  <rect width="1920" height="1080" fill="url(#radialGlow2)" />
+</svg>
+

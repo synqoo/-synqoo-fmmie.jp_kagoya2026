@@ -1,0 +1,153 @@
+/* =========================================
+   Design Tokens
+   ========================================= */
+
+:root {
+  /* Accent Palette (FM三重) */
+  --brand-blue:   #4E7AFF;
+  --brand-orange: #F8772E;
+  --brand-red:    #E23C39;
+  --brand-pink: #d13b81;
+  --brand-cyan:  #1ABBBB;
+  /* 既存の色トークンとの紐付け例 */
+  --color-bg: #f2f2f0;
+  --color-bg-elevated: #f5f5f7;
+  --color-fg: #111111;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  /* type2 -- def */
+  /* --brand-blue:   #2A7FCD;
+  --brand-orange: #FFA94A;
+  --brand-red:    #5A6065;
+  --brand-pink: #d13b81;
+  --brand-cyan:  #22594D;
+  --color-bg: #D8DFE5;
+  --color-bg-elevated: #FAFDFF;
+  --color-fg: #111111;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb; */
+
+    /* type3 -- def */
+  /* --brand-blue:   #b4c7ce;
+  --brand-orange:  #c8b39f;
+  --brand-red: #822e38; 
+  --brand-pink:  #8b5a2b; 
+  --brand-cyan:   #f2f2f0;  */
+
+ /* =========================
+   *  Palette tokens（元カラー）
+   * ========================= */
+  --color-wall-blue:   #b4c7ce; /* 壁のライトブルー */
+  --color-sofa-beige:  #c8b39f; /* ソファのベージュ */
+  --color-accent-rose: #822e38; /* クッション/花のディープローズ */
+  --color-wood-brown:  #8b5a2b; /* テーブルなどの木のブラウン */
+  --color-warm-white:  #f2f2f0; /* 天井・トリムのソフトホワイト */
+
+  /* =========================
+   *  Semantic tokens（UI用に意味付け）
+   * ========================= */
+
+  /* 背景・面 */
+  --bg-body:        var(--color-warm-white);
+  --bg-surface:     var(--color-sofa-beige);  /* カード・パネル */
+  --bg-surface-sub: var(--color-wall-blue);   /* セクション背景など */
+
+  /* テキスト */
+  --text-main:      #222222;                  /* 黒寄りで可読性優先 */
+  --text-muted:     #666666;
+  --text-on-accent: #ffffff;                  /* アクセント上の文字色 */
+
+  /* アクション / アクセント */
+  --accent-primary:   var(--color-accent-rose);  /* ボタン・リンクなど */
+  --accent-secondary: var(--color-wood-brown);   /* サブボタン・強調 */
+
+  /* 枠線・境界 */
+  --border-soft:  rgba(0, 0, 0, 0.08);
+  --border-strong: var(--color-wood-brown);
+
+  /* 影（参考値） */
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+
+  
+  --color-accent: var(--brand-blue);
+  --color-accent-soft: rgba(37, 99, 235, 0.12);
+  --color-danger: var(--brand-red);
+
+  /* Typography — Google Fonts 最適化 */
+  --font-sans: "Oswald", "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  /* --font-serif: "Noto Serif JP", serif; */
+  --font-serif: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Fluid font sizes */
+  /*small*/
+    --font-size-base: clamp(0.95rem, 0.9rem + 0.4vw, 1.1rem);
+  /*normal*/
+  /* --font-size-base: clamp(1rem, 0.8rem + 0.8vw, 1.3rem); */
+
+    /* Smaller, more compact heading scale */
+    --font-size-h1: clamp(1.7rem, 1.5rem + 1.6vw, 2.5rem);
+    --font-size-h2: clamp(1.35rem, 1.2rem + 1vw, 1.85rem);
+    --font-size-h3: clamp(1.15rem, 1.05rem + 0.6vw, 1.45rem);
+
+    /* H4 & H5 は H3 と同じサイズ */
+    --font-size-h4: var(--font-size-h3);
+    --font-size-h5: var(--font-size-h3);
+
+    /* H6 は H3 より一回り小さく = 段落サイズと同じ */
+    --font-size-h6: var(--font-size-base);
+
+  /* Spacing */
+  --space-xs: clamp(0.25rem, 0.2rem + 0.2vw, 0.5rem);
+  --space-sm: clamp(0.5rem, 0.4rem + 0.3vw, 0.75rem);
+  --space-md: clamp(1rem, 0.8rem + 0.5vw, 1.5rem);
+  --space-lg: clamp(1.5rem, 1.2rem + 0.8vw, 2.5rem);
+  --space-xl: clamp(2rem, 1.6rem + 1vw, 3rem);
+
+  /* Layout */
+  --layout-max-width: 1120px;
+  --layout-inline-padding: clamp(1rem, 3vw, 2.5rem);
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+
+  /* Shadow */
+  --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.08);
+
+  /* Transition */
+  --transition-fast: 150ms ease-out;
+  --transition-normal: 200ms ease;
+
+  /* UAへのヒント（フォーム系の見た目にも影響） */
+  color-scheme: light dark;
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: darkxxx) {
+  :root {
+    /* 背景・テキストなどのベース */
+    --color-bg: #020617;
+    --color-bg-elevated: #020818;
+    --color-fg: #f9fafb;
+    --color-muted: #9ca3af;
+    --color-border: #1f2933;
+
+    /* Brandカラーをダークモード向けに「少しだけ」明るく・柔らかく調整 */
+    --brand-blue:   #60A5FA; /* 元: #2563EB → 明度UP */
+    --brand-orange: #FDBA74; /* 元: #FB923C → 少しソフトに */
+    --brand-red:    #F97373; /* 元: #B91C1C → 血の色っぽさを少し緩和 */
+    --brand-yellow: #FDE68A; /* 元: #FACC15 → 濁りを抑えて柔らかく */
+    --brand-green:  #4ADE80; /* 元: #22C55E → 少し蛍光寄りにして視認性UP */
+
+    /* 再マッピング（brandを使ってUI色を上書き） */
+    --color-accent: var(--brand-blue);
+    --color-accent-soft: rgba(96, 165, 250, 0.22);
+    --color-danger: var(--brand-red);
+
+    --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.9);
+  }
+}

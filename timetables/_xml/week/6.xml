@@ -1,0 +1,4017 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE station SYSTEM "../info.dtd">
+<archive publish_time="2026-05-05T16:26:40+09:00">
+  <item id="1" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>05:00</onair_start>
+    <onair_time>05:00 - 08:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>050000</onair_starttime>
+    <onair_endtime>085500</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300003459</program_id>
+    <program_name>From Athlete!</program_name>
+    <program_name_kana>フロム　アスリート！</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300003459</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/fromathlete/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P002</radiko_program_genre_code>
+    <radiko_character_genre_code>C013</radiko_character_genre_code>
+    <radiko_tag>気分転換におすすめ</radiko_tag>
+    <official_publicity>夏・冬のオリンピック金メダリストがスポーツニュース、スポーツの魅力、歴史、楽しみ方、注目の選手紹介など、世界の頂点に立ったからこそ分かる景色を交えて、日本中のスポーツファン、そしてアスリートに向けてお届けするスポーツプログラム！
+それが「From Athlete!」</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>夏・冬のオリンピック金メダリストがスポーツニュース、スポーツの魅力、歴史、楽しみ方、注目の選手紹介など、世界の頂点に立ったからこそ分かる景色を交えて、日本中のスポーツファン、そしてアスリートに向けてお届けするスポーツプログラム！
+それが「From Athlete!」</topics>
+    <personality no="1">
+      <person_id>300001883</person_id>
+      <profile_id>6736</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>萩野公介</name>
+            <name_kana>ハギノコウスケ</name_kana>
+      <title></title>
+      <description>2016年リオデジャネイロオリンピック
+400ｍ個人メドレーで金メダル
+200ｍ個人メドレーで銀メダル
+４×200ｍフリーリレー銅メダルを獲得した。
+2021年、東京2020オリンピックに出場。
+2022年4月からは日本体育大学大学院にて「スポーツ人類学」を研究している。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d3f88812-b266-409b-87cf-b59c3e642de5_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d3f88812-b266-409b-87cf-b59c3e642de5_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d3f88812-b266-409b-87cf-b59c3e642de5_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="2">
+      <person_id>300000193</person_id>
+      <profile_id>5041</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>髙木菜那</name>
+            <name_kana>タカギナナ</name_kana>
+      <title></title>
+      <description>2014年冬季五輪ソチ大会で日本代表に初選出。
+2018年平昌大会では、女子団体パシュートでオリンピックレコード。新採用されたマススタートも合わせて、日本の女子選手初の２冠。
+22年北京大会では女子団体パシュートで銀メダル、個人1,500mで8位入賞。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8af85b2f-1874-428a-8a50-5fca1a81fd9d_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8af85b2f-1874-428a-8a50-5fca1a81fd9d_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8af85b2f-1874-428a-8a50-5fca1a81fd9d_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="3">
+      <person_id>300000341</person_id>
+      <profile_id>7134</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>ミノルクリス滝沢</name>
+            <name_kana>ミノルクリスタキザワ</name_kana>
+      <title></title>
+      <description>名前：ミノルクリス滝沢
+長野県出身のラジオDJ。ロサンゼルスで八百屋さんを起業した異色の経歴の持ち主。持ち前のバイタリティでスキーやバイクレースに出場し表彰台経験もあり。
+趣味：ジョギング、スキー、キャンプ、ギター、ゲーム配信（e-sports）、モータースポーツ。
+好きな言葉：「幸せだから笑うんじゃない。笑うから幸せなんだ。」</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/41165edb-a619-4ba4-b044-623a830e6cc2_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/41165edb-a619-4ba4-b044-623a830e6cc2_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/41165edb-a619-4ba4-b044-623a830e6cc2_sq_xlarge.jpg</photo_xlarge>
+      <siteurl>https://twitter.com/dj_minoruchris</siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300001883</person_id>
+            <name>萩野公介</name>
+            <name_kana>ハギノコウスケ</name_kana>
+      <title></title>
+      <description>2016年リオデジャネイロオリンピック
+400ｍ個人メドレーで金メダル
+200ｍ個人メドレーで銀メダル
+４×200ｍフリーリレー銅メダルを獲得した。
+2021年、東京2020オリンピックに出場。
+2022年4月からは日本体育大学大学院にて「スポーツ人類学」を研究している。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d3f88812-b266-409b-87cf-b59c3e642de5_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d3f88812-b266-409b-87cf-b59c3e642de5_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d3f88812-b266-409b-87cf-b59c3e642de5_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="2">
+      <person_id>300000193</person_id>
+            <name>髙木菜那</name>
+            <name_kana>タカギナナ</name_kana>
+      <title></title>
+      <description>2014年冬季五輪ソチ大会で日本代表に初選出。
+2018年平昌大会では、女子団体パシュートでオリンピックレコード。新採用されたマススタートも合わせて、日本の女子選手初の２冠。
+22年北京大会では女子団体パシュートで銀メダル、個人1,500mで8位入賞。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8af85b2f-1874-428a-8a50-5fca1a81fd9d_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8af85b2f-1874-428a-8a50-5fca1a81fd9d_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8af85b2f-1874-428a-8a50-5fca1a81fd9d_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="3">
+      <person_id>300000341</person_id>
+            <name>ミノルクリス滝沢</name>
+            <name_kana>ミノルクリスタキザワ</name_kana>
+      <title></title>
+      <description>名前：ミノルクリス滝沢
+長野県出身のラジオDJ。ロサンゼルスで八百屋さんを起業した異色の経歴の持ち主。持ち前のバイタリティでスキーやバイクレースに出場し表彰台経験もあり。
+趣味：ジョギング、スキー、キャンプ、ギター、ゲーム配信（e-sports）、モータースポーツ。
+好きな言葉：「幸せだから笑うんじゃない。笑うから幸せなんだ。」</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/41165edb-a619-4ba4-b044-623a830e6cc2_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/41165edb-a619-4ba4-b044-623a830e6cc2_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/41165edb-a619-4ba4-b044-623a830e6cc2_sq_xlarge.jpg</photo_xlarge>
+      <siteurl>https://twitter.com/dj_minoruchris</siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/c8c73640-6732-4687-bb4b-f596f136f520_au_medium.jpg?updated_at=20260427182342</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/c8c73640-6732-4687-bb4b-f596f136f520_au_large.jpg?updated_at=20260427182342</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/d7673e63-3d27-4120-b91c-19b612d84c68_rd_large.jpg?updated_at=20260427182342</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/3b81449a-8dd8-4b33-9ce5-6949a6e74524_si_large.jpg?updated_at=20260427182342</logo_podcast>
+  </item>
+  <item id="2" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>08:55</onair_start>
+    <onair_time>08:55 - 09:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>1000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>085500</onair_starttime>
+    <onair_endtime>090000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>290060091</program_id>
+    <program_name>JFNニュース</program_name>
+    <program_name_kana>ジェイエフエヌニュース</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>JFNニュース</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>JFNニュース</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_medium.jpg?updated_at=20220816145546</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_large.jpg?updated_at=20220816145546</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7405a363-033b-4fd0-bce8-c6178dc72917_rd_large.jpg?updated_at=20220816145546</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="3" sp="0" live="2" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>09:00</onair_start>
+    <onair_time>09:00 - 09:15</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>090000</onair_starttime>
+    <onair_endtime>091500</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300001525</program_id>
+    <program_name>中部電力　Weekend Cafe&#039;</program_name>
+    <program_name_kana>チュウブデンリョクウィークエンドカフェ</program_name_kana>
+    <siteurl>https://fmmie.jp/programs/weekendcafe2/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P003</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>週末の土曜日の朝オープンするカフェ。
+季節の花が香りに包まれながら、おしゃべりとストーリーを楽しむ15分間のプレゼントタイム</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>週末の土曜日の朝オープンするカフェ。
+季節の花が香りに包まれながら、おしゃべりとストーリーを楽しむ15分間のプレゼントタイム</topics>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/bb3e03c8-8f8c-4941-af36-36dfedfecbe3_rd_large.jpg?updated_at=20260406102823</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="4" sp="0" live="2" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>09:15</onair_start>
+    <onair_time>09:15 - 09:30</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>091500</onair_starttime>
+    <onair_endtime>093000</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300001543</program_id>
+    <program_name>今旬！いいもの百貨店</program_name>
+    <program_name_kana>イマシュンイイモノヒャッカテン</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P018</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>ラジオショッピング</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>ラジオショッピング</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/51102604-4612-4cc8-84cc-aa53b6b28b9b_au_medium.jpg?updated_at=20260123141501</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/51102604-4612-4cc8-84cc-aa53b6b28b9b_au_large.jpg?updated_at=20260123141501</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/95dead2d-6b91-4ccf-8b0a-1de7c5aad4bc_rd_large.jpg?updated_at=20260123141501</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/60531718-686a-4ac6-8b20-670027baee77_si_large.jpg?updated_at=20260123141501</logo_podcast>
+  </item>
+  <item id="5" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>09:30</onair_start>
+    <onair_time>09:30 - 10:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>1111111</base_onair_days_of_week>
+    <date_difference>5</date_difference>
+    <onair_starttime>093000</onair_starttime>
+    <onair_endtime>100000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300007717</program_id>
+    <program_name>Everlasting Music</program_name>
+    <program_name_kana>エバーラスティングミュージック</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300007717</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/everlasting/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C015</radiko_character_genre_code>
+    <radiko_tag>音楽との出会いが楽しめる/人気モデル出演</radiko_tag>
+    <official_publicity>世代を越えて心に響き続ける音楽。 
+誰かにとっては、「あの頃」を思い出すきっかけになり、 誰かにとっては、「あした」を開く扉になる。
+この番組では、いつまでも色あせない音楽をめぐり行く心の風景とともにお届けします。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>Everlasting Music・・・#110 青
+いつまでも色あせない音楽を、
+めぐり行く心の風景と共にお届けします。</topics>
+    <personality no="1">
+      <person_id>300011255</person_id>
+      <profile_id>16745</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>横山エリカ</name>
+            <name_kana>ヨコヤマ　エリカ</name_kana>
+      <title></title>
+      <description>1988年6⽉30⽇⽣まれ 
+⼤阪出⾝
+早稲⽥⼤学国際教養学部卒業
+
+⽇本語、英語（同時通訳可）、ドイツ語（検定準1級）を話すトリリンガル。 
+東京のFM放送局では、数々の番組ナビゲーターとして活動。 
+通訳の仕事としては、数々のナショナル企業での同時通訳にて相当数の実績を持つ。 
+趣味はベース、ギター演奏、温泉・銭湯巡り、そして国内外問わずの旅⾏。 
+国内は47都道府県制覇、海外は世界40カ国以上を訪問。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8fd57900-d279-499b-bd5e-4db3e0a4f2e4_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8fd57900-d279-499b-bd5e-4db3e0a4f2e4_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8fd57900-d279-499b-bd5e-4db3e0a4f2e4_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300011255</person_id>
+            <name>横山エリカ</name>
+            <name_kana>ヨコヤマ　エリカ</name_kana>
+      <title></title>
+      <description>1988年6⽉30⽇⽣まれ 
+⼤阪出⾝
+早稲⽥⼤学国際教養学部卒業
+
+⽇本語、英語（同時通訳可）、ドイツ語（検定準1級）を話すトリリンガル。 
+東京のFM放送局では、数々の番組ナビゲーターとして活動。 
+通訳の仕事としては、数々のナショナル企業での同時通訳にて相当数の実績を持つ。 
+趣味はベース、ギター演奏、温泉・銭湯巡り、そして国内外問わずの旅⾏。 
+国内は47都道府県制覇、海外は世界40カ国以上を訪問。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8fd57900-d279-499b-bd5e-4db3e0a4f2e4_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8fd57900-d279-499b-bd5e-4db3e0a4f2e4_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8fd57900-d279-499b-bd5e-4db3e0a4f2e4_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/01758ce8-499a-4f35-b1db-aea102033a73_au_medium.jpg?updated_at=20260407113651</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/01758ce8-499a-4f35-b1db-aea102033a73_au_large.jpg?updated_at=20260407113651</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/67c595cc-618a-4d61-b10a-98fed3446a9f_rd_large.jpg?updated_at=20260407113651</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/84d338aa-d55c-47f6-a5a7-42ba5a77d3d1_ba_large.jpg?updated_at=20260407113651</logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/4f0984e4-ce07-43a6-b637-2d6f3312adbe_si_large.jpg?updated_at=20260407113651</logo_podcast>
+  </item>
+  <item id="6" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>10:00</onair_start>
+    <onair_time>10:00 - 10:50</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>100000</onair_starttime>
+    <onair_endtime>105000</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>60843</program_id>
+    <program_name>SPORTS BEAT supported by TOYOTA</program_name>
+    <program_name_kana>スポーツビートサポーテッドバイトヨタ</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/beat/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/f/beat/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="スポビ">SPORTSBEAT_TFM</twitter>
+    <radiko_program_genre_code>P002</radiko_program_genre_code>
+    <radiko_character_genre_code>C002</radiko_character_genre_code>
+    <radiko_tag>スポビ/藤木直人</radiko_tag>
+    <official_sponsor>トヨタ</official_sponsor>
+    <official_publicity>野球をはじめとするスポーツが好きな俳優・藤木直人と高見侑里がお届けする、スポーツ×音楽プログラム。今、注目のアスリートたちの素顔に迫ります。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>野球をはじめとするスポーツが好きな俳優・藤木直人と高見侑里がお届けする、スポーツ×音楽プログラム。今、注目のアスリートたちの素顔に迫ります。</topics>
+    <personality no="1">
+      <person_id>3804</person_id>
+      <profile_id>3467</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>藤木直人</name>
+            <name_kana>フジキナオヒト</name_kana>
+      <title></title>
+      <description>生年月日：1972年7月19日
+身長：180cm
+体重：65kg
+B：95cm　W：73cm　H：92cm　靴：26.5cm
+血液型：A型
+出身：千葉県
+スポーツ：水泳、テニス、フィッシング</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/47bca0e8-20a5-479e-9b26-ae9293d79d2f_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/47bca0e8-20a5-479e-9b26-ae9293d79d2f_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/47bca0e8-20a5-479e-9b26-ae9293d79d2f_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="2">
+      <person_id>7888</person_id>
+      <profile_id>3531</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>高見侑里</name>
+            <name_kana>タカミユリ</name_kana>
+      <title></title>
+      <description>生年月日：1987年6月30日
+立教大学文学部文学科フランス文学専修 卒
+
+出身地：神奈川県横浜市
+血液型：O型
+身長：162cm
+趣味：カフェ、スイーツめぐり
+特技：バイオリン
+資格：ワインエキスパート、フランス語検定2級、漢字検定準一級、英検2級</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/76d90480-94de-488c-92f1-1b74a2138248_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/76d90480-94de-488c-92f1-1b74a2138248_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/76d90480-94de-488c-92f1-1b74a2138248_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>3804</person_id>
+            <name>藤木直人</name>
+            <name_kana>フジキナオヒト</name_kana>
+      <title></title>
+      <description>生年月日：1972年7月19日
+身長：180cm
+体重：65kg
+B：95cm　W：73cm　H：92cm　靴：26.5cm
+血液型：A型
+出身：千葉県
+スポーツ：水泳、テニス、フィッシング</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/47bca0e8-20a5-479e-9b26-ae9293d79d2f_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/47bca0e8-20a5-479e-9b26-ae9293d79d2f_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/47bca0e8-20a5-479e-9b26-ae9293d79d2f_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="2">
+      <person_id>7888</person_id>
+            <name>高見侑里</name>
+            <name_kana>タカミユリ</name_kana>
+      <title></title>
+      <description>生年月日：1987年6月30日
+立教大学文学部文学科フランス文学専修 卒
+
+出身地：神奈川県横浜市
+血液型：O型
+身長：162cm
+趣味：カフェ、スイーツめぐり
+特技：バイオリン
+資格：ワインエキスパート、フランス語検定2級、漢字検定準一級、英検2級</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/76d90480-94de-488c-92f1-1b74a2138248_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/76d90480-94de-488c-92f1-1b74a2138248_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/76d90480-94de-488c-92f1-1b74a2138248_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/87e23427-4517-4434-a19c-1c6d9e58a5c2_au_medium.jpg?updated_at=20260331125818</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/87e23427-4517-4434-a19c-1c6d9e58a5c2_au_large.jpg?updated_at=20260331125818</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/9d5f1d6e-7a9b-46dd-8f7c-4c2a026a5c65_rd_large.jpg?updated_at=20260331125818</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/4845da7a-867a-4dda-9747-7bf0b571cb41_ba_large.jpg?updated_at=20260331125818</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>トヨタ</name>
+    </sponsor>
+  </item>
+  <item id="7" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>10:50</onair_start>
+    <onair_time>10:50 - 10:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>105000</onair_starttime>
+    <onair_endtime>105500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>300005563</program_id>
+    <program_name>コスモ アースコンシャスアクト 未来へのメッセージ</program_name>
+    <program_name_kana>コスモアースコンシャスアクトミライヘノメッセージ</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/earth/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="コスモアースコンシャスアクト">_cosmoearth</twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_sponsor>COSMO</official_sponsor>
+    <official_publicity>毎月１名のゲストが登場して「マイアースコンシャスアクト」を紹介。
+環境問題について考えていること、アーティストとして活動していること、
+地球の未来について考えていること、実際にアクションしていることを伺います。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>毎月１名のゲストが登場して「マイアースコンシャスアクト」を紹介。
+環境問題について考えていること、アーティストとして活動していること、
+地球の未来について考えていること、実際にアクションしていることを伺います。</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/27aec512-42da-4547-8715-c9a7ccd314b1_au_medium.jpg?updated_at=20230808153223</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/27aec512-42da-4547-8715-c9a7ccd314b1_au_large.jpg?updated_at=20230808153223</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/5bc9226e-9113-4ddb-814d-bd80a1149ea7_rd_large.jpg?updated_at=20230808153223</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/a29ddf1f-2a04-4fd0-8cb0-5e0b869e39c6_ba_large.jpg?updated_at=20230808153223</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>COSMO</name>
+    </sponsor>
+  </item>
+  <item id="8" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>10:55</onair_start>
+    <onair_time>10:55 - 11:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>105500</onair_starttime>
+    <onair_endtime>110000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>16739</program_id>
+    <program_name>恋する日本史</program_name>
+    <program_name_kana>コイスルニホンシ</program_name_kana>
+    <siteurl>http://www.jfn.jp/koi</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/history/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P015</radiko_program_genre_code>
+    <radiko_character_genre_code>C010</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>この番組では「恋愛」をテーマに、講談師の神田蘭が女性視点で日本史を「劇談形式」で語ります。
+この「講談の新しい形」ともいうべき「劇談」という手法を導入し、過去の恋愛事情を、分かりやすく、面白く、感動的に聞かせていきます。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>日本の歴史に見え隠れする女性達の恋愛事情を、
+講談師の神田蘭が事実を元に勝手な思い込みも加えながらおもしろおかしくご紹介するショートプログラム！
+
+今回の演目は…平重衡の妻「藤原輔子」</topics>
+    <personality no="1">
+      <person_id>3572</person_id>
+      <profile_id>3687</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>神田蘭</name>
+            <name_kana>カンダラン</name_kana>
+      <title></title>
+      <description>■埼玉県出身　
+■Ｏ型
+■趣味：映画・音楽鑑賞、中島みゆきの歌を唄うこと
+■特技：日本舞踊名取（吾妻流）、ヨガサルサ、エアロビクス、ジャグリング
+■資格：日商簿記検定３級、華道小笠原流准教授
+
+２００４年、神田紅に弟子入り。
+「ファイティングまつこ」をはじめ、婚活講談が話題となり、ＮＨＫ「おはよう日本」や新聞各紙で紹介される。
+その後レビュー講談と銘打って、踊り・歌・コント・映像を取り入れたオリジナルエンターテインメント講談に取り組む。
+寄席・講談会・イベントへの出演を中心に、テレビ出演や雑誌の連載等で活躍中。
+
+■過去のラジオ出演
+ＮＨＫ「日曜バラエティー」
+ＮＨＫ「ラジオ深夜便」
+ＮＨＫ「ほっとラジオ」
+ニッポン放送「ほろよいイブニングトーク」
+ＴＢＳラジオ「大沢悠里のゆうゆうワイド」
+Ｊ－ＷＡＶＥ「グッドモーニングレディオ」
+Ｊ－ＷＡＶＥ「ランデヴー」
+文化放送「吉田照美のソコダイジナトコ」など</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e9a32b3-6535-43d5-a90e-f6fed66dfe69_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e9a32b3-6535-43d5-a90e-f6fed66dfe69_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e9a32b3-6535-43d5-a90e-f6fed66dfe69_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>3572</person_id>
+            <name>神田蘭</name>
+            <name_kana>カンダラン</name_kana>
+      <title></title>
+      <description>■埼玉県出身　
+■Ｏ型
+■趣味：映画・音楽鑑賞、中島みゆきの歌を唄うこと
+■特技：日本舞踊名取（吾妻流）、ヨガサルサ、エアロビクス、ジャグリング
+■資格：日商簿記検定３級、華道小笠原流准教授
+
+２００４年、神田紅に弟子入り。
+「ファイティングまつこ」をはじめ、婚活講談が話題となり、ＮＨＫ「おはよう日本」や新聞各紙で紹介される。
+その後レビュー講談と銘打って、踊り・歌・コント・映像を取り入れたオリジナルエンターテインメント講談に取り組む。
+寄席・講談会・イベントへの出演を中心に、テレビ出演や雑誌の連載等で活躍中。
+
+■過去のラジオ出演
+ＮＨＫ「日曜バラエティー」
+ＮＨＫ「ラジオ深夜便」
+ＮＨＫ「ほっとラジオ」
+ニッポン放送「ほろよいイブニングトーク」
+ＴＢＳラジオ「大沢悠里のゆうゆうワイド」
+Ｊ－ＷＡＶＥ「グッドモーニングレディオ」
+Ｊ－ＷＡＶＥ「ランデヴー」
+文化放送「吉田照美のソコダイジナトコ」など</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e9a32b3-6535-43d5-a90e-f6fed66dfe69_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e9a32b3-6535-43d5-a90e-f6fed66dfe69_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e9a32b3-6535-43d5-a90e-f6fed66dfe69_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/6064184c-89f5-4bd0-8a7d-5ce9d804f033_rd_large.jpg?updated_at=20260316161515</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="9" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>11:00</onair_start>
+    <onair_time>11:00 - 11:30</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>1111111</base_onair_days_of_week>
+    <date_difference>3</date_difference>
+    <onair_starttime>110000</onair_starttime>
+    <onair_endtime>113000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300011922</program_id>
+    <program_name>オズワルドのひげこんぶ</program_name>
+    <program_name_kana>オズワルドノヒゲコンブ</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300011922</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/higekonbu/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P006</radiko_program_genre_code>
+    <radiko_character_genre_code>C009</radiko_character_genre_code>
+    <radiko_tag>オズワルド</radiko_tag>
+    <official_publicity>番組の最大の魅力は、オズワルド独特の「間」と「テンポ」です。ゆっくりとした話し方でじわじわと笑いを誘う彼らのスタイルは、ラジオと最高の相性を誇ります。鋭い視点で日常の「ズレ」を切り取り、共感と笑いを両立させるフリートークは、一度聴いたらクセになること間違いなし！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>番組の最大の魅力は、オズワルド独特の「間」と「テンポ」です。ゆっくりとした話し方でじわじわと笑いを誘う彼らのスタイルは、ラジオと最高の相性を誇ります。鋭い視点で日常の「ズレ」を切り取り、共感と笑いを両立させるフリートークは、一度聴いたらクセになること間違いなし！</topics>
+    <personality no="1">
+      <person_id>9580</person_id>
+      <profile_id>4455</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>オズワルド</name>
+            <name_kana>オズワルド</name_kana>
+      <title></title>
+      <description>畠中悠（はたなか ゆう、1987年12月7日生まれ）と伊藤俊介（いとう しゅんすけ、1989年8月８日生まれ）によるお笑いコンビ。吉本興業所属。2019年から4年連続で「M-1グランプリ」決勝進出。独特な間とテンポで繰り広げられる漫才は多くのファンを魅了している。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b21b05f7-4cde-4626-816c-7549e4ebf24c_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b21b05f7-4cde-4626-816c-7549e4ebf24c_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b21b05f7-4cde-4626-816c-7549e4ebf24c_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>9580</person_id>
+            <name>オズワルド</name>
+            <name_kana>オズワルド</name_kana>
+      <title></title>
+      <description>畠中悠（はたなか ゆう、1987年12月7日生まれ）と伊藤俊介（いとう しゅんすけ、1989年8月８日生まれ）によるお笑いコンビ。吉本興業所属。2019年から4年連続で「M-1グランプリ」決勝進出。独特な間とテンポで繰り広げられる漫才は多くのファンを魅了している。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b21b05f7-4cde-4626-816c-7549e4ebf24c_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b21b05f7-4cde-4626-816c-7549e4ebf24c_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b21b05f7-4cde-4626-816c-7549e4ebf24c_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/378e22a1-f5e0-4acb-b081-60f469ae51d4_au_medium.jpg?updated_at=20260427182157</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/378e22a1-f5e0-4acb-b081-60f469ae51d4_au_large.jpg?updated_at=20260427182157</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/c33e5c7f-92b1-4816-af36-f0c093214269_rd_large.jpg?updated_at=20260427182157</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="10" sp="0" live="2" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>11:30</onair_start>
+    <onair_time>11:30 - 11:45</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000101</onair_days_of_week>
+    <base_onair_days_of_week>0000101</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>113000</onair_starttime>
+    <onair_endtime>114500</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300005846</program_id>
+    <program_name>旬！SHUN！ピックアップ</program_name>
+    <program_name_kana>シュンシュンピックアップ</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P018</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>ラジオショッピング</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>ラジオショッピング</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/924f46fc-21fa-466e-8317-b568937e9ae4_au_medium.jpg?updated_at=20260123141844</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/924f46fc-21fa-466e-8317-b568937e9ae4_au_large.jpg?updated_at=20260123141844</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/f864b29b-5f70-4d5b-a143-651c3387d7d9_rd_large.jpg?updated_at=20260123141844</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/b0b8321b-d69e-457c-94c9-1aeebf25e5e9_si_large.jpg?updated_at=20260123141844</logo_podcast>
+  </item>
+  <item id="11" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>11:45</onair_start>
+    <onair_time>11:45 - 11:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0111110</base_onair_days_of_week>
+    <date_difference>1</date_difference>
+    <onair_starttime>114500</onair_starttime>
+    <onair_endtime>115500</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300011923</program_id>
+    <program_name>First Chord</program_name>
+    <program_name_kana>ファーストコード</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300011923</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C001</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>“新たな音楽との出会い”を日常に届ける、ショートフォーマットの新曲紹介番組。
+リスナーにとっての“はじめての出会い”となるような、国内外のフレッシュな楽曲を丁寧に届けます。
+
+サブスクでのプレイリスト文化が浸透した今だからこそ、“誰かの手で選ばれた音”との偶発的な出会いを作る15分間。
+
+聴いている誰かの感情と調和する瞬間を大切にした、ラジオの原点的な番組です。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>“新たな音楽との出会い”を日常に届ける、ショートフォーマットの新曲紹介番組。
+リスナーにとっての“はじめての出会い”となるような、国内外のフレッシュな楽曲を丁寧に届けます。</topics>
+    <personality no="1">
+      <person_id>300003925</person_id>
+      <profile_id>8857</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>奥宮みさと</name>
+            <name_kana>オクミヤミサト</name_kana>
+      <title></title>
+      <description>2008年よりMISATO名義でラジオパーソナリティとしてデビュー。
+国内のミュージシャンや著名人を中心に2000組以上のインタビューを経験。
+スラッシュキャリアだからこその多角的なインタビューと言葉選び、社交性で老若男女にファンが多い。
+倍音と1/fゆらぎの声を持ち、耳馴染みの良いベルベットボイスが特徴。2023年4月より奥宮みさとに改名。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/858dca48-1931-46a4-bc9e-fbc1389ad669_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/858dca48-1931-46a4-bc9e-fbc1389ad669_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/858dca48-1931-46a4-bc9e-fbc1389ad669_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300003925</person_id>
+            <name>奥宮みさと</name>
+            <name_kana>オクミヤミサト</name_kana>
+      <title></title>
+      <description>2008年よりMISATO名義でラジオパーソナリティとしてデビュー。
+国内のミュージシャンや著名人を中心に2000組以上のインタビューを経験。
+スラッシュキャリアだからこその多角的なインタビューと言葉選び、社交性で老若男女にファンが多い。
+倍音と1/fゆらぎの声を持ち、耳馴染みの良いベルベットボイスが特徴。2023年4月より奥宮みさとに改名。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/858dca48-1931-46a4-bc9e-fbc1389ad669_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/858dca48-1931-46a4-bc9e-fbc1389ad669_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/858dca48-1931-46a4-bc9e-fbc1389ad669_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/46fa34a8-0b3b-4697-997d-37558f883b00_au_medium.jpg?updated_at=20260421105957</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/46fa34a8-0b3b-4697-997d-37558f883b00_au_large.jpg?updated_at=20260421105957</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/d616e153-598d-4c6d-9713-25f1e279c399_rd_large.jpg?updated_at=20260421105957</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="12" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>11:55</onair_start>
+    <onair_time>11:55 - 12:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>1000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>115500</onair_starttime>
+    <onair_endtime>120000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>290060091</program_id>
+    <program_name>JFNニュース</program_name>
+    <program_name_kana>ジェイエフエヌニュース</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>JFNニュース</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>JFNニュース</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_medium.jpg?updated_at=20220816145546</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_large.jpg?updated_at=20220816145546</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7405a363-033b-4fd0-bce8-c6178dc72917_rd_large.jpg?updated_at=20220816145546</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="13" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>12:00</onair_start>
+    <onair_time>12:00 - 12:30</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>120000</onair_starttime>
+    <onair_endtime>123000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300003456</program_id>
+    <program_name>RADIO. INAZUMA</program_name>
+    <program_name_kana>レディオイナズマ</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300003456</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/inazuma/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C004</radiko_character_genre_code>
+    <radiko_tag>人気アーティストトーク</radiko_tag>
+    <official_publicity>秋に滋賀県で開催している音楽イベント「FEST. INAZUMA」の情報を中心に、みなさんのお便りを紹介するプログラム、「RADIO. INAZUMA」！
+ぜひ、お聞きください。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>秋に滋賀県で開催している音楽イベント「FEST. INAZUMA」の情報を中心に、みなさんのお便りを紹介するプログラム、「RADIO. INAZUMA」！
+ぜひ、お聞きください。</topics>
+    <personality no="1">
+      <person_id>300001488</person_id>
+      <profile_id>6340</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>西川貴教</name>
+            <name_kana>ニシカワタカノリ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/6f0a324a-621f-4868-874d-e63cac9c8350_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/6f0a324a-621f-4868-874d-e63cac9c8350_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/6f0a324a-621f-4868-874d-e63cac9c8350_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300001488</person_id>
+            <name>西川貴教</name>
+            <name_kana>ニシカワタカノリ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/6f0a324a-621f-4868-874d-e63cac9c8350_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/6f0a324a-621f-4868-874d-e63cac9c8350_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/6f0a324a-621f-4868-874d-e63cac9c8350_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/45ba2294-a002-4b2c-b2d2-ed31c6c80bb1_au_medium.jpg?updated_at=20260427182653</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/45ba2294-a002-4b2c-b2d2-ed31c6c80bb1_au_large.jpg?updated_at=20260427182653</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/17f7210a-ef45-40cd-9ecb-be39e4042d8d_rd_large.jpg?updated_at=20260427182653</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cbf45596-8ddf-436b-a6a0-643125fc8eed_si_large.jpg?updated_at=20260427182653</logo_podcast>
+  </item>
+  <item id="14" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>12:30</onair_start>
+    <onair_time>12:30 - 12:40</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>1111111</base_onair_days_of_week>
+    <date_difference>4</date_difference>
+    <onair_starttime>123000</onair_starttime>
+    <onair_endtime>124000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300010554</program_id>
+    <program_name>昭和サウンドマップ</program_name>
+    <program_name_kana>ショウワサウンドマップ</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/sundmap/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C004</radiko_character_genre_code>
+    <radiko_tag>酒井一圭/純烈</radiko_tag>
+    <official_publicity>1945年の終戦以降、日本の経済は、復興に向かって、ひたすら上昇を続けました。
+その高度成長期にあって、ラジオ、そしてテレビ・メディアから発信された音楽（歌謡曲、ポップ・ミュージック、コマーシャル・ソング）は、多くの人々に勇気と、時代を反映した調べを残しました。昭和100年、そして戦後80年を迎える2025年…。戦後復興に切磋琢磨し邁進した時代の、一度聴いたら忘れられない、あの頃のメロディを真空パック！
+日本のポップ・ソング、歌謡曲をこよなく愛する純烈のメンバーと共に、懐かしくも新鮮な昭和の響きに酔いしれ、新たなサウンドマップ（音楽地図）を、一緒に作ってみませんか？</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>戦後復興に切磋琢磨し邁進した「昭和」の一度聴いたら忘れられないメロディを真空パック。
+今月は、1964年・昭和39年をピックアップします。</topics>
+    <personality no="1">
+      <person_id>9263</person_id>
+      <profile_id>4397</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>酒井一圭（純烈）</name>
+            <name_kana>サカイカズヨシ</name_kana>
+      <title>純烈</title>
+      <description>出身地：大阪府
+生年月日：1975年6月20日
+身長・体重：186cm・98kg
+特技：目覚まし無しで起きられる
+趣味：競馬・ドライブ
+
+純烈のリーダー兼プロデューサー。
+
+1985年、ドラマ『逆転あばれはっちゃく』主人公・桜間長太郎役で子役デビュー。2001年『百獣戦隊ガオレンジャー』にガオブラック役で出演し一躍人気に。
+
+その後、自身の足のけがをきっかけに純烈を結成し、
+2010年「涙の銀座線」でメジャーデビューを果たす。
+スーパー銭湯でのライブにマダムが熱狂する様子がTVで放送されると
+“スーパー銭湯アイドル”として注目され、2018年NHK紅白歌合戦に初出場。
+以降、7年連続出場継続中。純烈作品の歌詞も一部手掛けている。
+
+趣味は競馬で日刊ゲンダイの連載を担当するほか、競馬関連番組に多数出演。
+馬主でもある。情報番組からバラエティ番組まで幅広く活動中。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9f223078-7dbf-4be2-b750-5dc9d4a8e41f_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9f223078-7dbf-4be2-b750-5dc9d4a8e41f_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9f223078-7dbf-4be2-b750-5dc9d4a8e41f_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>9263</person_id>
+            <name>酒井一圭（純烈）</name>
+            <name_kana>サカイカズヨシ</name_kana>
+      <title>純烈</title>
+      <description>出身地：大阪府
+生年月日：1975年6月20日
+身長・体重：186cm・98kg
+特技：目覚まし無しで起きられる
+趣味：競馬・ドライブ
+
+純烈のリーダー兼プロデューサー。
+
+1985年、ドラマ『逆転あばれはっちゃく』主人公・桜間長太郎役で子役デビュー。2001年『百獣戦隊ガオレンジャー』にガオブラック役で出演し一躍人気に。
+
+その後、自身の足のけがをきっかけに純烈を結成し、
+2010年「涙の銀座線」でメジャーデビューを果たす。
+スーパー銭湯でのライブにマダムが熱狂する様子がTVで放送されると
+“スーパー銭湯アイドル”として注目され、2018年NHK紅白歌合戦に初出場。
+以降、7年連続出場継続中。純烈作品の歌詞も一部手掛けている。
+
+趣味は競馬で日刊ゲンダイの連載を担当するほか、競馬関連番組に多数出演。
+馬主でもある。情報番組からバラエティ番組まで幅広く活動中。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9f223078-7dbf-4be2-b750-5dc9d4a8e41f_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9f223078-7dbf-4be2-b750-5dc9d4a8e41f_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9f223078-7dbf-4be2-b750-5dc9d4a8e41f_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/386481aa-961a-4a1a-882b-fcd77f698d0c_au_medium.jpg?updated_at=20260318181636</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/386481aa-961a-4a1a-882b-fcd77f698d0c_au_large.jpg?updated_at=20260318181636</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/c4d2ee6d-26f4-4250-996d-4fa10b14d4a5_rd_large.jpg?updated_at=20260318181636</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/5e2c1467-4c87-4b76-af33-706454728577_si_large.jpg?updated_at=20260318181636</logo_podcast>
+  </item>
+  <item id="15" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>12:40</onair_start>
+    <onair_time>12:40 - 12:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>1000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>124000</onair_starttime>
+    <onair_endtime>125500</onair_endtime>
+    <key_station>1007</key_station>
+    <program_id>300009276</program_id>
+    <program_name>イトーとスドーのモノ申し隊！</program_name>
+    <program_name_kana>イトー</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P018</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>お得情報をお届けします！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>お得情報をお届けします！</topics>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/a58b886f-4dd0-420f-90e2-5d3d072d542f_rd_large.jpg?updated_at=20241002210529</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="16" sp="0" live="1" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>12:55</onair_start>
+    <onair_time>12:55 - 13:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>125500</onair_starttime>
+    <onair_endtime>130000</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300000261</program_id>
+    <program_name>レディオキューブ　トラフィック</program_name>
+    <program_name_kana>レディオキューブ　トラフィック</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code>C001</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>道路交通情報をお送りします。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>道路交通情報をお送りします。</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cf80fba8-599f-447a-949b-8f1e28c227f0_au_medium.jpg?updated_at=20260123140440</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cf80fba8-599f-447a-949b-8f1e28c227f0_au_large.jpg?updated_at=20260123140440</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/ad480619-948a-406f-b8f1-57342bdbd72c_rd_large.jpg?updated_at=20260123140440</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/3f91fc2c-23ab-45b2-a545-e9272c75e717_si_large.jpg?updated_at=20260123140440</logo_podcast>
+  </item>
+  <item id="17" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>13:00</onair_start>
+    <onair_time>13:00 - 13:53</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>130000</onair_starttime>
+    <onair_endtime>135300</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>11648</program_id>
+    <program_name>ＪＡ全農 COUNTDOWN JAPAN</program_name>
+    <program_name_kana>ジェイエーゼンノウカウントダウンジャパン</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/countdownjapan/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/f/countdownjapan/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="JA全農CDJ">JA_CDJ</twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C015</radiko_character_genre_code>
+    <radiko_tag>JA全農CDJ /遠山大輔/潮紗理菜/音楽との出会いが楽しめる/ドライブ中におすすめ</radiko_tag>
+    <official_sponsor>ＪＡ全農</official_sponsor>
+    <official_publicity>全国38局をネットして生放送!! 
+
+遠山大輔と潮紗理菜が土曜日のお昼を音楽とともに彩ります。
+ 
+番組オリジナルチャートのカウントダウンに加え、ゲストも毎週登場!! プレゼントもあります！
+
+オンエアリアクションやメッセージ、プレゼント応募など、皆さんの参加お待ちしてます!!
+
+番組Webサイト：https://www.tfm.co.jp/countdownjapan/
+メッセージフォーム：https://www.tfm.co.jp/f/countdownjapan/message
+
+Xアカウント：@JA_CDJ
+Instagram URL：https://www.instagram.com/countdownjapan_tfm/
+ハッシュタグ：#JA全農CDJ</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>全国38局をネットして生放送!! 
+
+遠山大輔と潮紗理菜が土曜日のお昼を音楽とともに彩ります。
+ 
+番組オリジナルチャートのカウントダウンに加え、ゲストも毎週登場!!
+プレゼントもあります！
+
+オンエアリアクションやメッセージ、プレゼント応募など、
+皆さんの参加お待ちしてます!!
+
+Instagram URL：https://www.instagram.com/countdownjapan_tfm/</topics>
+    <personality no="1">
+      <person_id>5937</person_id>
+      <profile_id>3494</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>遠山大輔（グランジ）</name>
+            <name_kana>トオヤマダイスケ</name_kana>
+      <title>グランジ</title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/ceeb584b-ab2f-48a3-95fe-a8d0003d5ed4_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/ceeb584b-ab2f-48a3-95fe-a8d0003d5ed4_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/ceeb584b-ab2f-48a3-95fe-a8d0003d5ed4_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="2">
+      <person_id>300003177</person_id>
+      <profile_id>8069</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>潮紗理菜</name>
+            <name_kana>ウシオサリナ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/eff5c6a4-f0be-4326-855f-599b256a2e58_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/eff5c6a4-f0be-4326-855f-599b256a2e58_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/eff5c6a4-f0be-4326-855f-599b256a2e58_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>5937</person_id>
+            <name>遠山大輔（グランジ）</name>
+            <name_kana>トオヤマダイスケ</name_kana>
+      <title>グランジ</title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/ceeb584b-ab2f-48a3-95fe-a8d0003d5ed4_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/ceeb584b-ab2f-48a3-95fe-a8d0003d5ed4_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/ceeb584b-ab2f-48a3-95fe-a8d0003d5ed4_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="2">
+      <person_id>300003177</person_id>
+            <name>潮紗理菜</name>
+            <name_kana>ウシオサリナ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/eff5c6a4-f0be-4326-855f-599b256a2e58_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/eff5c6a4-f0be-4326-855f-599b256a2e58_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/eff5c6a4-f0be-4326-855f-599b256a2e58_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/23b1e1bd-b38c-40f8-be47-42f0ba29e290_rd_large.jpg?updated_at=20251209112806</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/538cdad5-67f5-4bbc-bc0f-7ee668d3968e_ba_large.jpg?updated_at=20251209112806</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>ＪＡ全農</name>
+    </sponsor>
+  </item>
+  <item id="18" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>13:53</onair_start>
+    <onair_time>13:53 - 13:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>135300</onair_starttime>
+    <onair_endtime>135500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>25288</program_id>
+    <program_name>KUMON 笑顔100点満点 大学生リレー</program_name>
+    <program_name_kana>クモンエガオヒャクテンマンテンダイガクセイリレー</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/mantenrelay/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P003</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_sponsor>公文教育研究会</official_sponsor>
+    <official_publicity>「子どもの頃、KUMONやってました！」という全国の大学生のリアルな声をお届けするプログラム。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>「子どもの頃、KUMONやってました！」という全国の大学生のリアルな声をお届けするプログラム。</topics>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/c244fa27-8379-42f4-b72e-05fd1ffbcf41_rd_large.jpg?updated_at=20220716032000</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/b135567d-c140-420a-aaef-bc23fbaa1e89_ba_large.jpg?updated_at=20220716032000</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>公文教育研究会</name>
+    </sponsor>
+  </item>
+  <item id="19" sp="0" live="2" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>13:55</onair_start>
+    <onair_time>13:55 - 14:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>1000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>135500</onair_starttime>
+    <onair_endtime>140000</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300000305</program_id>
+    <program_name>Welcome　To　radio3</program_name>
+    <program_name_kana>ウェルカムトゥレディオキューブ</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C004</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>いま注目のアーティストからのコメントをオンエア！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>いま注目のアーティストからのコメントをオンエア！</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/028a7fea-b8ca-461a-b07f-01495f52563a_au_medium.jpg?updated_at=20260123142809</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/028a7fea-b8ca-461a-b07f-01495f52563a_au_large.jpg?updated_at=20260123142809</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/0c29442a-de27-4a99-b9a8-b4b8d7695f2b_rd_large.jpg?updated_at=20260123142809</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/784be4bf-5d23-46c5-961c-24c1803a5b52_si_large.jpg?updated_at=20260123142809</logo_podcast>
+  </item>
+  <item id="20" sp="0" live="0" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>14:00</onair_start>
+    <onair_time>14:00 - 14:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>140000</onair_starttime>
+    <onair_endtime>145500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>25635</program_id>
+    <program_name>福山雅治 福のラジオ</program_name>
+    <program_name_kana>フクヤママサハルフクノラジオ</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/fukunoradio/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/fukunoradio/</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="福のラジオ">fukunoradio</twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C004</radiko_character_genre_code>
+    <radiko_tag>福のラジオ/福山雅治/ドライブ中におすすめ/人気俳優トーク/人気アーティストトーク</radiko_tag>
+    <official_sponsor>キユーピー</official_sponsor>
+    <official_publicity>番組では、福山への質問・相談をはじめ、あなたの日常で起こった事など…
+老若男女問わずあなたからのメッセージ＆レギュラー・コーナーへの投稿をお待ちしています。
+詳しくは番組HP＆公式LINEまで！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>番組では、福山への質問・相談をはじめ、あなたの日常で起こった事など…
+老若男女問わずあなたからのメッセージ＆レギュラー・コーナーへの投稿をお待ちしています。
+詳しくは番組HP＆公式LINEまで！</topics>
+    <personality no="1">
+      <person_id>902</person_id>
+      <profile_id>3427</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>福山雅治</name>
+            <name_kana>フクヤママサハル</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/cf3c7b65-3a72-4389-a0bc-d0a9548094d1_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/cf3c7b65-3a72-4389-a0bc-d0a9548094d1_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/cf3c7b65-3a72-4389-a0bc-d0a9548094d1_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>902</person_id>
+            <name>福山雅治</name>
+            <name_kana>フクヤママサハル</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/cf3c7b65-3a72-4389-a0bc-d0a9548094d1_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/cf3c7b65-3a72-4389-a0bc-d0a9548094d1_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/cf3c7b65-3a72-4389-a0bc-d0a9548094d1_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/2821ea1d-4d31-4d0e-9f5a-6f0da095a731_au_medium.jpg?updated_at=20260424204708</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/2821ea1d-4d31-4d0e-9f5a-6f0da095a731_au_large.jpg?updated_at=20260424204708</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/b0b049ef-f5f7-417a-9d57-a3ab81a17558_rd_large.jpg?updated_at=20260424204708</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/1a74b9e5-36af-4ea1-8595-757c02ffac13_ba_large.jpg?updated_at=20260424204708</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>キユーピー</name>
+    </sponsor>
+  </item>
+  <item id="21" sp="0" live="2" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>14:55</onair_start>
+    <onair_time>14:55 - 15:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>145500</onair_starttime>
+    <onair_endtime>150000</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300012968</program_id>
+    <program_name>旅するエスパーニャ！～とっておきの志摩スペイン村～</program_name>
+    <program_name_kana>タビスルエスパーニャトッテオキノシマスペインムラ</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P003</radiko_program_genre_code>
+    <radiko_character_genre_code>C010</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>志摩スペイン村の情報をお届け！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>志摩スペイン村の情報をお届け！</topics>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/02c00111-6df2-4b08-82cc-95a32646a4c7_rd_large.jpg?updated_at=20260119151619</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="22" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>15:00</onair_start>
+    <onair_time>15:00 - 15:25</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>150000</onair_starttime>
+    <onair_endtime>152500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>300010832</program_id>
+    <program_name>The Legends with George Williams</program_name>
+    <program_name_kana>ザレジェンズウィズジョージウィリアムズ</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C015</radiko_character_genre_code>
+    <radiko_tag>ジョージウィリアムズ/音楽との出会いが楽しめる</radiko_tag>
+    <official_publicity>世界中に散りばめられた素晴らしい音楽を毎週1アーティスト、ひとつのアルバムに絞って紹介します。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>世界中に散りばめられた素晴らしい音楽を毎週1アーティスト、ひとつのアルバムに絞って紹介します。</topics>
+    <personality no="1">
+      <person_id>1139</person_id>
+      <profile_id>3429</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>ジョージ・ウィリアムズ</name>
+            <name_kana>ジョージ・ウィリアムズ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c4ad386f-defd-4f19-9992-27d28375bbbb_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c4ad386f-defd-4f19-9992-27d28375bbbb_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c4ad386f-defd-4f19-9992-27d28375bbbb_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>1139</person_id>
+            <name>ジョージ・ウィリアムズ</name>
+            <name_kana>ジョージ・ウィリアムズ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c4ad386f-defd-4f19-9992-27d28375bbbb_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c4ad386f-defd-4f19-9992-27d28375bbbb_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c4ad386f-defd-4f19-9992-27d28375bbbb_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/f9769b81-1a65-4141-9c27-ff8c4b3ec9d3_rd_large.jpg?updated_at=20251227153014</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/be00a5a1-0cfe-4b83-a532-ded582306320_ba_large.jpg?updated_at=20251227153014</logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="23" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>15:25</onair_start>
+    <onair_time>15:25 - 15:30</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>152500</onair_starttime>
+    <onair_endtime>153000</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>56053</program_id>
+    <program_name>日本住宅ローン GO!GO!家族</program_name>
+    <program_name_kana>ニホンジュウタクローンゴーゴーカゾク</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/podcasts/gogofamily/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url>https://www.tfm.co.jp/podcasts/gogofamily/</podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/f/gogofamily/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P006</radiko_program_genre_code>
+    <radiko_character_genre_code>C009</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_sponsor>日本住宅ローン</official_sponsor>
+    <official_publicity>この番組は、チョコレートプラネットの2人が、
+家族のほっこりした話から、ちょっと変わった家族の話まで、
+皆さんの家族エピソードを紹介していく番組です。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>この番組は、チョコレートプラネットの2人が、
+家族のほっこりした話から、ちょっと変わった家族の話まで、
+皆さんの家族エピソードを紹介していく番組です。</topics>
+    <personality no="1">
+      <person_id>9784</person_id>
+      <profile_id>3602</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>チョコレートプラネット</name>
+            <name_kana>チョコレートプラネット</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9b5d6842-32cd-458b-ac2b-f730499bed98_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9b5d6842-32cd-458b-ac2b-f730499bed98_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9b5d6842-32cd-458b-ac2b-f730499bed98_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>9784</person_id>
+            <name>チョコレートプラネット</name>
+            <name_kana>チョコレートプラネット</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9b5d6842-32cd-458b-ac2b-f730499bed98_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9b5d6842-32cd-458b-ac2b-f730499bed98_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/9b5d6842-32cd-458b-ac2b-f730499bed98_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/5ab18067-eb84-4696-a806-048e1f204c59_au_medium.jpg?updated_at=20220702045009</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/5ab18067-eb84-4696-a806-048e1f204c59_au_large.jpg?updated_at=20220702045009</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/fa970fb0-5110-41b3-a6e1-dfdda07268a1_rd_large.jpg?updated_at=20220702045009</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/15a0f04f-bab9-4001-b125-8d01db155348_ba_large.jpg?updated_at=20220702045009</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>日本住宅ローン</name>
+    </sponsor>
+  </item>
+  <item id="24" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>15:30</onair_start>
+    <onair_time>15:30 - 15:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>153000</onair_starttime>
+    <onair_endtime>155500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>300006508</program_id>
+    <program_name>広瀬すずの「よはくじかん」</program_name>
+    <program_name_kana>ヒロセスズノヨハクジカン</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/yohaku/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/f/yohaku/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="よはくじかん">Suzu_Radio</twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C003</radiko_character_genre_code>
+    <radiko_tag>よはくじかん/広瀬すず/人気俳優トーク/ドライブ中におすすめ</radiko_tag>
+    <official_sponsor>三井不動産</official_sponsor>
+    <official_sponsor>全国信用金庫協会</official_sponsor>
+    <official_sponsor>中央エレベーター工業</official_sponsor>
+    <official_publicity>仕事や目の前のことから一旦離れて、無目的に過ごす午後のひととき。
+音楽に耳を傾けたり、映画やドラマを見たり、大好きな友達とおしゃべりしたり…
+そんな「余白の時間」を、広瀬すずといっしょに過ごしてみませんか？</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>仕事や目の前のことから一旦離れて、無目的に過ごす午後のひととき。
+音楽に耳を傾けたり、映画やドラマを見たり、大好きな友達とおしゃべりしたり…
+そんな「余白の時間」を、広瀬すずといっしょに過ごしてみませんか？</topics>
+    <personality no="1">
+      <person_id>300004380</person_id>
+      <profile_id>9344</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>広瀬すず</name>
+            <name_kana>ヒロセスズ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c868e4f8-7625-42a7-abea-960d3e0e25a7_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c868e4f8-7625-42a7-abea-960d3e0e25a7_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c868e4f8-7625-42a7-abea-960d3e0e25a7_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300004380</person_id>
+            <name>広瀬すず</name>
+            <name_kana>ヒロセスズ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c868e4f8-7625-42a7-abea-960d3e0e25a7_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c868e4f8-7625-42a7-abea-960d3e0e25a7_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/c868e4f8-7625-42a7-abea-960d3e0e25a7_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/30aaf250-e8f6-442b-98b4-8899ed14ea83_au_medium.jpg?updated_at=20251209120055</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/30aaf250-e8f6-442b-98b4-8899ed14ea83_au_large.jpg?updated_at=20251209120055</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/44d16f34-08b1-49c8-813e-a9b10a1dd757_rd_large.jpg?updated_at=20251209120055</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/533467de-34d9-44da-8549-78882a1c0557_ba_large.jpg?updated_at=20251209120055</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>三井不動産</name>
+    </sponsor>
+    <sponsor no="2">
+      <name>全国信用金庫協会</name>
+    </sponsor>
+    <sponsor no="3">
+      <name>中央エレベーター工業</name>
+    </sponsor>
+  </item>
+  <item id="25" sp="0" live="1" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>15:55</onair_start>
+    <onair_time>15:55 - 16:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>1000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>155500</onair_starttime>
+    <onair_endtime>160000</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300000261</program_id>
+    <program_name>レディオキューブ　トラフィック</program_name>
+    <program_name_kana>レディオキューブ　トラフィック</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code>C001</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>道路交通情報をお送りします。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>道路交通情報をお送りします。</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cf80fba8-599f-447a-949b-8f1e28c227f0_au_medium.jpg?updated_at=20260123140440</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cf80fba8-599f-447a-949b-8f1e28c227f0_au_large.jpg?updated_at=20260123140440</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/ad480619-948a-406f-b8f1-57342bdbd72c_rd_large.jpg?updated_at=20260123140440</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/3f91fc2c-23ab-45b2-a545-e9272c75e717_si_large.jpg?updated_at=20260123140440</logo_podcast>
+  </item>
+  <item id="26" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>16:00</onair_start>
+    <onair_time>16:00 - 16:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>160000</onair_starttime>
+    <onair_endtime>165500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>49928</program_id>
+    <program_name>リリー・フランキー「スナック ラジオ」</program_name>
+    <program_name_kana>リリー・フランキースナック ラジオ</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/snack/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/f/snack/form</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C010</radiko_character_genre_code>
+    <radiko_tag>スナラジ/スナックラジオ/リリー・フランキー/人気俳優トーク</radiko_tag>
+    <official_sponsor>カシワバラ・コーポレーション</official_sponsor>
+    <official_publicity>土曜の夕方、それは、子供たちや家族がお出かけ先から帰る時間であり、
+夜の街に繰り出す大人たちが準備を始める時間。
+そんな、様々な人たちが交錯する土曜の夕方・・・サタデーナイトの入り口にラジオの電波に乗って、
+1時間限定でオープンする「スナック ラジオ」。
+
+店主は、リリー・フランキー。
+時に香ばしく、時に甘酸っぱく、時にほろ苦い・・・
+そんなスナックにぴったりなトークが繰り広げられる店内・・・どんな時間が流れるのでしょうか・・・？</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>土曜の夕方、それは、子供たちが帰る時間であり、家族がお出かけ先から帰る時間であり、
+夜の街に繰り出す大人たちが準備を始める時間。
+そんな、様々な人たちが交錯する土曜の夕方・・・サタデーナイトの入り口にラジオの電波に乗って、
+1時間限定でオープンする「スナック ラジオ」。
+
+店主は、リリー・フランキー。
+時に香ばしく、時に甘酸っぱく、時にほろ苦い・・・
+そんなスナックにぴったりなトークが繰り広げられる店内・・・どんな時間が流れるのでしょうか・・・？</topics>
+    <personality no="1">
+      <person_id>8172</person_id>
+      <profile_id>3541</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>リリー・フランキー</name>
+            <name_kana>リリー・フランキー</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e5e1e9bc-060b-4607-b030-cc59b58eaa64_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e5e1e9bc-060b-4607-b030-cc59b58eaa64_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e5e1e9bc-060b-4607-b030-cc59b58eaa64_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>8172</person_id>
+            <name>リリー・フランキー</name>
+            <name_kana>リリー・フランキー</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e5e1e9bc-060b-4607-b030-cc59b58eaa64_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e5e1e9bc-060b-4607-b030-cc59b58eaa64_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e5e1e9bc-060b-4607-b030-cc59b58eaa64_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/4a0d2b0e-ae51-465a-9f2a-de00fd3e5594_rd_large.jpg?updated_at=20251209120642</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/e0149bb3-a85a-4509-8e00-9d02137a419a_ba_large.jpg?updated_at=20251209120642</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>カシワバラ・コーポレーション</name>
+    </sponsor>
+  </item>
+  <item id="27" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>16:55</onair_start>
+    <onair_time>16:55 - 17:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>1000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>165500</onair_starttime>
+    <onair_endtime>170000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>290060091</program_id>
+    <program_name>JFNニュース</program_name>
+    <program_name_kana>ジェイエフエヌニュース</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>JFNニュース</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>JFNニュース</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_medium.jpg?updated_at=20220816145546</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_large.jpg?updated_at=20220816145546</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7405a363-033b-4fd0-bce8-c6178dc72917_rd_large.jpg?updated_at=20220816145546</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="28" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>17:00</onair_start>
+    <onair_time>17:00 - 17:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>170000</onair_starttime>
+    <onair_endtime>175500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>300006521</program_id>
+    <program_name>川島明 そもそもの話</program_name>
+    <program_name_kana>カワシマアキラソモソモノハナシ</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/somosomo</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/f/somosomo/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="そもそもの話">somosomo_no</twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C009</radiko_character_genre_code>
+    <radiko_tag>そもそもの話/川島明/お笑い芸人の最強トーク/ドライブ中におすすめ</radiko_tag>
+    <official_sponsor>ビックカメラ</official_sponsor>
+    <official_publicity>そもそも、なんでこの世界に？
+そもそも、有名になったきっかけは？
+そもそも、あの作品を手がけた理由は？
+芸人、俳優、ミュージシャン、漫画家、映画監督、スポーツ選手、料理人……
+誰でも知ってるあの人の、意外と知らない“そもそもの話”。
+平日の喧騒を逃れた土曜日。
+バリトンボイスの聞き巧者 麒麟・川島明がおくるインタビュー番組。
+様々な質問や相談に川島明が答えていきます。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>そもそも、なんでこの世界に？
+そもそも、有名になったきっかけは？
+そもそも、あの作品を手がけた理由は？
+芸人、俳優、ミュージシャン、漫画家、映画監督、スポーツ選手、料理人……
+誰でも知ってるあの人の、意外と知らない“そもそもの話”。
+平日の喧騒を逃れた土曜日。
+バリトンボイスの聞き巧者 麒麟・川島明がおくるインタビュー番組。
+様々な質問や相談に川島明が答えていきます。</topics>
+    <personality no="1">
+      <person_id>8802</person_id>
+      <profile_id>3562</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>川島明（麒麟）</name>
+            <name_kana>カワシマアキラ</name_kana>
+      <title>麒麟</title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3061b1de-5499-4d14-8997-59899af8b09a_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3061b1de-5499-4d14-8997-59899af8b09a_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3061b1de-5499-4d14-8997-59899af8b09a_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>8802</person_id>
+            <name>川島明（麒麟）</name>
+            <name_kana>カワシマアキラ</name_kana>
+      <title>麒麟</title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3061b1de-5499-4d14-8997-59899af8b09a_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3061b1de-5499-4d14-8997-59899af8b09a_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3061b1de-5499-4d14-8997-59899af8b09a_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <guest no="1">
+      <person_id>300000284</person_id>
+      <profile_id>5132</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>森口博子</name>
+            <name_kana>モリグチヒロコ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8e150aa9-0ac8-496d-8db8-af2f819cab26_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8e150aa9-0ac8-496d-8db8-af2f819cab26_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8e150aa9-0ac8-496d-8db8-af2f819cab26_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+      <time/>
+      <comment/>
+    </guest>
+    <group_guests no="1">
+      <person_id>300000284</person_id>
+            <name>森口博子</name>
+            <name_kana>モリグチヒロコ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8e150aa9-0ac8-496d-8db8-af2f819cab26_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8e150aa9-0ac8-496d-8db8-af2f819cab26_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8e150aa9-0ac8-496d-8db8-af2f819cab26_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+      <time/>
+      <comment/>
+    </group_guests>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/c73503e0-6892-41c3-bd3f-0e876b2229aa_rd_large.jpg?updated_at=20251209121037</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/3f4f625a-5e2d-43b3-bb58-480f003fb8fe_ba_large.jpg?updated_at=20251209121037</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>ビックカメラ</name>
+    </sponsor>
+  </item>
+  <item id="29" sp="0" live="1" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>17:55</onair_start>
+    <onair_time>17:55 - 18:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>1000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>175500</onair_starttime>
+    <onair_endtime>180000</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300000261</program_id>
+    <program_name>レディオキューブ　トラフィック</program_name>
+    <program_name_kana>レディオキューブ　トラフィック</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code>C001</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>道路交通情報をお送りします。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>道路交通情報をお送りします。</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cf80fba8-599f-447a-949b-8f1e28c227f0_au_medium.jpg?updated_at=20260123140440</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cf80fba8-599f-447a-949b-8f1e28c227f0_au_large.jpg?updated_at=20260123140440</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/ad480619-948a-406f-b8f1-57342bdbd72c_rd_large.jpg?updated_at=20260123140440</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/3f91fc2c-23ab-45b2-a545-e9272c75e717_si_large.jpg?updated_at=20260123140440</logo_podcast>
+  </item>
+  <item id="30" sp="0" live="2" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>18:00</onair_start>
+    <onair_time>18:00 - 18:30</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>180000</onair_starttime>
+    <onair_endtime>183000</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300013652</program_id>
+    <program_name>バッテリィズ寺家の三重おいないラジオ</program_name>
+    <program_name_kana>バッテリィズジケノミエオイナイラジオ</program_name_kana>
+    <siteurl>https://fmmie.jp/programs/oinai_radio/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://fmmie.jp/programs/oinai_radio/message.php</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C009</radiko_character_genre_code>
+    <radiko_tag>#お笑い芸人の最強トーク/#気分転換におすすめ</radiko_tag>
+    <official_publicity>津市出身のM-1グランプリ2024準優勝・バッテリィズ寺家が、大好きな地元・三重の魅力をぎゅっと詰め込み語りつくす、初のFM三重冠レギュラー番組！ 「バッテリィズ寺家の三重おいない百景」でこれまで訪れた三重のスポットや裏話、寺家目線でのオススメどころ、動画の見どころを紹介します。
+
+また、今後行ってみたい！と思っている三重の場所を話したり、リスナーのみなさんからの「ここへ来てほしい」というメッセージも大募集中！ 三重県民全人口170万人全員をYouTube登録者にするまで（？）、ALL三重でお届けします！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>津市出身のM-1グランプリ2024準優勝・バッテリィズ寺家が、大好きな地元・三重の魅力をぎゅっと詰め込み語りつくす、初のFM三重冠レギュラー番組！ 「バッテリィズ寺家の三重おいない百景」でこれまで訪れた三重のスポットや裏話、寺家目線でのオススメどころ、動画の見どころを紹介します。
+
+また、今後行ってみたい！と思っている三重の場所を話したり、リスナーのみなさんからの「ここへ来てほしい」というメッセージも大募集中！ 三重県民全人口170万人全員をYouTube登録者にするまで（？）、ALL三重でお届けします！</topics>
+    <personality no="1">
+      <person_id>300010762</person_id>
+      <profile_id>16239</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>バッテリィズ寺家</name>
+            <name_kana>バッテリィズジケ</name_kana>
+      <title></title>
+      <description></description>
+      <photo></photo>
+      <photo_large></photo_large>
+      <photo_xlarge></photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300010762</person_id>
+            <name>バッテリィズ寺家</name>
+            <name_kana>バッテリィズジケ</name_kana>
+      <title></title>
+      <description></description>
+      <photo></photo>
+      <photo_large></photo_large>
+      <photo_xlarge></photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/1eecfd2c-03e2-4aa5-8f57-253be7489c0e_au_medium.jpg?updated_at=20260409094639</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/1eecfd2c-03e2-4aa5-8f57-253be7489c0e_au_large.jpg?updated_at=20260409094639</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/d5e8f4d3-af2f-46a6-8f59-8d39b8dbfec7_rd_large.jpg?updated_at=20260409094639</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="31" sp="0" live="2" local="1">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>18:30</onair_start>
+    <onair_time>18:30 - 18:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>183000</onair_starttime>
+    <onair_endtime>185500</onair_endtime>
+    <key_station>1023</key_station>
+    <program_id>300001526</program_id>
+    <program_name>今夜もBuzz　Buzzツ！！～えりかと津ぅで遊ボ～っト。～</program_name>
+    <program_name_kana>コンヤモバズバズ</program_name_kana>
+    <siteurl>https://fmmie.jp/programs/buzzbuzz/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://fmmie.jp/programs/buzzbuzz/message.php</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="バズバズ">BUZZBUZZ1830</twitter>
+    <radiko_program_genre_code>P006</radiko_program_genre_code>
+    <radiko_character_genre_code>C010</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>「楽しいぞ！ボートレース津」を合言葉に、ボートレース大好き！どんな話題でも楽しく料理できる多田えりかと、特技が、“ボートレース実況モノマネ”というお笑い芸人、ブシくん（ツケマイ23号）を新たに迎え、にぎやかなコンビでお届け。
+初心者にもわかりやすいボートレース用語の解説や、大喜利などのコーナーも！
+活躍する三重支部のスター選手、新人選手など様々なゲストをお迎えし、ボートレース初心者から、コアなファンまで幅広い方に楽しんでいただけるよう、様々なコーナーをお届けします！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>「楽しいぞ！ボートレース津」を合言葉に、ボートレース大好き！どんな話題でも楽しく料理できる多田えりかと、特技が、“ボートレース実況モノマネ”というお笑い芸人、ブシくん（ツケマイ23号）を新たに迎え、にぎやかなコンビでお届け。
+初心者にもわかりやすいボートレース用語の解説や、大喜利などのコーナーも！
+活躍する三重支部のスター選手、新人選手など様々なゲストをお迎えし、ボートレース初心者から、コアなファンまで幅広い方に楽しんでいただけるよう、様々なコーナーをお届けします！</topics>
+    <personality no="1">
+      <person_id>300001107</person_id>
+      <profile_id>5959</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>多田えりか</name>
+            <name_kana>タダエリカ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/5969d806-a70c-4b54-a7c8-d23658181b3b_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/5969d806-a70c-4b54-a7c8-d23658181b3b_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/5969d806-a70c-4b54-a7c8-d23658181b3b_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="2">
+      <person_id>300011400</person_id>
+      <profile_id>16903</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>ブシくん（ツケマイ２３号）</name>
+            <name_kana>ブシクン</name_kana>
+      <title>ツケマイ２３号</title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e868a67-36a5-483e-85f9-4d42903483bc_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e868a67-36a5-483e-85f9-4d42903483bc_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e868a67-36a5-483e-85f9-4d42903483bc_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300001107</person_id>
+            <name>多田えりか</name>
+            <name_kana>タダエリカ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/5969d806-a70c-4b54-a7c8-d23658181b3b_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/5969d806-a70c-4b54-a7c8-d23658181b3b_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/5969d806-a70c-4b54-a7c8-d23658181b3b_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="2">
+      <person_id>300011400</person_id>
+            <name>ブシくん（ツケマイ２３号）</name>
+            <name_kana>ブシクン</name_kana>
+      <title>ツケマイ２３号</title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e868a67-36a5-483e-85f9-4d42903483bc_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e868a67-36a5-483e-85f9-4d42903483bc_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/0e868a67-36a5-483e-85f9-4d42903483bc_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/76940755-efde-461a-a649-8479325d7193_au_medium.jpg?updated_at=20260406103834</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/76940755-efde-461a-a649-8479325d7193_au_large.jpg?updated_at=20260406103834</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/fc691487-0e63-4bed-b2a8-1e1ac028c973_rd_large.jpg?updated_at=20260406103834</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/a8f1ef1b-354c-4556-ac7a-dd7634c8b25c_si_large.jpg?updated_at=20260406103834</logo_podcast>
+  </item>
+  <item id="32" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>18:55</onair_start>
+    <onair_time>18:55 - 19:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>1000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>185500</onair_starttime>
+    <onair_endtime>190000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>290060091</program_id>
+    <program_name>JFNニュース</program_name>
+    <program_name_kana>ジェイエフエヌニュース</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>JFNニュース</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>JFNニュース</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_medium.jpg?updated_at=20220816145546</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_large.jpg?updated_at=20220816145546</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7405a363-033b-4fd0-bce8-c6178dc72917_rd_large.jpg?updated_at=20220816145546</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="33" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>19:00</onair_start>
+    <onair_time>19:00 - 19:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000010</base_onair_days_of_week>
+    <date_difference>1</date_difference>
+    <onair_starttime>190000</onair_starttime>
+    <onair_endtime>195500</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300013349</program_id>
+    <program_name>みちのらじお</program_name>
+    <program_name_kana>ミチノラジオ</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300013349</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/michiraji/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C009</radiko_character_genre_code>
+    <radiko_tag>お笑い芸人の最強トーク/古坂大魔王</radiko_tag>
+    <official_publicity>DJ古坂大魔王がナビゲートする「みちのらじお」。全国各地のラジオ局が制作する個性豊かな番組やパーソナリティ、地域ならではの空気感を通して、まだ見ぬ&quot;未知&quot;ラジオの魅力に出会う時間をお届けします。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>今週はふくしまFMをピックアップ！
+
+DJ古坂大魔王がナビゲートする「みちのらじお」。全国各地のラジオ局が制作する個性豊かな番組やパーソナリティ、地域ならではの空気感を通して、まだ見ぬ&quot;未知&quot;ラジオの魅力に出会う時間をお届けします。</topics>
+    <personality no="1">
+      <person_id>10734</person_id>
+      <profile_id>4734</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>古坂大魔王</name>
+            <name_kana>コサカダイマオウ</name_kana>
+      <title></title>
+      <description>生年月日：1973年7月17日、青森県生まれ
+
+1992年お笑い芸人「底ぬけAIR-LINE」 でデビュー。
+ピコ太郎プロデューサー。
+
+文部科学省・CCC大使、UNEPサステナビリティアクションアドバイザー。
+現在は、バラエティ番組をはじめ、コメンテーターとして情報番組への出演、
+世界のトップランナーと音楽、エンターテインメント等についてトークセッションを行うなど、
+幅広い分野で活躍中。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/1a36f080-3ce3-4a40-9a85-5dd89733bc42_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/1a36f080-3ce3-4a40-9a85-5dd89733bc42_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/1a36f080-3ce3-4a40-9a85-5dd89733bc42_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>10734</person_id>
+            <name>古坂大魔王</name>
+            <name_kana>コサカダイマオウ</name_kana>
+      <title></title>
+      <description>生年月日：1973年7月17日、青森県生まれ
+
+1992年お笑い芸人「底ぬけAIR-LINE」 でデビュー。
+ピコ太郎プロデューサー。
+
+文部科学省・CCC大使、UNEPサステナビリティアクションアドバイザー。
+現在は、バラエティ番組をはじめ、コメンテーターとして情報番組への出演、
+世界のトップランナーと音楽、エンターテインメント等についてトークセッションを行うなど、
+幅広い分野で活躍中。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/1a36f080-3ce3-4a40-9a85-5dd89733bc42_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/1a36f080-3ce3-4a40-9a85-5dd89733bc42_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/1a36f080-3ce3-4a40-9a85-5dd89733bc42_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/ce9c7d3c-9d78-4153-ac33-bd71c29d04f4_au_medium.jpg?updated_at=20260402171126</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/ce9c7d3c-9d78-4153-ac33-bd71c29d04f4_au_large.jpg?updated_at=20260402171126</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/6adef4de-3bfd-41ea-ad7f-d6a38db26cec_rd_large.jpg?updated_at=20260402171126</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/984e0ac5-cbb4-4d45-bbc1-7999d0934c25_si_large.jpg?updated_at=20260402171126</logo_podcast>
+  </item>
+  <item id="34" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>19:55</onair_start>
+    <onair_time>19:55 - 20:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>195500</onair_starttime>
+    <onair_endtime>200000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>7459</program_id>
+    <program_name>小堺一機のおうちで～CINEMA～</program_name>
+    <program_name_kana>コサカイカズキノオウチデシネマ</program_name_kana>
+    <siteurl>http://www.jfn.jp/cinema</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C010</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>「今週末は何を見ようかな…」「見逃していたあの映画、そろそろDVDになるかな？」そんな映画ファンにむけて、新作＋旧作DVDの中から小堺一機がオススメの１本を紹介。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>今日ご紹介する映画は・・・『木の上の軍隊』
+
+１９４５年の沖縄県伊江島を舞台に、終戦を知らず木の上に２年間隠れて暮らし続けた
+日本兵２人の過酷な日々を描いた実話に基づく物語
+
+監督・脚本：平一紘
+出演：堤真一、山田裕貴</topics>
+    <personality no="1">
+      <person_id>1494</person_id>
+      <profile_id>3802</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>小堺一機</name>
+            <name_kana>コサカイカズキ</name_kana>
+      <title></title>
+      <description>生年月日：1956年1月3日 
+出 身 地：千葉県 
+血 液 型：Ａ型 
+サ イ ズ：165cm 62kg 
+ 
+＜略 歴＞ 
+1977年5月、TBS「ぎんざＮＯＷ」素人コメディアン道場のチャンピオンになる。 
+専修大学経営学部卒業後、1979年4月、勝アカデミー研究生として一期入学。 
+1980年3月、勝アカデミー卒業後、浅井企画へ所属。 
+1985年：第13回日本放送演芸大賞・最優秀ホープ賞受賞 
+1986年：第14回日本放送演芸大賞・優秀賞受賞 
+第15回日本メンズファッション協会 ベストドレッサー賞・芸能部門受賞 
+1987年：第15回日本放送演芸大賞・敢闘賞受賞 
+1988年：第4回浅草芸能大賞・新人賞受賞 
+ 
+＜現在の状況＞ 
+テレビ 
+CX「ライオンのごきげんよう」（月～金曜 13:00～13:30） 
+ムービープラス 「プレミア・ナビ」（土曜 20:55～21:00） 
+ 
+ラジオ 
+JFN「小堺一機の おうちで～ＣＩＮＥＭＡ～」 週１回５分番組 
+TBS「コサキン DE ワァオ！」（土曜 24:00～25:00）「小堺一機のサタデーウィズ」（土曜 13:00～15:30 生放送） 
+ 
+書 籍 
+『シュポ本』 
+ 
+ビデオ 
+コサキンビデオ3『シュポッ！』  
+ 
+舞 台 
+『グランドホテル』（2006年 1/6～24 東京国際フォーラムＣ） 
+『INTO THE WOODS』（2006年 5/19～6/6 新国立劇場中ホール 7/1.2 兵庫県立芸術文化センター大ホール） 
+ 
+ＤＶＤ 
+『クロ子とグレ子のどこまでやるの？』（ポニーキャニオン 2006年4月6日） ほか</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/043ae807-a8e4-40a7-8017-289e21050d08_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/043ae807-a8e4-40a7-8017-289e21050d08_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/043ae807-a8e4-40a7-8017-289e21050d08_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>1494</person_id>
+            <name>小堺一機</name>
+            <name_kana>コサカイカズキ</name_kana>
+      <title></title>
+      <description>生年月日：1956年1月3日 
+出 身 地：千葉県 
+血 液 型：Ａ型 
+サ イ ズ：165cm 62kg 
+ 
+＜略 歴＞ 
+1977年5月、TBS「ぎんざＮＯＷ」素人コメディアン道場のチャンピオンになる。 
+専修大学経営学部卒業後、1979年4月、勝アカデミー研究生として一期入学。 
+1980年3月、勝アカデミー卒業後、浅井企画へ所属。 
+1985年：第13回日本放送演芸大賞・最優秀ホープ賞受賞 
+1986年：第14回日本放送演芸大賞・優秀賞受賞 
+第15回日本メンズファッション協会 ベストドレッサー賞・芸能部門受賞 
+1987年：第15回日本放送演芸大賞・敢闘賞受賞 
+1988年：第4回浅草芸能大賞・新人賞受賞 
+ 
+＜現在の状況＞ 
+テレビ 
+CX「ライオンのごきげんよう」（月～金曜 13:00～13:30） 
+ムービープラス 「プレミア・ナビ」（土曜 20:55～21:00） 
+ 
+ラジオ 
+JFN「小堺一機の おうちで～ＣＩＮＥＭＡ～」 週１回５分番組 
+TBS「コサキン DE ワァオ！」（土曜 24:00～25:00）「小堺一機のサタデーウィズ」（土曜 13:00～15:30 生放送） 
+ 
+書 籍 
+『シュポ本』 
+ 
+ビデオ 
+コサキンビデオ3『シュポッ！』  
+ 
+舞 台 
+『グランドホテル』（2006年 1/6～24 東京国際フォーラムＣ） 
+『INTO THE WOODS』（2006年 5/19～6/6 新国立劇場中ホール 7/1.2 兵庫県立芸術文化センター大ホール） 
+ 
+ＤＶＤ 
+『クロ子とグレ子のどこまでやるの？』（ポニーキャニオン 2006年4月6日） ほか</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/043ae807-a8e4-40a7-8017-289e21050d08_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/043ae807-a8e4-40a7-8017-289e21050d08_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/043ae807-a8e4-40a7-8017-289e21050d08_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cabace98-5d2a-4961-a6eb-e896b9e9113e_au_medium.jpg?updated_at=20250930190142</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/cabace98-5d2a-4961-a6eb-e896b9e9113e_au_large.jpg?updated_at=20250930190142</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7b4186f6-716a-4e39-a763-c7c282143bc1_rd_large.jpg?updated_at=20250930190142</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="35" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>20:00</onair_start>
+    <onair_time>20:00 - 20:30</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0010000</base_onair_days_of_week>
+    <date_difference>4</date_difference>
+    <onair_starttime>200000</onair_starttime>
+    <onair_endtime>203000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>16735</program_id>
+    <program_name>山田五郎と中川翔子の『リミックスZ』</program_name>
+    <program_name_kana>ヤマダゴロウトナカガワショウコノリミックスゼット</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/16735</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/remixz/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="リミックスZ">jfn_remixZ</twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C012</radiko_character_genre_code>
+    <radiko_tag>山田五郎/中川翔子</radiko_tag>
+    <official_publicity>【知りたい欲】の塊：山田五郎と中川翔子が、真剣に！真面目に！万物の謎や不思議を、好奇心の赴くままに問い詰めていきます！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>【知りたい欲】の塊：山田五郎と中川翔子が、真剣に！真面目に！万物の謎や不思議を、好奇心の赴くままに問い詰めていきます！</topics>
+    <personality no="1">
+      <person_id>3569</person_id>
+      <profile_id>3819</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>山田五郎</name>
+            <name_kana>ヤマダゴロウ</name_kana>
+      <title></title>
+      <description>生年月日：1958年12月5日
+出身地：東京都
+ 
+編集者・評論家。上智大学文学部在学中にオーストリア・ザルツブルク大学に1年間遊学し西洋美術史を学ぶ。卒業後、㈱講談社に入社『Ｈｏｔ－Ｄｏｇ　ＰＲＥＳＳ』編集長、総合編纂局担当部長等を経てフリーに。現在は時計、ファッション、西洋美術、街づくり、など幅広い分野で講演、執筆活動を続けている。
+ 
+著書
+『百万人のお尻学』（講談社＋α文庫）
+『銀座のすし』（文春文庫）
+『知識ゼロからの西洋絵画入門』（幻冬舎）
+『知識ゼロからの西洋絵画史入門』（幻冬舎）
+『大人のための恐竜教室』（共著）（ウェツジ）
+『へんな西洋画』（講談社）　など。
+ 
+ 
+ＴＶ
+『出没！アド街ック天国』（テレビ東京）
+『ぶらぶら美術博物館』（ＢＳ日テレ）</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/7ed0123e-1213-43f7-9f84-0c0af8d4a88e_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/7ed0123e-1213-43f7-9f84-0c0af8d4a88e_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/7ed0123e-1213-43f7-9f84-0c0af8d4a88e_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="2">
+      <person_id>3570</person_id>
+      <profile_id>3820</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>中川翔子</name>
+            <name_kana>ナカガワショウコ</name_kana>
+      <title></title>
+      <description>生年月日：1985年5月5日
+出身地：東京都
+
+「しょこたん」の愛称で知られる、1985年生まれの女性アイドル。
+2002年に芸能界デビューして以来、数々のテレビ番組に出演し人気を高めていく。
+2004年11月からスタートさせた公式ブログ「しょこたん☆ぶろぐ」でも人気を博し、2006年にはシングル「Brilliant Dream」で歌手デビュー。
+このほかにも声優やイラスト、マンガ家、ドラマ出演など、多方面で活躍するマルチタレントぶりを発揮している。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/24465868-6eb4-4a6f-a2dd-ce5f65f227b9_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/24465868-6eb4-4a6f-a2dd-ce5f65f227b9_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/24465868-6eb4-4a6f-a2dd-ce5f65f227b9_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>3569</person_id>
+            <name>山田五郎</name>
+            <name_kana>ヤマダゴロウ</name_kana>
+      <title></title>
+      <description>生年月日：1958年12月5日
+出身地：東京都
+ 
+編集者・評論家。上智大学文学部在学中にオーストリア・ザルツブルク大学に1年間遊学し西洋美術史を学ぶ。卒業後、㈱講談社に入社『Ｈｏｔ－Ｄｏｇ　ＰＲＥＳＳ』編集長、総合編纂局担当部長等を経てフリーに。現在は時計、ファッション、西洋美術、街づくり、など幅広い分野で講演、執筆活動を続けている。
+ 
+著書
+『百万人のお尻学』（講談社＋α文庫）
+『銀座のすし』（文春文庫）
+『知識ゼロからの西洋絵画入門』（幻冬舎）
+『知識ゼロからの西洋絵画史入門』（幻冬舎）
+『大人のための恐竜教室』（共著）（ウェツジ）
+『へんな西洋画』（講談社）　など。
+ 
+ 
+ＴＶ
+『出没！アド街ック天国』（テレビ東京）
+『ぶらぶら美術博物館』（ＢＳ日テレ）</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/7ed0123e-1213-43f7-9f84-0c0af8d4a88e_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/7ed0123e-1213-43f7-9f84-0c0af8d4a88e_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/7ed0123e-1213-43f7-9f84-0c0af8d4a88e_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="2">
+      <person_id>3570</person_id>
+            <name>中川翔子</name>
+            <name_kana>ナカガワショウコ</name_kana>
+      <title></title>
+      <description>生年月日：1985年5月5日
+出身地：東京都
+
+「しょこたん」の愛称で知られる、1985年生まれの女性アイドル。
+2002年に芸能界デビューして以来、数々のテレビ番組に出演し人気を高めていく。
+2004年11月からスタートさせた公式ブログ「しょこたん☆ぶろぐ」でも人気を博し、2006年にはシングル「Brilliant Dream」で歌手デビュー。
+このほかにも声優やイラスト、マンガ家、ドラマ出演など、多方面で活躍するマルチタレントぶりを発揮している。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/24465868-6eb4-4a6f-a2dd-ce5f65f227b9_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/24465868-6eb4-4a6f-a2dd-ce5f65f227b9_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/24465868-6eb4-4a6f-a2dd-ce5f65f227b9_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/05ed881a-5167-4c2c-b7e8-d031263de84a_rd_large.jpg?updated_at=20260427175142</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/2c31ceb7-1255-49b4-8f20-ba92a0b4193f_ba_large.jpg?updated_at=20260427175142</logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="36" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>20:30</onair_start>
+    <onair_time>20:30 - 20:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0001000</base_onair_days_of_week>
+    <date_difference>3</date_difference>
+    <onair_starttime>203000</onair_starttime>
+    <onair_endtime>205500</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300013355</program_id>
+    <program_name>誰も聞いてないから大丈夫</program_name>
+    <program_name_kana>ダレモキイテナイカラダイジョウブ</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300013355</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/daredai/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C012</radiko_character_genre_code>
+    <radiko_tag>北川悦吏子</radiko_tag>
+    <official_publicity>脚本家・映画監督の北川悦吏子が、今気になる話題を「ゆらりくらり」問わず語りしたり、ゲストを招いて気の置けないおしゃべりをしたり…。人生の“気づき”を再発見していきます！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>脚本家・北川悦吏子があなただけにこっそり話すラジオプログラム、
+「誰も聞いてないから大丈夫」。
+
+日本のドラマシーンを彩る数々の作品を生み出した北川悦吏子。
+名作の誕生秘話はもちろん、今気になる話題を「ゆらりくらり」問わず語り。
+時には豪華なゲストもお迎えし
+気のおけないトークの中から人生の“気づき”を再発見していきます。
+
+第６回目の放送は皆さんからのメッセージをご紹介。
+メールにお答えすると共に「ドラマ主題歌」への熱い思いを語ります。
+
+【Today’s Power Word 】
+「誰も聞いてないからいいよね。実は『Beautiful Life』ってタイトル、最初は・・・」</topics>
+    <personality no="1">
+      <person_id>300011250</person_id>
+      <profile_id>16739</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>北川悦吏子</name>
+            <name_kana>キタガワエリコ</name_kana>
+      <title></title>
+      <description>1961年12月、岐阜県美濃加茂市出身。
+
+早稲田大学第一文学部哲学科東洋哲学専修卒業。脚本家・映画監督。
+テレビドラマの企画の仕事を経て、1992年に『素顔のままで』で連続ドラマの脚本家デビュー。テレビドラマ『あすなろ白書』『愛していると言ってくれ』『ロングバケーション』『ビューティフルライフ』『空から降る一億の星』『オレンジデイズ』などの多くの大ヒット作品を世に送り出してきた。
+その透明感のある美しい物語は多くの人々の心を震わせ「ラブストーリーの神様」との異名を持つようになる。平均視聴率32.3%、最高視聴率41.3%を記録した
+『ビューティフルライフ』では向田邦子賞・橋田壽賀子賞を受賞。
+活躍の一方で炎症性腸疾患や聴神経腫瘍による片耳失聴といった病を長く抱えているが、難病と戦いながら今もなお数々の作品を生み出し続けており、
+近作にはＮＨＫ連続テレビ小説『半分、青い。』『ウチの娘は、彼氏が出来ない!!』
+『夕暮れに、手をつなぐ』、『生きとし生けるもの』など。
+
+『ハルフウェイ』『新しい靴を買わなくちゃ』では映画の世界にも進出。
+活動は多岐に渡り、舞台脚本やエッセイ、作詞でも活躍している。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8539bd0b-ac8c-483f-89f2-faa957015d65_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8539bd0b-ac8c-483f-89f2-faa957015d65_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8539bd0b-ac8c-483f-89f2-faa957015d65_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300011250</person_id>
+            <name>北川悦吏子</name>
+            <name_kana>キタガワエリコ</name_kana>
+      <title></title>
+      <description>1961年12月、岐阜県美濃加茂市出身。
+
+早稲田大学第一文学部哲学科東洋哲学専修卒業。脚本家・映画監督。
+テレビドラマの企画の仕事を経て、1992年に『素顔のままで』で連続ドラマの脚本家デビュー。テレビドラマ『あすなろ白書』『愛していると言ってくれ』『ロングバケーション』『ビューティフルライフ』『空から降る一億の星』『オレンジデイズ』などの多くの大ヒット作品を世に送り出してきた。
+その透明感のある美しい物語は多くの人々の心を震わせ「ラブストーリーの神様」との異名を持つようになる。平均視聴率32.3%、最高視聴率41.3%を記録した
+『ビューティフルライフ』では向田邦子賞・橋田壽賀子賞を受賞。
+活躍の一方で炎症性腸疾患や聴神経腫瘍による片耳失聴といった病を長く抱えているが、難病と戦いながら今もなお数々の作品を生み出し続けており、
+近作にはＮＨＫ連続テレビ小説『半分、青い。』『ウチの娘は、彼氏が出来ない!!』
+『夕暮れに、手をつなぐ』、『生きとし生けるもの』など。
+
+『ハルフウェイ』『新しい靴を買わなくちゃ』では映画の世界にも進出。
+活動は多岐に渡り、舞台脚本やエッセイ、作詞でも活躍している。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8539bd0b-ac8c-483f-89f2-faa957015d65_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8539bd0b-ac8c-483f-89f2-faa957015d65_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8539bd0b-ac8c-483f-89f2-faa957015d65_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/79c238bf-ef3f-4a8e-ae05-49703d42a350_au_medium.jpg?updated_at=20260325151744</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/79c238bf-ef3f-4a8e-ae05-49703d42a350_au_large.jpg?updated_at=20260325151744</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7e1b949b-9b4b-4bb7-9f51-0dc5a7cc0451_rd_large.jpg?updated_at=20260325151744</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/3371da64-2299-4aa7-88e3-b66b19186487_ba_large.jpg?updated_at=20260325151744</logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/e992fb90-d937-4d79-8b16-14f3bb21e370_si_large.jpg?updated_at=20260325151744</logo_podcast>
+  </item>
+  <item id="37" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>20:55</onair_start>
+    <onair_time>20:55 - 21:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>205500</onair_starttime>
+    <onair_endtime>210000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>290060091</program_id>
+    <program_name>JFNニュース</program_name>
+    <program_name_kana>ジェイエフエヌニュース</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>JFNニュース</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>JFNニュース</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_medium.jpg?updated_at=20220816145546</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_large.jpg?updated_at=20220816145546</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7405a363-033b-4fd0-bce8-c6178dc72917_rd_large.jpg?updated_at=20220816145546</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="38" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>21:00</onair_start>
+    <onair_time>21:00 - 21:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>210000</onair_starttime>
+    <onair_endtime>215500</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>6559</program_id>
+    <program_name>S.I.N NEXT GENERATION</program_name>
+    <program_name_kana>シンネクストジェネレーション</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/6559</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/nextgene/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C007</radiko_character_genre_code>
+    <radiko_tag>人気アーティストトーク</radiko_tag>
+    <official_publicity>トニセン（坂本昌行、長野博、井ノ原快彦）の3人が、お届けする５５分。
+V6時代から30年以上続く、JFN屈指の長寿番組。なぜこんなにも続いているのか？
+一度聞けば、その理由が分かるかもしれません。分からないかもしれません。聞いてください！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>今週も秘蔵トーク満載！トニセン＆Ｖ６曲のリクエストも大歓迎！
+
+ＯＡ楽曲
+「ネバギバ～Ｎｅｖｅｒ　Ｇｉｖｅ　ＵＰ～」２０ｔｈ　Ｃｅｎｔｕｒｙ　ほか</topics>
+    <personality no="1">
+      <person_id>1099</person_id>
+      <profile_id>3677</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>坂本昌行</name>
+            <name_kana>サカモトマサユキ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8f58f27b-9461-4a1c-8bff-efe29b9e53fd_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8f58f27b-9461-4a1c-8bff-efe29b9e53fd_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8f58f27b-9461-4a1c-8bff-efe29b9e53fd_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="2">
+      <person_id>1100</person_id>
+      <profile_id>3678</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>長野博</name>
+            <name_kana>ナガノヒロシ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/25b054d5-d793-41e1-9f74-18b47cd54470_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/25b054d5-d793-41e1-9f74-18b47cd54470_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/25b054d5-d793-41e1-9f74-18b47cd54470_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="3">
+      <person_id>1101</person_id>
+      <profile_id>3679</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>井ノ原快彦</name>
+            <name_kana>イノハラヨシヒコ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d7976667-5f93-47bf-bc17-5c0e3ff799d0_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d7976667-5f93-47bf-bc17-5c0e3ff799d0_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d7976667-5f93-47bf-bc17-5c0e3ff799d0_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>1099</person_id>
+            <name>坂本昌行</name>
+            <name_kana>サカモトマサユキ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8f58f27b-9461-4a1c-8bff-efe29b9e53fd_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8f58f27b-9461-4a1c-8bff-efe29b9e53fd_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/8f58f27b-9461-4a1c-8bff-efe29b9e53fd_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="2">
+      <person_id>1100</person_id>
+            <name>長野博</name>
+            <name_kana>ナガノヒロシ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/25b054d5-d793-41e1-9f74-18b47cd54470_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/25b054d5-d793-41e1-9f74-18b47cd54470_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/25b054d5-d793-41e1-9f74-18b47cd54470_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="3">
+      <person_id>1101</person_id>
+            <name>井ノ原快彦</name>
+            <name_kana>イノハラヨシヒコ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d7976667-5f93-47bf-bc17-5c0e3ff799d0_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d7976667-5f93-47bf-bc17-5c0e3ff799d0_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d7976667-5f93-47bf-bc17-5c0e3ff799d0_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/397828d0-60b5-4a2a-900e-c22d4d39e84c_au_medium.jpg?updated_at=20260410170242</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/397828d0-60b5-4a2a-900e-c22d4d39e84c_au_large.jpg?updated_at=20260410170242</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/dec9a0e8-7084-4f04-8b24-9077d3acc47b_rd_large.jpg?updated_at=20260410170242</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="39" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>21:55</onair_start>
+    <onair_time>21:55 - 22:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>1000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>215500</onair_starttime>
+    <onair_endtime>220000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>290060091</program_id>
+    <program_name>JFNニュース</program_name>
+    <program_name_kana>ジェイエフエヌニュース</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>JFNニュース</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>JFNニュース</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_medium.jpg?updated_at=20220816145546</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_large.jpg?updated_at=20220816145546</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7405a363-033b-4fd0-bce8-c6178dc72917_rd_large.jpg?updated_at=20220816145546</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="40" sp="0" live="2" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>22:00</onair_start>
+    <onair_time>22:00 - 22:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>220000</onair_starttime>
+    <onair_endtime>225500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>37078</program_id>
+    <program_name>SPITZ 草野マサムネのロック大陸漫遊記</program_name>
+    <program_name_kana>スピッツクサノマサムネノロックタイリクマンユウキ</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/manyuki/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/manyuki/index.php?catid=3348</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="ロック大陸漫遊記"></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C004</radiko_character_genre_code>
+    <radiko_tag>ロック大陸漫遊記/草野マサムネ/SPITZ/人気アーティストトーク/ドライブ中におすすめ/作業がはかどる</radiko_tag>
+    <official_publicity>スピッツ・草野マサムネが、ラジオを乗り物に音楽を地図代わりに「ロック大陸」を旅する１時間。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>スピッツ・草野マサムネが、ラジオを乗り物に音楽を地図代わりに「ロック大陸」を旅する１時間。</topics>
+    <personality no="1">
+      <person_id>6320</person_id>
+      <profile_id>3500</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>草野マサムネ</name>
+            <name_kana>クサノマサムネ</name_kana>
+      <title></title>
+      <description>1967年12月21日　福岡県生まれ　O型
+好きなもの : 磯遊び、夏至の日
+影響を受けたミュージシャン / 音楽 : チープ・トリック
+初めて買った楽器 : トーカイのストラトキャスター
+将来の夢 : 変な曲を作りたい</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d80b4565-c478-4fe1-87c1-f709488400c7_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d80b4565-c478-4fe1-87c1-f709488400c7_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d80b4565-c478-4fe1-87c1-f709488400c7_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>6320</person_id>
+            <name>草野マサムネ</name>
+            <name_kana>クサノマサムネ</name_kana>
+      <title></title>
+      <description>1967年12月21日　福岡県生まれ　O型
+好きなもの : 磯遊び、夏至の日
+影響を受けたミュージシャン / 音楽 : チープ・トリック
+初めて買った楽器 : トーカイのストラトキャスター
+将来の夢 : 変な曲を作りたい</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d80b4565-c478-4fe1-87c1-f709488400c7_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d80b4565-c478-4fe1-87c1-f709488400c7_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/d80b4565-c478-4fe1-87c1-f709488400c7_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/0a87ba5c-df6b-428e-a30f-ee94b158bfdc_rd_large.jpg?updated_at=20260403211223</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/fa3a115a-6138-4da8-9af6-57ab4b7a7abe_ba_large.jpg?updated_at=20260403211223</logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="41" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>22:55</onair_start>
+    <onair_time>22:55 - 23:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>1000001</onair_days_of_week>
+    <base_onair_days_of_week>0000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>225500</onair_starttime>
+    <onair_endtime>230000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>290060091</program_id>
+    <program_name>JFNニュース</program_name>
+    <program_name_kana>ジェイエフエヌニュース</program_name_kana>
+    <siteurl></siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P001</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>JFNニュース</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>JFNニュース</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_medium.jpg?updated_at=20220816145546</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/232c544f-4f16-466c-874b-34797ed68961_au_large.jpg?updated_at=20220816145546</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7405a363-033b-4fd0-bce8-c6178dc72917_rd_large.jpg?updated_at=20220816145546</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="42" sp="0" live="0" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>23:00</onair_start>
+    <onair_time>23:00 - 23:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>230000</onair_starttime>
+    <onair_endtime>235500</onair_endtime>
+    <key_station>1033</key_station>
+    <program_id>11306</program_id>
+    <program_name>桑田佳祐のやさしい夜遊び</program_name>
+    <program_name_kana>クワタケイスケノヤサシイヨアソビ</program_name_kana>
+    <siteurl>https://www.tfm.co.jp/yoasobi/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://www.tfm.co.jp/yoasobi/message/</message_url>
+    <email></email>
+    <fax>03-3221-1800</fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C004</radiko_character_genre_code>
+    <radiko_tag>やさしい夜遊び/yoasobi/桑田佳祐 /人気アーティストトーク</radiko_tag>
+    <official_sponsor>カンロ</official_sponsor>
+    <official_publicity>「桑田佳祐のやさしい夜遊び」は、日本を代表するアーティスト桑田佳祐が、毎週ひとつの「お題」をもとに、自由きままにおしゃべりを繰り広げる番組です。
+時にはアカデミックに音楽講座をおっぴろげたり、時には得意種目シモネタで暴れたり、時にはリスナーと電話でクイズで直接バトルなど、気まぐれ企画で出たとこ勝負。その上、ほとんどが生放送と言う、やる気満タンのプログラム。
+番組終盤には、桑田佳祐自らギター片手に歌う、生歌コーナーもあります。これは他では聞けない超レアな生歌。要チェック！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>「桑田佳祐のやさしい夜遊び」は、日本を代表するアーティスト桑田佳祐が、毎週ひとつの「お題」をもとに、自由きままにおしゃべりを繰り広げる番組です。
+時にはアカデミックに音楽講座をおっぴろげたり、時には得意種目シモネタで暴れたり、時にはリスナーと電話でクイズで直接バトルなど、気まぐれ企画で出たとこ勝負。その上、ほとんどが生放送と言う、やる気満タンのプログラム。
+番組終盤には、桑田佳祐自らギター片手に歌う、生歌コーナーもあります。これは他では聞けない超レアな生歌。要チェック！</topics>
+    <personality no="1">
+      <person_id>858</person_id>
+      <profile_id>3413</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>桑田佳祐</name>
+            <name_kana>ｸﾜﾀｹｲｽｹ</name_kana>
+      <title></title>
+      <description></description>
+      <photo></photo>
+      <photo_large></photo_large>
+      <photo_xlarge></photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>858</person_id>
+            <name>桑田佳祐</name>
+            <name_kana>ｸﾜﾀｹｲｽｹ</name_kana>
+      <title></title>
+      <description></description>
+      <photo></photo>
+      <photo_large></photo_large>
+      <photo_xlarge></photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/a3bae6dc-29a6-4ad7-965a-d2878ccc2d38_rd_large.jpg?updated_at=20260502163335</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/7600840c-65c9-447b-9bb8-bb97e38d3263_ba_large.jpg?updated_at=20260502163335</logo_introduction>
+    <logo_podcast></logo_podcast>
+    <sponsor no="1">
+      <name>カンロ</name>
+    </sponsor>
+  </item>
+  <item id="43" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>23:55</onair_start>
+    <onair_time>23:55 - 24:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>235500</onair_starttime>
+    <onair_endtime>240000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>41142</program_id>
+    <program_name>RADIO MUSEUM～聴く、名画</program_name>
+    <program_name_kana>ラジオミュージアムキクメイガ</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/41142</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/museum/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P015</radiko_program_genre_code>
+    <radiko_character_genre_code>C010</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>一枚の絵の前に佇む。
+その絵は　時にあなたの心を震わせ 時にあなたの心にそっと寄り添う…。
+つかの間の あなただけの音の美術館へ　ようこそ！</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>あなただけの音の美術館へ　ようこそ。今日の一枚は、バーン＝ジョーンズ「フラジオレットを吹く天使」。</topics>
+    <personality no="1">
+      <person_id>2544</person_id>
+      <profile_id>3452</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>浜崎美保</name>
+            <name_kana>ハマサキミホ</name_kana>
+      <title></title>
+      <description>鹿児島県鹿児島市出身。
+モデル・タレントとして地元メディアを中心に活動後、拠点を東京へ。
+2013年4月～TOKYO FMワイド番組「Skyrocket Company」パーソナリティ（秘書役）に。
+
+生年月日：1983年11月23日
+身長：165cm
+
+免許：普通自動車第一種運転免許
+資格：秘書検定2級、英検準2級
+趣味が高じて取得：ベーシックハンドリフレクソロジーセラピスト、スワローズ検定、温泉ソムリエ
+好きなこと：野球観戦、ランニング、はしご酒、乾杯
+出没場所：神宮球場</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/05ab56f0-6668-4e18-a380-baec84ccbc55_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/05ab56f0-6668-4e18-a380-baec84ccbc55_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/05ab56f0-6668-4e18-a380-baec84ccbc55_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>2544</person_id>
+            <name>浜崎美保</name>
+            <name_kana>ハマサキミホ</name_kana>
+      <title></title>
+      <description>鹿児島県鹿児島市出身。
+モデル・タレントとして地元メディアを中心に活動後、拠点を東京へ。
+2013年4月～TOKYO FMワイド番組「Skyrocket Company」パーソナリティ（秘書役）に。
+
+生年月日：1983年11月23日
+身長：165cm
+
+免許：普通自動車第一種運転免許
+資格：秘書検定2級、英検準2級
+趣味が高じて取得：ベーシックハンドリフレクソロジーセラピスト、スワローズ検定、温泉ソムリエ
+好きなこと：野球観戦、ランニング、はしご酒、乾杯
+出没場所：神宮球場</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/05ab56f0-6668-4e18-a380-baec84ccbc55_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/05ab56f0-6668-4e18-a380-baec84ccbc55_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/05ab56f0-6668-4e18-a380-baec84ccbc55_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/de8e953a-235e-4b02-b3ed-7de211fa2fcb_rd_large.jpg?updated_at=20260410170348</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="44" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>24:00</onair_start>
+    <onair_time>24:00 - 24:55</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>240000</onair_starttime>
+    <onair_endtime>245500</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>7477</program_id>
+    <program_name>「坂崎さんの番組」という番組</program_name>
+    <program_name_kana>サカザキサンノバングミトイウバングミ</program_name_kana>
+    <siteurl>http://www.jfn.jp/sakasan/</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/sakazaki-san/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C004</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>THE ALFEEの坂崎幸之助がパーソナリティ。メインとなる音楽コーナーでは様々な音楽ジャンルの“通”である彼が毎回テーマに沿った音楽特集を届ける。また、幅広い交友関係からゲストを招くこともある。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>THE ALFEEの坂崎幸之助がパーソナリティ。様々な音楽ジャンルの“通”である彼が毎回テーマに沿った音楽特集を届けします！
+
+今回は、坂崎が誕生した1954年から2010年までの、ある1年をランダムにクローズアップし、
+その年のトピックや風俗をその時代のヒット曲と共に紹介していく『坂番Around The Time』の12回目。
+「1979年(昭和54年)」にスポットを当てていきます。</topics>
+    <personality no="1">
+      <person_id>1504</person_id>
+      <profile_id>3804</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>坂崎幸之助</name>
+            <name_kana>サカザキコウノスケ</name_kana>
+      <title></title>
+      <description>１９５４年４月１５日生まれ。東京都出身。血液型：Ｏ型。趣味は、カメラ・古ガラス・陶器収集、熱帯魚・は虫類・両生類飼育・観察。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/70397cfa-5038-40eb-9d81-d73affa54430_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/70397cfa-5038-40eb-9d81-d73affa54430_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/70397cfa-5038-40eb-9d81-d73affa54430_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>1504</person_id>
+            <name>坂崎幸之助</name>
+            <name_kana>サカザキコウノスケ</name_kana>
+      <title></title>
+      <description>１９５４年４月１５日生まれ。東京都出身。血液型：Ｏ型。趣味は、カメラ・古ガラス・陶器収集、熱帯魚・は虫類・両生類飼育・観察。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/70397cfa-5038-40eb-9d81-d73affa54430_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/70397cfa-5038-40eb-9d81-d73affa54430_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/70397cfa-5038-40eb-9d81-d73affa54430_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/4d23b63e-0e19-4eb1-9b0a-3637562c96f3_rd_large.jpg?updated_at=20260327175901</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="45" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>24:55</onair_start>
+    <onair_time>24:55 - 25:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>245500</onair_starttime>
+    <onair_endtime>250000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>1934</program_id>
+    <program_name>IT&#039;S MUSIC</program_name>
+    <program_name_kana>イッツミュージック</program_name_kana>
+    <siteurl>http://www.jfn.jp/itsmusic</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url></message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C015</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>誰でも知っているアーティストの隠れた名曲。アーティスト別の人気曲ランキングを眺めてみると、代名詞的な「名曲」の他に知らない曲が上位を飾っていたりする、いわゆる隠れた名曲。ファンだけが知る、そのアーティストの隠れた名曲を紹介していくショート・プログラムです。ナビゲーターは鈴木まひる。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>誰もが知っているアーティストの隠れた名曲をクローズアップする「IT&#039;S MUSIC」。
+今回は、  CANDY TUNEの1曲をお送りします。
+（曲目)
+M.　永遠Twilight  / CANDY TUNE</topics>
+    <personality no="1">
+      <person_id>1127</person_id>
+      <profile_id>3682</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>鈴木まひる</name>
+            <name_kana>スズキマヒル</name_kana>
+      <title></title>
+      <description>出身地：山形県 / 4月21日生まれ
+身長：169cm / B85 / W58 / H86
+血液型：A型
+趣味：サッカー観戦、バイクレース観戦、バレーボール
+特技：日本の利き酒
+
+イベントMC、モデル等を数多くこなし、そこで 培われたどのような環境下においても的確に状況を判断する能力はDJとして特筆すべきところ。さらに持ち前の明るい性格からウィットに富んだ会話力を武器に幅広いナレーター、またレポーターとしても高いポテンシャルを持っている。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/07f97e1c-aa24-4129-8a90-5084082bd7c1_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/07f97e1c-aa24-4129-8a90-5084082bd7c1_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/07f97e1c-aa24-4129-8a90-5084082bd7c1_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>1127</person_id>
+            <name>鈴木まひる</name>
+            <name_kana>スズキマヒル</name_kana>
+      <title></title>
+      <description>出身地：山形県 / 4月21日生まれ
+身長：169cm / B85 / W58 / H86
+血液型：A型
+趣味：サッカー観戦、バイクレース観戦、バレーボール
+特技：日本の利き酒
+
+イベントMC、モデル等を数多くこなし、そこで 培われたどのような環境下においても的確に状況を判断する能力はDJとして特筆すべきところ。さらに持ち前の明るい性格からウィットに富んだ会話力を武器に幅広いナレーター、またレポーターとしても高いポテンシャルを持っている。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/07f97e1c-aa24-4129-8a90-5084082bd7c1_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/07f97e1c-aa24-4129-8a90-5084082bd7c1_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/07f97e1c-aa24-4129-8a90-5084082bd7c1_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/6116cb4d-f33c-422d-ac7c-50b318e2b491_rd_large.jpg?updated_at=20220713231722</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="46" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>25:00</onair_start>
+    <onair_time>25:00 - 26:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>250000</onair_starttime>
+    <onair_endtime>260000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300013226</program_id>
+    <program_name>未確認欲望学　ホシガリアン</program_name>
+    <program_name_kana>ミカクニンヨクボウガク　ホシガリアン</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300013226</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/hoshigari/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="ホシガリアン">hoshigarian</twitter>
+    <radiko_program_genre_code>P006</radiko_program_genre_code>
+    <radiko_character_genre_code>C009</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>借金癖…不倫願望…ネット依存…「やめなきゃいけないのにやめられない！」「どうしても○○したい！」
+気づけば心に棲みついている、正体不明の欲望たち。
+この番組はそんな“未知の欲”をリスナーたちから採取し、まるで新種の生命体のように観察し、分析し、愛でていく番組です。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>借金癖…不倫願望…ネット依存…「やめなきゃいけないのにやめられない！」「どうしても○○したい！」
+気づけば心に棲みついている、正体不明の欲望たち。
+この番組はそんな“未知の欲”をリスナーたちから採取し、まるで新種の生命体のように観察し、分析し、愛でていく番組です。</topics>
+    <personality no="1">
+      <person_id>300002667</person_id>
+      <profile_id>7542</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>岡野陽一</name>
+            <name_kana>オカノヨウイチ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b7ff38a9-2f64-44ea-b0dd-786ee7a0bad0_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b7ff38a9-2f64-44ea-b0dd-786ee7a0bad0_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b7ff38a9-2f64-44ea-b0dd-786ee7a0bad0_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <personality no="2">
+      <person_id>300008444</person_id>
+      <profile_id>13805</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>みりちゃむ</name>
+            <name_kana>ミリチャム</name_kana>
+      <title></title>
+      <description>生年月日：2002/7/10
+身長：160cm
+出身地：埼玉県
+血液型：AB型
+趣味：バレーボール、美容
+特技：ネイル、保護猫活動</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/be56e61a-2c05-4cb6-aa79-e323f6b1d6c5_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/be56e61a-2c05-4cb6-aa79-e323f6b1d6c5_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/be56e61a-2c05-4cb6-aa79-e323f6b1d6c5_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300002667</person_id>
+            <name>岡野陽一</name>
+            <name_kana>オカノヨウイチ</name_kana>
+      <title></title>
+      <description></description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b7ff38a9-2f64-44ea-b0dd-786ee7a0bad0_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b7ff38a9-2f64-44ea-b0dd-786ee7a0bad0_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/b7ff38a9-2f64-44ea-b0dd-786ee7a0bad0_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <group_personality no="2">
+      <person_id>300008444</person_id>
+            <name>みりちゃむ</name>
+            <name_kana>ミリチャム</name_kana>
+      <title></title>
+      <description>生年月日：2002/7/10
+身長：160cm
+出身地：埼玉県
+血液型：AB型
+趣味：バレーボール、美容
+特技：ネイル、保護猫活動</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/be56e61a-2c05-4cb6-aa79-e323f6b1d6c5_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/be56e61a-2c05-4cb6-aa79-e323f6b1d6c5_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/be56e61a-2c05-4cb6-aa79-e323f6b1d6c5_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/2dbde88e-b560-4e10-abd7-32bd29ddd799_au_medium.jpg?updated_at=20260323220146</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/2dbde88e-b560-4e10-abd7-32bd29ddd799_au_large.jpg?updated_at=20260323220146</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/4e50aedb-ebf0-4125-9b16-2ef2cd72cc87_rd_large.jpg?updated_at=20260323220146</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/f2c27edf-96aa-4646-a40f-08b36f5fc580_si_large.jpg?updated_at=20260323220146</logo_podcast>
+  </item>
+  <item id="47" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>26:00</onair_start>
+    <onair_time>26:00 - 27:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>1111111</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>260000</onair_starttime>
+    <onair_endtime>270000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300006342</program_id>
+    <program_name>RADIO NME JAPAN～NEW MUSICAL EXPRESS JAPAN～</program_name>
+    <program_name_kana>レディオエヌエムイージャパンニューニューミュージカルエクプレスジャパン</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300006342</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/radionme/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="RADIONMEJAPAN">radionmejapan</twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C012</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>1952年にイギリスで創刊された老舗音楽雑誌「NME（NEW MUSICAL EXPRESS）」の日本版WEBサイト「NME JAPAN」とコラボレーション。世界的なBIG NAMEからNEXT BREAKの潮流、さらにはエンタメの「今と明日」を、この番組から発信していきます。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>▶︎今週のトピック！
+毎年恒例になった『FUJI ROCK FESTIVAL』を主催するSMASHで
+広報とブッキングを担当されている、高崎亮さんへのインタビュー後編をお届けします。
+
+1952 年、イギリスでスタートした『NME :ニュー・ミュージカル・エクスプレス』。70 年以上にわたってシーンを見続けてきた、国際的な音楽メディアです。『RADIO NME JAPAN』では、『NME Japan』の編集長・古川琢也が、 ジャンルレスに、独自の視点の音楽シーンを切り取ります。</topics>
+    <personality no="1">
+      <person_id>300004239</person_id>
+      <profile_id>9201</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>古川琢也（ＮＭＥ Japan編集長）</name>
+            <name_kana>フルカワタクヤ</name_kana>
+      <title>ＮＭＥ Japan編集長</title>
+      <description>2003年よりロッキング・オン編集部に配属。
+
+2006年よりロッキング・オンの副編集長として、
+ポール・マッカートニー、U2、コールドプレイ、グリーン・デイ
+といったアーティストの取材を担当。
+2015年より現職。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e4bfc8f6-00f5-492e-90a5-2fc1bddba932_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e4bfc8f6-00f5-492e-90a5-2fc1bddba932_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e4bfc8f6-00f5-492e-90a5-2fc1bddba932_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>300004239</person_id>
+            <name>古川琢也（ＮＭＥ Japan編集長）</name>
+            <name_kana>フルカワタクヤ</name_kana>
+      <title>ＮＭＥ Japan編集長</title>
+      <description>2003年よりロッキング・オン編集部に配属。
+
+2006年よりロッキング・オンの副編集長として、
+ポール・マッカートニー、U2、コールドプレイ、グリーン・デイ
+といったアーティストの取材を担当。
+2015年より現職。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e4bfc8f6-00f5-492e-90a5-2fc1bddba932_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e4bfc8f6-00f5-492e-90a5-2fc1bddba932_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/e4bfc8f6-00f5-492e-90a5-2fc1bddba932_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/c302a5ff-ae15-4544-82c0-cbde0257afce_au_medium.jpg?updated_at=20260403183957</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/c302a5ff-ae15-4544-82c0-cbde0257afce_au_large.jpg?updated_at=20260403183957</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/a8dd9689-f6ad-4b80-b2ea-bde9d469197a_rd_large.jpg?updated_at=20260403183957</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/8daa5fcd-a11c-4ec3-8f1f-a11460afbfb3_si_large.jpg?updated_at=20260403183957</logo_podcast>
+  </item>
+  <item id="48" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>27:00</onair_start>
+    <onair_time>27:00 - 27:30</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>270000</onair_starttime>
+    <onair_endtime>273000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>1936</program_id>
+    <program_name>風とロック</program_name>
+    <program_name_kana>カゼトロック</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/1936</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/kazetorock/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="ラジオ風とロック">radiokazetorock</twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code>C012</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>日々の気づきにハッとさせられたり、新しい音楽に出会えたり。
+クリエイター 箭内道彦が、リスナーとスタッフと一緒になって、
+聴いて喋って楽しんで放送してるのが「ラジオ風とロック」です。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>「箭内さんの取り柄ってなんですか？」
+
+今回のテーマは、「自分の取り柄」について。現在29歳・この番組のプロデューサー飯田洋太郎が 箭内道彦 に話を聞いてもらう企画『 飯田洋太郎の大人になりたい 』をお送りします。箭内さんの考える取り柄の話、めちゃくちゃおもしろいです。</topics>
+    <personality no="1">
+      <person_id>1022</person_id>
+      <profile_id>3656</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>箭内道彦</name>
+            <name_kana>ヤナイミチヒコ</name_kana>
+      <title></title>
+      <description>1964年 福島県郡山市生まれ。
+タワーレコード「NO MUSIC, NO LIFE.」、ゼクシィ「Get Old with Me.」パルコ「SPECIAL IN YOU.」など、既存の概念にとらわれない数々の広告キャンペーンを手がけるクリエイティブディレクター。
+東京藝術大学美術学部デザイン科教授、「月刊 風とロック」発行人・編集長、福島県クリエイティブディレクター、
+2011年大晦日のNHK紅白歌合戦に出場したロックバンド猪苗代湖ズのギタリストでもある。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/a79f90fa-36b9-4b3b-bddc-577ded400248_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/a79f90fa-36b9-4b3b-bddc-577ded400248_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/a79f90fa-36b9-4b3b-bddc-577ded400248_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>1022</person_id>
+            <name>箭内道彦</name>
+            <name_kana>ヤナイミチヒコ</name_kana>
+      <title></title>
+      <description>1964年 福島県郡山市生まれ。
+タワーレコード「NO MUSIC, NO LIFE.」、ゼクシィ「Get Old with Me.」パルコ「SPECIAL IN YOU.」など、既存の概念にとらわれない数々の広告キャンペーンを手がけるクリエイティブディレクター。
+東京藝術大学美術学部デザイン科教授、「月刊 風とロック」発行人・編集長、福島県クリエイティブディレクター、
+2011年大晦日のNHK紅白歌合戦に出場したロックバンド猪苗代湖ズのギタリストでもある。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/a79f90fa-36b9-4b3b-bddc-577ded400248_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/a79f90fa-36b9-4b3b-bddc-577ded400248_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/a79f90fa-36b9-4b3b-bddc-577ded400248_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/5011da49-6932-49a6-b1c1-8d171c6f6b54_rd_large.jpg?updated_at=20260402173404</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/092cb48d-4390-4a1a-b1c9-bacaf77f5113_ba_large.jpg?updated_at=20260402173404</logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="49" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>27:30</onair_start>
+    <onair_time>27:30 - 28:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>0000001</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>273000</onair_starttime>
+    <onair_endtime>280000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>10082</program_id>
+    <program_name>Jazz Reminiscence</program_name>
+    <program_name_kana>ジャズレミニセンス</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/10082</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/Jazzreminiscence/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag=""></twitter>
+    <radiko_program_genre_code>P007</radiko_program_genre_code>
+    <radiko_character_genre_code></radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>「もっと気軽に、おしゃれに、日常的にJazzを…」この番組では、歴史をくぐり抜けてきた往年の名盤から、今をリードする新進気鋭の新作まで、 わかりやすい解説と、（ちょっと話したくなるような）Jazzにまつわるうんちく・こぼれ話と共に、Jazzの魅力に迫っていきます。 ナヴィゲーターは、国内外問わず縦横無尽に活動を続ける、Jazzピアニストの山中千尋。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>今回はオルガン奏者ジミー・スミスの「ザ・チャンプ」。
+疾走感あふれるオルガンプレイが堪能できる1枚をレミニセンス。</topics>
+    <personality no="1">
+      <person_id>2129</person_id>
+      <profile_id>3809</profile_id>
+      <group_key_profile_id></group_key_profile_id>
+            <name>山中千尋</name>
+            <name_kana>ヤマナカチヒロ</name_kana>
+      <title></title>
+      <description>（ピアニスト／作曲家／アレンジャー／プロデューサー）  桐朋女子高校音楽科、桐朋学園大学音楽学部演奏学科（ピアノ専攻）を経て米国バークリー音楽大学に留学。在学中より幾多の賞を受賞し、数多くの有名アーティストと共演を重ねる。 バークリー音楽大学を首席で卒業後、2001年10月にジャズピアノの名門レーベル「澤野工房」から第一作『Living Without Friday』を発表。直後に大手CDショップのジャズ・チャートで一躍トップセールスをマークし、新人としては異例のデビューをかざる。  同時期から文化庁派遣芸術家在外研修員として一年間、アメリカでさらに研鑚を重ね、2002年12月にニューヨークの若手トップミュージシャンを従えた第二作『When October Goes』をリリース。ジャズ・チャート初登場第1位となり聴衆から絶賛を受ける。  日本でのライブ活動も本格化し、2003年初頭に行なった「山中千尋　ニューヨーク・トリオ　ツアー2003」の模様を伝えたTVドキュメンタリ「情熱大陸」（MBS系）ではその国際的な活動をさらに広く知らしめることとなった。 デビュー10周年となる2011年は、年初からソロ・ピアノによるコンサートをはじめ、オーケストラとの共演やアメリカ・ヨーロッパでのライブツアーなど各種プロジェクトが目白押しで、5月には米Deccaレーベル初の日本人アーティストとして『Forever Begins』が全米発売。8月には新作CD『レミニセンス』を発表、「第1回 NISSAN PRESENTS JAZZJAPAN AWARD 2011　&quot;アルバム・オブ・ザ・イヤー&quot;」を受賞。  2015年9月からは母校である米ボストンのバークリー音楽大学にて、助教授として後進の指導を開始している。  2016年にデビュー15周年を迎え、Blue Noteレーベルから３作目のオリジナルアルバム『Guilty Pleasure』の発売記念ツアーを全国で行い成功を収めた。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3670db79-b292-4763-a13c-adf9f38d058c_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3670db79-b292-4763-a13c-adf9f38d058c_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3670db79-b292-4763-a13c-adf9f38d058c_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </personality>
+    <group_personality no="1">
+      <person_id>2129</person_id>
+            <name>山中千尋</name>
+            <name_kana>ヤマナカチヒロ</name_kana>
+      <title></title>
+      <description>（ピアニスト／作曲家／アレンジャー／プロデューサー）  桐朋女子高校音楽科、桐朋学園大学音楽学部演奏学科（ピアノ専攻）を経て米国バークリー音楽大学に留学。在学中より幾多の賞を受賞し、数多くの有名アーティストと共演を重ねる。 バークリー音楽大学を首席で卒業後、2001年10月にジャズピアノの名門レーベル「澤野工房」から第一作『Living Without Friday』を発表。直後に大手CDショップのジャズ・チャートで一躍トップセールスをマークし、新人としては異例のデビューをかざる。  同時期から文化庁派遣芸術家在外研修員として一年間、アメリカでさらに研鑚を重ね、2002年12月にニューヨークの若手トップミュージシャンを従えた第二作『When October Goes』をリリース。ジャズ・チャート初登場第1位となり聴衆から絶賛を受ける。  日本でのライブ活動も本格化し、2003年初頭に行なった「山中千尋　ニューヨーク・トリオ　ツアー2003」の模様を伝えたTVドキュメンタリ「情熱大陸」（MBS系）ではその国際的な活動をさらに広く知らしめることとなった。 デビュー10周年となる2011年は、年初からソロ・ピアノによるコンサートをはじめ、オーケストラとの共演やアメリカ・ヨーロッパでのライブツアーなど各種プロジェクトが目白押しで、5月には米Deccaレーベル初の日本人アーティストとして『Forever Begins』が全米発売。8月には新作CD『レミニセンス』を発表、「第1回 NISSAN PRESENTS JAZZJAPAN AWARD 2011　&quot;アルバム・オブ・ザ・イヤー&quot;」を受賞。  2015年9月からは母校である米ボストンのバークリー音楽大学にて、助教授として後進の指導を開始している。  2016年にデビュー15周年を迎え、Blue Noteレーベルから３作目のオリジナルアルバム『Guilty Pleasure』の発売記念ツアーを全国で行い成功を収めた。</description>
+      <photo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3670db79-b292-4763-a13c-adf9f38d058c_sq.jpg</photo>
+      <photo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3670db79-b292-4763-a13c-adf9f38d058c_sq_large.jpg</photo_large>
+      <photo_xlarge>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/person/3670db79-b292-4763-a13c-adf9f38d058c_sq_xlarge.jpg</photo_xlarge>
+      <siteurl></siteurl>
+      <mobileurl/>
+      <smartphoneurl/>
+    </group_personality>
+    <logo></logo>
+    <logo_large></logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/45953966-951d-49c4-9324-f4eba7dfb87a_rd_large.jpg?updated_at=20260402173452</logo_radiko>
+    <logo_introduction>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/f89404de-b885-41d9-a9b5-827767f508fe_ba_large.jpg?updated_at=20260402173452</logo_introduction>
+    <logo_podcast></logo_podcast>
+  </item>
+  <item id="50" sp="0" live="1" local="2">
+    <wide/>
+    <simul type="radiko">0</simul>
+    <simul type="lismowave">0</simul>
+    <simul type="docodemofm">0</simul>
+    <onair_start>28:00</onair_start>
+    <onair_time>28:00 - 29:00</onair_time>
+    <date_text>05/09 (Sat)</date_text>
+    <date_yyyymmdd>20260509</date_yyyymmdd>
+    <onair_days_of_week>0000001</onair_days_of_week>
+    <base_onair_days_of_week>1000000</base_onair_days_of_week>
+    <date_difference>0</date_difference>
+    <onair_starttime>280000</onair_starttime>
+    <onair_endtime>290000</onair_endtime>
+    <key_station>1039</key_station>
+    <program_id>300011920</program_id>
+    <program_name>MUSIC LAUGH MIX</program_name>
+    <program_name_kana>ミュージックラフミックス</program_name_kana>
+    <siteurl>https://jfn-pods.com/program/300011920</siteurl>
+    <site_url_blank/>
+    <mobileurl/>
+    <webradio_url/>
+    <podcast_url></podcast_url>
+    <facebook_url></facebook_url>
+    <smartphoneurl type="iphone"/>
+    <smartphoneurl type="android"/>
+    <message_url>https://form.jfn.co.jp/musiclm/message</message_url>
+    <email></email>
+    <fax></fax>
+    <tel></tel>
+    <twitter tag="">musiclaughmix</twitter>
+    <radiko_program_genre_code>P005</radiko_program_genre_code>
+    <radiko_character_genre_code>C009</radiko_character_genre_code>
+    <radiko_tag></radiko_tag>
+    <official_publicity>『MUSIC LAUGH MIX』は、芸人自身がセレクターとなり、テーマに沿った楽曲を“プレイリスト＝MIX”として編み上げていきます。
+トークではなく、選ばれた曲とその並び、ミックスされた流れこそが語り手。リスナーはその選曲をたどることで、芸人の人となりやこれまでの歩み、そしてネタや笑いの根っこにあるものを感じ取っていく。プレイリストから想像を拡げていく番組です。</official_publicity>
+    <satellite></satellite>
+    <comment/>
+    <topics>『MUSIC LAUGH MIX』は、芸人自身がセレクターとなり、テーマに沿った楽曲を“プレイリスト＝MIX”として編み上げていきます。
+トークではなく、選ばれた曲とその並び、ミックスされた流れこそが語り手。リスナーはその選曲をたどることで、芸人の人となりやこれまでの歩み、そしてネタや笑いの根っこにあるものを感じ取っていく。プレイリストから想像を拡げていく番組です。</topics>
+    <logo>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/dfd6486d-6415-429a-a618-5e9c06914552_au_medium.jpg?updated_at=20260427182830</logo>
+    <logo_large>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/dfd6486d-6415-429a-a618-5e9c06914552_au_large.jpg?updated_at=20260427182830</logo_large>
+    <logo_rectangle/>
+    <logo_rectangle_large/>
+    <logo_radiko>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/ed848e6c-ff5f-48bb-a5b9-6e8749829516_rd_large.jpg?updated_at=20260427182830</logo_radiko>
+    <logo_introduction></logo_introduction>
+    <logo_podcast>https://pms-next-prod-api-program.s3.ap-northeast-1.amazonaws.com/image/pglogo/be00b82c-65d6-40de-96e3-540c0f93f93e_si_large.jpg?updated_at=20260427182830</logo_podcast>
+  </item>
+</archive>

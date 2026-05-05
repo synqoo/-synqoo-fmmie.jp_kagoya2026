@@ -1,0 +1,1 @@
+<?php require_once("<$mt:BlogSitePath$>headbanner.php"); ?>

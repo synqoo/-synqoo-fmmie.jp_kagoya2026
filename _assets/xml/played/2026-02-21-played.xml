@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<played date="2026-02-21">
+  <music cd_number="" jan_code="" mmid="" noa_id="850357020" onair_time="2026-02-21T11:21:54+09:00" type="0">
+  		<music_name>カレーライスは風に運ばれて</music_name>
+  		<artist_name>いちやなぎ</artist_name>
+  		<onair_time>2026-02-21T11:21:54+09:00</onair_time>
+  		<jan_code/>
+  		<cd_number/>
+  		<mmid/>
+  		<album_name/>
+  		<label_name>NEVER SLEEP</label_name>
+  		<track_number>0</track_number>
+  		<release/>
+  		<isrc/>
+  		<itunes_url/>
+  		<programinfo>
+  			<program_name>オズワルドのひげこんぶ</program_name>
+  			<program_name_kana>オズワルドのひげこんぶ</program_name_kana>
+  			<start_time>2026-02-21T11:00:03+09:00</start_time>
+  			<end_time>2026-02-21T11:30:00+09:00</end_time>
+  			<performer/>
+  			<url/>
+  			<email/>
+  			<fax/>
+  			<tel/>
+  			<official_sponsor/>
+  			<official_publicity/>
+  		</programinfo>
+  	</music>
+</played>

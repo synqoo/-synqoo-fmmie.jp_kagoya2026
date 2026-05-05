@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- ==============================
+     FM三重 静的ページ サイトマップ
+     対象：/programs/ 以外の静的PHPページ
+          （番組記事は programs/sitemap.xml で管理）
+     ============================== -->
+
+<!-- トップページ -->
+<url>
+  <loc>https://fmmie.jp/</loc>
+  <lastmod>2026-03-26T20:20:44+09:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<!-- ======= 番組サイト（親インデックスのみ） ======= -->
+<url>
+  <loc>https://fmmie.jp/programs/</loc>
+  <lastmod>2026-02-24T17:01:37+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<!-- ======= パーソナリティ ======= -->
+<url>
+  <loc>https://fmmie.jp/personalities/</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<!-- アナウンサー -->
+<url>
+  <loc>https://fmmie.jp/personalities/announcer/shirotaKazuya.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/announcer/kiyotaNozomi.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/announcer/miyaharaErika.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+
+<!-- パーソナリティ -->
+<url>
+  <loc>https://fmmie.jp/personalities/mekatamio.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/nakamuraYuka.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/tadaErica.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/atsu.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/tkahashiKazuyo.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/mukoharaChigusa.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/junlenon.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/naomiNishimura.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/nishineMari.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/hiragaJunko.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+
+<!-- リポーター -->
+<url>
+  <loc>https://fmmie.jp/personalities/reporter/aikoSakoda.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/reporter/yamadarika.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/reporter/ayane.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/personalities/reporter/suzukihuuna.php</loc>
+  <lastmod>2026-02-21T20:18:19+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+
+<!-- ======= 会社情報（profiles） ======= -->
+<url>
+  <loc>https://fmmie.jp/profiles/</loc>
+  <lastmod>2026-03-26T20:25:58+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/profiles/info-rinen.php</loc>
+  <lastmod>2026-03-26T20:25:58+09:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/profiles/info-kizyun.php</loc>
+  <lastmod>2026-03-26T20:25:58+09:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/profiles/shingikai/</loc>
+  <lastmod>2026-03-26T20:25:58+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/profiles/privacypolicy.php</loc>
+  <lastmod>2026-03-26T20:25:58+09:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/profiles/security.php</loc>
+  <lastmod>2026-03-26T20:25:58+09:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/profiles/CivilProtectionLaw.php</loc>
+  <lastmod>2026-03-26T20:25:58+09:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/profiles/recruit/</loc>
+  <lastmod>2026-03-26T20:25:58+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/profiles/message.php</loc>
+  <lastmod>2026-03-26T20:26:00+09:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
+
+<!-- ======= タイムテーブル ======= -->
+<url>
+  <loc>https://fmmie.jp/timetables/</loc>
+  <lastmod>2026-03-14T18:33:04+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<!-- ======= サービス ======= -->
+<url>
+  <loc>https://fmmie.jp/service/radiocm/</loc>
+  <lastmod>2026-03-17T15:36:15+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/service/mietsunagale/</loc>
+  <lastmod>2026-03-17T15:40:28+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fmmie.jp/service/childBuzzer/</loc>
+  <lastmod>2026-03-25T20:33:22+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+
+<!-- ======= イベント ======= -->
+
+<url>
+  <loc>https://fmmie.jp/event/panMatsuri/</loc>
+  <lastmod>2026-03-27T18:15:31+09:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+
+<!-- ======= トピックス ======= -->
+
+
+</urlset>

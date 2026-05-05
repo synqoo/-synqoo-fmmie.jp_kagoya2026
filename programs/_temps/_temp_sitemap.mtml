@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- 番組サイト（親サイト）トップページ -->
+<url>
+  <loc><$mt:BlogURL encode_html="1"$></loc>
+  <lastmod><$mt:Date format="%Y-%m-%dT%H:%M:%S+09:00"$></lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<!-- 各番組子サイト：インデックスページ & 全記事 -->
+<mt:Blogs>
+
+  <!-- 子サイト：<$mt:BlogName encode_html="1"$> -->
+  <url>
+    <loc><$mt:BlogURL encode_html="1"$></loc>
+    <mt:Entries limit="1" sort_by="modified_on" sort_order="descend">
+    <lastmod><$mt:EntryModifiedDate format="%Y-%m-%dT%H:%M:%S+09:00" encode_html="1"$></lastmod>
+    </mt:Entries>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 子サイトの記事ページ -->
+  <mt:Entries sort_by="authored_on" sort_order="descend">
+  <url>
+    <loc><$mt:EntryPermalink encode_html="1"$></loc>
+    <lastmod><$mt:EntryModifiedDate format="%Y-%m-%dT%H:%M:%S+09:00" encode_html="1"$></lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.60</priority>
+  </url>
+  </mt:Entries>
+
+</mt:Blogs>
+
+</urlset>

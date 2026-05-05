@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ja"  class="no-dark">
+<head>
+    <meta charset="UTF-8">
+    <title>みえツナゲール - 人と人をつなぐイベントサービス</title>
+  <!-- レスポンシブ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- 説明文 -->
+  <meta name="description" content="" />
+  <meta name="color-scheme" content="light"> 
+
+  <!-- OGP（必要に応じて編集） -->
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- PWA: Web App 対応 -->
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="My App" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- アイコン類（実ファイルは後で設置） -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180.png" />
+
+  <!-- Google Fonts：日本語でよく使われる3種 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Noto Sans JP（UI向け、読みやすい） -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <!-- Noto Serif JP（文章・見出し用） -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet" /> -->
+  <!-- Roboto Flex（欧文UI） -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap" rel="stylesheet" /> -->
+  <!-- Oswald Regular -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <!-- 必要時のみStardos Stencil -->
+  <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+  <!-- 必要時のみ小杉丸廻想体（Webフォント：Fontopo提供）-->
+  <link href="https://fontopo.com/webfont/kaiso.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- ベースCSS -->
+  <!-- <link rel="stylesheet" href="_include/css/_blank.css" />  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
+  <link rel="stylesheet" href="_include/css/design-tokens.css" />
+  <link rel="stylesheet" href="_include/css/utilities.css" />
+  <link rel="stylesheet" href="_include/css/base.css" />
+  <link rel="stylesheet" href="_include/css/styles.css" />
+  <script src="https://kit.fontawesome.com/61528c36c0.js" crossorigin="anonymous"></script>
+  <!-- Google Analytics (gtag) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "GA_MEASUREMENT_ID");
+  </script>
+
+  <script>
+  // 年だけ自動更新（既存）
+  document.getElementById("year").textContent =
+    new Date().getFullYear();
+
+  // PWA: Service Worker 登録
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker
+        .register("_include/js/sw.js")
+        .then(function (registration) {
+          console.log("ServiceWorker registration successful with scope: ", registration.scope);
+        })
+        .catch(function (error) {
+          console.log("ServiceWorker registration failed: ", error);
+        });
+    });
+  }
+</script>
+<style>
+  /* このページだけはダークモードを無効化してライトのトークンを固定 */
+  html.no-dark {
+    color-scheme: light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html.no-dark {
+      color-scheme: light;
+      --color-bg: #f2f2f0;
+      --color-bg-elevated: #f5f5f7;
+      --color-fg: #111111;
+      --color-muted: #6b7280;
+      --color-border: #e5e7eb;
+      --color-accent: #4E7AFF;
+      --color-accent-soft: rgba(37, 99, 235, 0.12);
+      --color-danger: #E23C39;
+      --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.08);
+      background: #fff;
+      color: #111111;
+    }
+
+    html.no-dark body {
+      background: var(--color-bg);
+      color: var(--color-fg);
+    }
+  }
+</style>
+</head>
+<body>
+    <!-- ヒーローセクション -->
+    <header class="hero">
+        <img src="_include/img/title.png" style="margin:auto"/>
+        <!-- <h1>みえツナゲール</h1> -->
+        <!-- <p class="subtitle">人と人をつなぐイベントサービス</p> -->
+    </header>
+    
+    <!-- イベント主催者のお悩み -->
+    <section class="section section--problems">
+        <div class="container">
+            <h2 class="section-title">イベント主催者のお悩み</h2>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    イベントの運営をしてほしい
+                </div>
+                <div class="problem-card">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    イベント企画を考えてほしい
+                </div>
+                <div class="problem-card">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    集客あるイベントを実施したい
+                </div>
+                <div class="problem-card">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    イベントの司会者を探している！
+                </div>
+                <div class="problem-card">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    タレントを探してほしい！
+                </div>
+            </div>
+            <div class="solution-banner">
+                レディオキューブが解決します！
+            </div>
+        </div>
+    </section>
+    
+    <!-- サービス内容と事例 -->
+    <section class="section section--services">
+        <div class="container">
+            <h2 class="section-title">サービス内容と事例</h2>
+            <h3 class="section-subtitle">主催者の目的に応じた会場手配やイベントの企画制作運営をサポートします。</h3>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-header">来店促進イベント</div>
+                    <div class="service-body">
+                        お店への集客を目的としたイベントの企画・運営
+                        <div class="service-example">事例：レディオキューブパン祭り</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">SDGsイベント</div>
+                    <div class="service-body">
+                        持続可能な社会を目指すイベントの企画・運営
+                        <div class="service-example">事例：みんなでエシカル公開生放送</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">地域貢献イベント</div>
+                    <div class="service-body">
+                        地域活性化や記念式典などのイベント
+                        <div class="service-example">事例：JA伊勢合併記念、玉城町催し</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">研修・セミナー</div>
+                    <div class="service-body">
+                        ビジネス向けの研修や講演会の企画・運営
+                        <div class="service-example">事例：マネーセミナー</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">学園祭</div>
+                    <div class="service-body">
+                        大学や学校の学園祭イベントサポート
+                        <div class="service-example">事例：鈴鹿医療科学大学学園祭</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">展示会</div>
+                    <div class="service-body">
+                        商品やサービスの展示会イベント
+                        <div class="service-example">事例：輸入車ディーラー合同フェア</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">司会・MC派遣</div>
+                    <div class="service-body">
+                        プロの司会者・MCをイベントに派遣、タレントブッキング
+                        <div class="service-example">事例：アナウンサー・タレント派遣</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">コンサート企画</div>
+                    <div class="service-body">
+                        コンサートの企画・運営をサポート
+                        <div class="service-example">事例：岡田文化財団 はらみちゃんコンサート</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">eスポーツイベント</div>
+                    <div class="service-body">
+                        最新のeスポーツ大会の企画・運営
+                        <div class="service-example">事例：四日市市 こにゅうどうくんカップ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- できること -->
+    <section class="section section--capabilities">
+        <div class="container">
+            <h2 class="section-title">できること</h2>
+            <div class="capabilities-grid">
+                <div class="capability-card">
+                    <h3>イベントMC</h3>
+                    <p>イベントや周年パーティーなど、あらゆるエンターテインメントイベントを盛り上げます。</p>
+                </div>
+                <div class="capability-card">
+                    <h3>司会</h3>
+                    <p>記念式典や結婚式、表彰式、講演会などフォーマルなイベントでの進行をします。</p>
+                </div>
+                <div class="capability-card">
+                    <h3>アーティスト</h3>
+                    <p>お祭りや周年イベントなどのステージコンテンツとして、各種ジャンルの音楽演奏を行うアーティストのブッキングを行います。</p>
+                </div>
+                <div class="capability-card">
+                    <h3>ナレーション</h3>
+                    <p>CMや企業動画などの映像ナレーション、会場案内や音声ガイダンスなど声のみの収録となります。</p>
+                </div>
+                <div class="capability-card">
+                    <h3>イベント運営</h3>
+                    <p>音楽・食・講演会・式典など各種イベントの企画運営を行います。</p>
+                </div>
+                <div class="capability-card">
+                    <h3>CM・番組企画</h3>
+                    <p>あなたの会社をラジオで宣伝します。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 選ばれる理由 -->
+    <section class="section section--reasons">
+        <div class="container">
+            <h2 class="section-title">レディオキューブが選ばれる理由</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">三重県唯一の民放ラジオ局の信用度</div>
+                <div class="reason-card">ラジオであなたのイベントを紹介される</div>
+                <div class="reason-card">企画・運営・告知まで一貫通貫のご提案ができる</div>
+                <div class="reason-card">長年にわたり多種多様なイベントの実績がある</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- よくある質問 -->
+    <section class="section section--faq">
+        <div class="container">
+            <h2 class="section-title">よくある質問</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">Q：お問い合わせをする場合どんな情報が必要ですか？</div>
+                    <div class="faq-answer">A：開催時期、場所、目的、趣旨、予算を教えてください。場所の選定から企画運営までお手伝いできます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q：司会者・タレント・アーティストだけの手配はできますか？</div>
+                    <div class="faq-answer">A：はい、可能です。イベント内容に沿ったキャスティングを行います。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q：イベント開催のどれくらい前から相談するのがいいですか？</div>
+                    <div class="faq-answer">A：開催当日から逆算して最低3ヶ月前からです。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q：費用はどれくらいでしょうか？</div>
+                <div class="faq-answer">A：司会・MCなら4万円～、タレントブッキングは10万円～、番組公開放送は60万円～</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- お問い合わせ -->
+    <section class="section section--contact">
+        <div class="container">
+            <div class="contact-section">
+                <h2>お問い合わせ</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>お問い合わせ内容</label>
+                        <textarea placeholder="お問い合わせ内容を入力してください"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>会社名</label>
+                        <input type="text" placeholder="会社名を入力してください">
+                    </div>
+                    <div class="form-group">
+                        <label>担当者</label>
+                        <input type="text" placeholder="担当者名を入力してください">
+                    </div>
+                    <div class="form-group">
+                        <label>電話番号</label>
+                        <input type="tel" placeholder="電話番号を入力してください">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>メールアドレス</label>
+                        <input type="email" placeholder="メールアドレスを入力してください">
+                    </div>
+                    <div class="form-group">
+                        <label>備考</label>
+                        <textarea placeholder="その他ご要望などがあればご記入ください"></textarea>
+                    </div>
+                    <div style="text-align: center; margin-top: 30px;">
+                        <button type="submit" class="submit-btn">送信する</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

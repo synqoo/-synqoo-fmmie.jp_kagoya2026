@@ -1,0 +1,11 @@
+# SFTP / エディタ（認証情報を含むため GitHub に含めない）
+.vscode/sftp.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ログ・一時
+*.log
+**/access_logweb.txt

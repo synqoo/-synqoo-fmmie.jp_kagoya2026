@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カードデザインパターン集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background: #f0f2f5;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #333;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .pattern-title {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        /* パターン01: グラデーション＋左ボーダー */
+        .card-sample01 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 6px solid #ffd700;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .card-sample01:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-sample01 h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .card-sample01 p {
+            line-height: 1.8;
+            opacity: 0.95;
+        }
+        
+        /* パターン02: シンプル白背景＋上部カラーバー */
+        .card-sample02 {
+            background: white;
+            padding: 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s;
+        }
+        
+        .card-sample02:hover {
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        
+        .card-sample02::before {
+            content: '';
+            display: block;
+            height: 8px;
+            background: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .card-sample02-content {
+            padding: 30px;
+        }
+        
+        .card-sample02 h3 {
+            font-size: 1.5rem;
+            color: #f5576c;
+            margin-bottom: 15px;
+        }
+        
+        .card-sample02 p {
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        /* パターン03: 影が強いカード */
+        .card-sample03 {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card-sample03:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        }
+        
+        .card-sample03 h3 {
+            font-size: 1.5rem;
+            color: #4a5568;
+            margin-bottom: 15px;
+            font-weight: 900;
+        }
+        
+        .card-sample03 p {
+            color: #718096;
+            line-height: 1.8;
+        }
+        
+        /* パターン04: ネオンエフェクト */
+        .card-sample04 {
+            background: #1a1a2e;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #00fff5;
+            box-shadow: 0 0 20px rgba(0,255,245,0.3);
+            transition: box-shadow 0.3s;
+        }
+        
+        .card-sample04:hover {
+            box-shadow: 0 0 30px rgba(0,255,245,0.6);
+        }
+        
+        .card-sample04 h3 {
+            font-size: 1.5rem;
+            color: #00fff5;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(0,255,245,0.5);
+        }
+        
+        .card-sample04 p {
+            line-height: 1.8;
+            opacity: 0.9;
+        }
+        
+        /* パターン05: 二色分割デザイン */
+        .card-sample05 {
+            background: linear-gradient(to right, #ff6b6b 50%, white 50%);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .card-sample05:hover {
+            transform: rotate(1deg);
+        }
+        
+        .card-sample05 h3 {
+            font-size: 1.5rem;
+            color: white;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .card-sample05 p {
+            color: #333;
+            line-height: 1.8;
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+        }
+        
+        /* パターン06: ガラスモーフィズム */
+        .card-sample06 {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            color: #333;
+            transition: backdrop-filter 0.3s;
+        }
+        
+        .card-sample06:hover {
+            backdrop-filter: blur(15px);
+            background: rgba(255, 255, 255, 0.25);
+        }
+        
+        .card-sample06 h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .card-sample06 p {
+            line-height: 1.8;
+        }
+        
+        /* パターン07: 紙が浮いているような立体感 */
+        .card-sample07 {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 
+                0 1px 3px rgba(0,0,0,0.12),
+                0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            position: relative;
+        }
+        
+        .card-sample07:hover {
+            box-shadow: 
+                0 14px 28px rgba(0,0,0,0.25),
+                0 10px 10px rgba(0,0,0,0.22);
+            transform: translateY(-10px);
+        }
+        
+        .card-sample07 h3 {
+            font-size: 1.5rem;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+        
+        .card-sample07 p {
+            color: #4a5568;
+            line-height: 1.8;
+        }
+        
+        /* パターン08: ストライプ背景 */
+        .card-sample08 {
+            background: 
+                repeating-linear-gradient(
+                    45deg,
+                    #ffeaa7,
+                    #ffeaa7 10px,
+                    #fdcb6e 10px,
+                    #fdcb6e 20px
+                );
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .card-sample08:hover {
+            transform: scale(1.05);
+        }
+        
+        .card-sample08 h3 {
+            font-size: 1.5rem;
+            color: #2d3436;
+            margin-bottom: 15px;
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        
+        .card-sample08 p {
+            color: #2d3436;
+            line-height: 1.8;
+            background: rgba(255,255,255,0.9);
+            padding: 15px;
+            border-radius: 6px;
+        }
+        
+        /* パターン09: アウトラインのみ */
+        .card-sample09 {
+            background: transparent;
+            padding: 30px;
+            border-radius: 12px;
+            border: 3px solid #6c5ce7;
+            transition: all 0.3s;
+        }
+        
+        .card-sample09:hover {
+            background: #6c5ce7;
+            color: white;
+            transform: translateX(5px);
+        }
+        
+        .card-sample09 h3 {
+            font-size: 1.5rem;
+            color: #6c5ce7;
+            margin-bottom: 15px;
+            transition: color 0.3s;
+        }
+        
+        .card-sample09:hover h3 {
+            color: white;
+        }
+        
+        .card-sample09 p {
+            color: #2d3436;
+            line-height: 1.8;
+            transition: color 0.3s;
+        }
+        
+        .card-sample09:hover p {
+            color: white;
+        }
+        
+        /* パターン10: ドットパターン背景 */
+        .card-sample10 {
+            background-color: #ff6b9d;
+            background-image: radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(255,107,157,0.3);
+            transition: transform 0.3s;
+        }
+        
+        .card-sample10:hover {
+            transform: rotate(-2deg) scale(1.03);
+        }
+        
+        .card-sample10 h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .card-sample10 p {
+            line-height: 1.8;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        
+        /* パターン11: 角丸左上強調 */
+        .card-sample11 {
+            background: white;
+            padding: 30px;
+            border-radius: 0 40px 40px 40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+            transition: border-radius 0.3s;
+        }
+        
+        .card-sample11::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            border-radius: 0 0 100% 0;
+        }
+        
+        .card-sample11:hover {
+            border-radius: 40px 0 40px 40px;
+        }
+        
+        .card-sample11 h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        
+        .card-sample11 p {
+            color: #555;
+            line-height: 1.8;
+            position: relative;
+        }
+        
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>カードデザインパターン集</h1>
+        
+        <div class="grid">
+            <div>
+                <div class="pattern-title">パターン01: グラデーション＋左ボーダー</div>
+                <div class="card-sample01">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。このカードは鮮やかなグラデーションと左側の金色のボーダーが特徴的なデザインです。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン02: シンプル白背景＋上部カラーバー</div>
+                <div class="card-sample02">
+                    <div class="card-sample02-content">
+                        <h3>小タイトル</h3>
+                        <p>２～３行の簡単な説明文。清潔感のある白背景に、上部のカラフルなバーがアクセントになっています。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン03: 影が強いカード</div>
+                <div class="card-sample03">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。深い影によって浮き上がって見える立体的なデザインです。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン04: ネオンエフェクト</div>
+                <div class="card-sample04">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。サイバーパンクな雰囲気を持つネオン風の光るエフェクトが特徴です。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン05: 二色分割デザイン</div>
+                <div class="card-sample05">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。左右で色が分かれた大胆で印象的なデザインです。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン06: ガラスモーフィズム</div>
+                <div class="card-sample06">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。すりガラスのような透明感のあるモダンなデザインです。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン07: 紙が浮いているような立体感</div>
+                <div class="card-sample07">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。マテリアルデザインを意識した、紙が浮いているような質感を表現しています。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン08: ストライプ背景</div>
+                <div class="card-sample08">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。ポップなストライプ柄が目を引く楽しいデザインです。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン09: アウトラインのみ</div>
+                <div class="card-sample09">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。枠線だけのミニマルなデザインで、ホバー時に色が反転します。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン10: ドットパターン背景</div>
+                <div class="card-sample10">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。ドット柄の背景がレトロでキュートな印象を与えるデザインです。</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="pattern-title">パターン11: 角丸左上強調</div>
+                <div class="card-sample11">
+                    <h3>小タイトル</h3>
+                    <p>２～３行の簡単な説明文。左上にグラデーションの三角形があり、角丸が変化する個性的なデザインです。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

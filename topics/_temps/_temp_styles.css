@@ -1,0 +1,237 @@
+/* --- 共通変数・リセット --- */
+:root {
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --primary-color: var(--secondary-dark);
+    --secondary-color: var(--secondary-main);
+    --text-color: #333;
+    --light-text: #666;
+    --bg-light: #f8f9fa;
+    --shadow: 0 2px 15px rgba(0,0,0,0.08);
+    --border-color: #e0e0e0;
+}
+
+/* --- レイアウト --- */
+.header {
+    background: var(--primary-gradient);
+    color: white;
+    padding: 2rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header-content, .container, .containerxx {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.container-com{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card{
+    width:100%;
+    /* background: white; */
+    border-radius: 8px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+    max-width: var(--layout-max-width);
+    margin: 0 auto 30px auto;
+}
+
+/* --- タイトル・テキスト --- */
+.header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 3px solid var(--primary-color);
+    font-weight: 600;
+}
+
+.subsection-title {
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.sub-heading {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.content-text {
+    margin-bottom: 1.2rem;
+    font-size: 0.95rem;
+    line-height: 1.9;
+    color: var(--text-color);
+}
+
+strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.center-text { text-align: center; margin: 2rem 0; font-weight: 600; color: var(--secondary-color); }
+.right-text { text-align: right; margin: 2rem 0; font-style: italic; color: var(--light-text); }
+
+/* --- リスト要素 --- */
+ol, ul {
+    margin: 1rem 0 1rem 2rem;
+}
+
+ol li, ul li {
+    margin: 0.8rem 0;
+    font-size: 0.95rem;
+    line-height: 1.9;
+}
+
+.nested-list { margin-left: 2rem; }
+
+.numbered-item {
+    margin: 0.8rem 0;
+    padding-left: 2rem;
+    position: relative;
+    font-size: 0.95rem;
+}
+
+.numbered-item .num, .list-number {
+    color: var(--primary-color);
+    font-weight: 200;
+    display: inline-block;
+    min-width: 2.5rem;
+}
+
+/* --- テーブル (標準/情報用) --- */
+.table-container {
+    overflow-x: auto;
+    margin: 2rem 0;
+}
+
+table {
+    width: 100%;
+    max-width: 800px; /* 必要に応じて調整 */
+    border-collapse: collapse;
+    margin: 1.5rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table td {
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    /* text-align: center; */
+    /* background: white; */
+}
+
+/* table tr:first-child td {
+    background: var(--primary-gradient);
+    color: white;
+    font-weight: 600;
+} */
+
+/* 垂直レイアウト用 info-table */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+.info-table tr { border-bottom: 1px solid var(--border-color); }
+.info-table tr:last-child { border-bottom: none; }
+
+.info-table th {
+    width: 200px;
+    padding: 1.5rem 1rem;
+    text-align: left;
+    font-weight: 400;
+    color: var(--primary-color);
+    background-color: var(--bg-light);
+    vertical-align: top;
+    border-right: 3px solid var(--primary-color);
+}
+
+.info-table td {
+    padding: 1.5rem 1.5rem;
+    color: var(--text-color);
+    line-height: 1.9;
+}
+
+.info-table td strong {
+    color: var(--secondary-color);
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+/* --- 特殊ボックス --- */
+.contact-info, .note-box, .download-section {
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 0px solid;
+}
+
+.contact-info { background: var(--bg-light); border-left-color: var(--primary-color); }
+.note-box { background: #fff8e1; border-left-color: #ffc107; }
+.download-section { background: #e3f2fd; border-left-color: #2196f3; }
+
+.download-section a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.download-section a:hover { text-decoration: underline; }
+
+.footer-note {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border-color);
+    font-size: 0.9rem;
+    color: var(--light-text);
+    text-align: center;
+}
+
+/* --- レスポンシブ --- */
+@media (max-width: 768px) {
+    .header h1, .section-title { font-size: 1.5rem; }
+    .card, .cardxx { padding: 1.5rem; }
+    .subsection-title { font-size: 1.1rem; }
+
+    /* info-tableをスマホで見やすく縦並びにする */
+    .info-table, .info-table tr, .info-table th, .info-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .info-table tr {
+        margin-bottom: 1.5rem;
+        border-bottom: 2px solid var(--border-color);
+        padding-bottom: 1rem;
+    }
+
+    .info-table th {
+        background-color: transparent;
+        border-right: none;
+        border-left: 3px solid var(--primary-color);
+        padding: 0.5rem 0 0.5rem 1rem;
+    }
+
+    .info-table td { padding: 0.5rem 0 0.5rem 1rem; }
+}
