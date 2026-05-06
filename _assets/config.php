@@ -20,19 +20,9 @@ define('INCLUDE_FOOTER_PATH', ASSETS_PATH . '/_include_footer.php');
 // 将来: Product Advertising API で ASIN を取得し /dp/ リンクに差し替え可能
 define('AMAZON_AFFILIATE_TAG', 'fmmie'); // 例: 'fmmie-22' （Amazonアソシエイトで取得したタグ）
 
-// Invisible reCAPTCHA v2（サイト／シークレット鍵は Git に含めない）
-// 配置: _assets/config.secrets.php（config.secrets.example.php をコピーして編集）または環境変数 RECAPTCHA_SITE_KEY / RECAPTCHA_SECRET_KEY
-$__recaptchaSecrets = __DIR__ . '/config.secrets.php';
-if (is_readable($__recaptchaSecrets)) {
-    require_once $__recaptchaSecrets;
-}
-unset($__recaptchaSecrets);
-if (!defined('RECAPTCHA_SITE_KEY')) {
-    define('RECAPTCHA_SITE_KEY', getenv('RECAPTCHA_SITE_KEY') ?: '');
-}
-if (!defined('RECAPTCHA_SECRET_KEY')) {
-    define('RECAPTCHA_SECRET_KEY', getenv('RECAPTCHA_SECRET_KEY') ?: '');
-}
+// Invisible reCAPTCHA v2
+define('RECAPTCHA_SITE_KEY',   '6LdZ5I8sAAAAACOpz2q0yRRkCg3l0-HCFOBNk3QX');
+define('RECAPTCHA_SECRET_KEY', '6LdZ5I8sAAAAAPBWnjC3Te0fFXlTETy14NyXSV8O');
 
 // アプリケーション関数ファイル
 require_once(ASSETS_PATH . '/apps/index_timetable.php');
