@@ -27,8 +27,8 @@
 季節の花が香り、風のにおいに包まれながら、その人のおしゃべりとストーリーを楽しむ15分間のプレゼントタイム。">
     <meta itemprop="name" content="中部電力 Weekend Cafe">
 
-   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
-   <link rel="stylesheet" href="https://fmmie.jp/programs/weekendcafe2/styles.css<?php echo $themeParam; ?>" />
+   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
+   <link rel="stylesheet" href="https://fmmie.jp/programs/weekendcafe2/styles.css<?php echo $themeParam ?? ''; ?>" />
   </head>
   <body>
     <?php require_once(INCLUDE_GLOBALHEADER_PATH); ?>

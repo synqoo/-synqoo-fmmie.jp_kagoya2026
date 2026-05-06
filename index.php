@@ -8,12 +8,12 @@
     <?php require_once(INCLUDE_HTMLHEAD_PATH); ?> 
     
     <!-- 重要なCSSを優先的に読み込む（FOUC防止） -->
-    <link rel="preload" href="/_assets/css/index_timetable.css<?php echo $themeParam; ?>" as="style" />
-    <link rel="preload" href="/_assets/css/index_objects.css<?php echo $themeParam; ?>" as="style" />
+    <link rel="preload" href="/_assets/css/index_timetable.css<?php echo $themeParam ?? ''; ?>" as="style" />
+    <link rel="preload" href="/_assets/css/index_objects.css<?php echo $themeParam ?? ''; ?>" as="style" />
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" />
     
-    <link rel="stylesheet" href="/_assets/css/index_timetable.css<?php echo $themeParam; ?>">
-    <link rel="stylesheet" href="/_assets/css/index_objects.css<?php echo $themeParam; ?>">
+    <link rel="stylesheet" href="/_assets/css/index_timetable.css<?php echo $themeParam ?? ''; ?>">
+    <link rel="stylesheet" href="/_assets/css/index_objects.css<?php echo $themeParam ?? ''; ?>">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/_assets/js/index_timetable.js" defer></script>

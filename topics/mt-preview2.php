@@ -23,8 +23,8 @@
     
     <meta itemprop="name" content="特番・イベント">
 
-   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
-   <link rel="stylesheet" href="https://fmmie.jp/topics/styles.css<?php echo $themeParam; ?>" />
+   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
+   <link rel="stylesheet" href="https://fmmie.jp/topics/styles.css<?php echo $themeParam ?? ''; ?>" />
     
   </head>
   <body>

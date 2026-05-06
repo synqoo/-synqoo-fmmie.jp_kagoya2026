@@ -11,5 +11,5 @@
     <mt:If tag="BlogDescription"><meta itemprop="description" content="<$mt:BlogDescription remove_html="1" encede_html="1"$>"></mt:If>
     <meta itemprop="name" content="<$mt:BlogName encode_html="1"$>">
 
-   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
-   <link rel="stylesheet" href="<$mt:Link template="styles" encode_html="1"$><?php echo $themeParam; ?>" />
+   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
+   <link rel="stylesheet" href="<$mt:Link template="styles" encode_html="1"$><?php echo $themeParam ?? ''; ?>" />

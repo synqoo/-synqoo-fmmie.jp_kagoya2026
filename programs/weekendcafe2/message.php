@@ -50,8 +50,8 @@ $phppath = '/home/kir691871/public_html/fmmie.jp/';
     
     <meta itemprop="name" content="安藤大作・エデュケーションラジオ">
 
-   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
-   <link rel="stylesheet" href="https://fmmie.jp/programs/andojuku/styles.css<?php echo $themeParam; ?>" />
+   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
+   <link rel="stylesheet" href="https://fmmie.jp/programs/andojuku/styles.css<?php echo $themeParam ?? ''; ?>" />
    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
 </head>
   <body>

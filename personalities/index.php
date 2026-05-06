@@ -19,8 +19,8 @@
     
     <meta itemprop="name" content="パーソナリティ">
 
-   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
-   <link rel="stylesheet" href="https://fmmie.jp/personalities/styles.css<?php echo $themeParam; ?>" />
+   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
+   <link rel="stylesheet" href="https://fmmie.jp/personalities/styles.css<?php echo $themeParam ?? ''; ?>" />
   </head>
   <body>
     <?php require_once(INCLUDE_GLOBALHEADER_PATH); ?>

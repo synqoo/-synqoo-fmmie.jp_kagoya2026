@@ -1,0 +1,35 @@
+{
+  // ===== ファイル保存設定 =====
+  // Mac / Windows 両 OS で改行コードを LF に統一（Dropbox 共有環境のため）
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": false,
+
+  // Dropbox 同期キャッシュをファイル監視・検索から除外
+  "files.watcherExclude": {
+    "**/.dropbox.cache/**": true,
+    "**/.dropbox": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true
+  },
+  "search.exclude": {
+    "**/.dropbox.cache": true,
+    "**/.git": true
+  },
+
+  // ===== Intelephense（PHP リンター）の診断設定 =====
+  // include / require 経由で別ファイルから供給される変数（$themeParam など）を
+  // 「Undefined variable」として誤検知させないため、未定義変数チェックを無効化する。
+  // ※ タイプミスの検出も同時に効かなくなる点に注意。
+  "intelephense.diagnostics.undefinedVariables": false,
+
+  // タイポ検出は他の項目で維持
+  "intelephense.diagnostics.undefinedFunctions": true,
+  "intelephense.diagnostics.undefinedConstants": true,
+  "intelephense.diagnostics.undefinedClassConstants": true,
+  "intelephense.diagnostics.undefinedMethods": true,
+  "intelephense.diagnostics.undefinedProperties": true,
+  "intelephense.diagnostics.undefinedTypes": true
+}

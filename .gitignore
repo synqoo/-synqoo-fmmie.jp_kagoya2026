@@ -8,6 +8,19 @@ _assets/config.php
 .DS_Store
 Thumbs.db
 desktop.ini
+.AppleDouble
+.LSOverride
+._*
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Dropbox 競合コピー（誤コミット防止）
+*の競合コピー*
+*conflicted copy*
+*Conflicted Copy*
+.dropbox
+.dropbox.attr
+.dropbox.cache
 
 # ログ・一時
 *.log

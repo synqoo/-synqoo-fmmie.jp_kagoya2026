@@ -20,9 +20,9 @@ $heading_text = $form_title !== ''
     <meta property="og:type" content="website">
     <meta property="og:locale" content="ja_JP">
     <meta property="og:title" content="<?php echo $form_title !== '' ? htmlspecialchars($form_title, ENT_QUOTES, 'UTF-8') . ' - ' : ''; ?>送信完了 - レディオキューブFM三重">
-    <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
-    <link rel="stylesheet" href="/_assets/css/index_timetable.css<?php echo $themeParam; ?>">
-    <link rel="stylesheet" href="/_assets/css/index_objects.css<?php echo $themeParam; ?>">
+    <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
+    <link rel="stylesheet" href="/_assets/css/index_timetable.css<?php echo $themeParam ?? ''; ?>">
+    <link rel="stylesheet" href="/_assets/css/index_objects.css<?php echo $themeParam ?? ''; ?>">
   </head>
   <body>
     <?php require_once(INCLUDE_GLOBALHEADER_PATH); ?>

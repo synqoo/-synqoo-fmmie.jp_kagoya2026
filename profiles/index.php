@@ -20,8 +20,8 @@
     
     <meta itemprop="name" content="会社概要">
 
-   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
-   <link rel="stylesheet" href="https://fmmie.jp/profiles/styles.css<?php echo $themeParam; ?>" />
+   <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
+   <link rel="stylesheet" href="https://fmmie.jp/profiles/styles.css<?php echo $themeParam ?? ''; ?>" />
     
   </head>
   <body>

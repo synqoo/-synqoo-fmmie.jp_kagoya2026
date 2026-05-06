@@ -338,7 +338,7 @@ echo "<!-- items=" . count($items) .
 
 <?php require_once(INCLUDE_HTMLHEAD_PATH); ?>
 <link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
+<link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
 <script>
 (function () {
   // 自動スクロール機能を無効化（通常表示に変更）

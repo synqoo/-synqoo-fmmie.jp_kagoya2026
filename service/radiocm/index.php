@@ -48,7 +48,7 @@ if($_POST['act']==1){
     <meta name="color-scheme" content="light">
 
     <?php require_once(INCLUDE_HTMLHEAD_PATH); ?>
-    <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam; ?>" />
+    <link rel="stylesheet" href="/_assets/css/mt-core.css<?php echo $themeParam ?? ''; ?>" />
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
