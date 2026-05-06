@@ -1,6 +1,9 @@
 # SFTP / エディタ（認証情報を含むため GitHub に含めない）
 .vscode/sftp.json
 
+# reCAPTCHA など（本番・ローカル用。リポジトリに含めない）
+_assets/config.secrets.php
+
 # OS
 .DS_Store
 Thumbs.db
