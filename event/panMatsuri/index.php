@@ -243,7 +243,7 @@
         </div>
     </div>
 </article>-->
-
+<!--
 <article class="pm-event card card-radius-lg card-shadow-sm">
     <div class="pm-event__body">
         <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 5月3日<span class="pm-sun">（日）</span></p>
@@ -318,13 +318,18 @@
             <p class="pm-event__flyer"><a href="/event/panMatsuri/pdf/20260503pan.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> チラシのダウンロード</a></p>
         </div>
     </div>
-</article>
+</article>-->
 
 <article class="pm-event card card-radius-lg card-shadow-sm">
     <div class="pm-event__body">
         <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 5月17日<span class="pm-sun">（日）</span></p>
-        <p class="pm-event__place">場所：桑名ハウジングセンター</p>
-        <p> 詳細後日掲載 </p>
+        <p class="pm-event__time">第1部 11時～12時 第2部13時～15時</p>
+        <p class="pm-event__place">場所：桑名ハウジングセンター  <br />桑名市江場436 電話番号0594-24-1522（センターハウス）<br />
+アクセス 国道258号 桑名警察署交差点から北へ約900ⅿ</p>
+        <p class="pm-event__note">※各回パンの販売個数には限りがあります。<br />
+※パンの購入には受付で配布される「家サイトパス」が必要となります。<br />
+※お支払いは現金とPayPayのみとなります。</p>
+
         <button type="button" class="pm-btn pm-btn--detail" aria-expanded="false" aria-controls="pm-event-detail-4">詳細を見る</button>
         <div class="pm-event__detail" id="pm-event-detail-4" hidden>
             <div class="pm-event__detail-title">5月17日（日）出店</div>
@@ -369,7 +374,10 @@
         <p class="pm-card__name">Bakery&amp;Café かぜのテラス</p>
         <p class="pm-card__addr">四日市市下海老町字平野109-8</p>
     </div>
-</div>
+    </div>
+    <p>会場の地図</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.1133766423607!2d136.69101500170046!3d35.05106954639748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60039ac860b790dd%3A0x9025225710c8f1a4!2z5qGR5ZCN44OP44Km44K444Oz44Kw44K744Oz44K_44O8!5e0!3m2!1sja!2sjp!4v1778148275227!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
            <!-- <p class="pm-event__flyer"><a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> チラシのダウンロード</a></p>-->
         </div> 
     </div>
