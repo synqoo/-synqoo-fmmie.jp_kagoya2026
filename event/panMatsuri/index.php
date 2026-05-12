@@ -158,7 +158,7 @@
                     <p class="pm-card__addr">津市江戸橋2-174　三重大学医学部附属病院内</p>
                 </div>
             </div>
-            <p class="pm-event__flyer"><a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> チラシのダウンロード</a></p>
+            <p class="pm-event__flyer"><a href="pdf/20260530pan.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> チラシのダウンロード</a></p>
         </div>
     </div>
 </article>
