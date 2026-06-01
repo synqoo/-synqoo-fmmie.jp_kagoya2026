@@ -24,7 +24,7 @@
     <section class="pm-section pm-events">
   
 
-<article class="pm-event card card-radius-lg card-shadow-sm">
+<article class="pm-event card card-radius-lg card-shadow-sm" style="display:none">
     <div class="pm-event__body">
         <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 5月17日<span class="pm-sun">（日）</span></p>
         <p class="pm-event__time">第1部 11時～12時 第2部13時～15時</p>
@@ -87,7 +87,7 @@
     </div>
 </article>
 
-<article class="pm-event card card-radius-lg card-shadow-sm">
+<article class="pm-event card card-radius-lg card-shadow-sm" style="display:none">
     <div class="pm-event__body">
         <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 5月30日<span class="pm-sat">（土）</span></p>
         <p class="pm-event__time">12:00～</p>

@@ -25,7 +25,7 @@
     <p class="jak-lead">ラジオの組み立てを通して、親子で楽しく「ラジオについて」、「防災について」学んでみませんか？</p>
 
     <p class="jak-lead">東日本大震災発生直後、被災された方々の情報源となったのはラジオでした。近い将来南海トラフ地震発生による被害が懸念される三重県で、県内の小学生とその保護者の方に楽しみながらラジオに親しんでいただき、防災意識を高めていただく事を目的にＪＡ共済とＦＭ三重が協力して「ＪＡ共済 ｐｒｅｓｅｎｔｓ 学ぼう防災　親子で作ろう！ ラジオ工作教室」を開催します。</p>
-    <p class="jak-lead">当日は、ＦＭ三重アナウンサーの清田のぞみと津市出身のシンガソングライターで防災士の資格を持つ「あつ」がイベントを楽しく盛り上げます。また防災士の山本将久による防災のお話しや防災食の試食体験も開催します。</p>
+    <p class="jak-lead">当日は、ＦＭ三重アナウンサーの清田のぞみと津市出身のシンガソングライターで防災士の資格を持つ「あつ」がイベントを楽しく盛り上げます。また元消防官の山本将久による防災のお話しや防災食の試食体験も開催します。</p>
     <p class="jak-lead"><strong>「親子で楽しく学ぶ防災」この機会に是非ご応募ください！</strong></p>
 
     <section class="jak-section" aria-labelledby="jak-performers-heading">
@@ -57,7 +57,7 @@
                 <p class="jak-venue-card__meta">5月23日（土）<span class="jak-venue-card__note">詳細はこちら</span></p>
                 
             </a>
-            <!-- <a class="jak-venue-card" href="mienaka_1.php">
+            <a class="jak-venue-card" href="mienaka_1.php">
                 <p class="jak-venue-card__name">ＪＡみえなか 会場</p>
                 <p class="jak-venue-card__meta">8月1日（土）<span class="jak-venue-card__note">詳細・応募はこちら</span></p>
 
@@ -71,7 +71,7 @@
                 <p class="jak-venue-card__name">ＪＡいがふるさと 会場</p>
                 <p class="jak-venue-card__meta">8月22日（土）<span class="jak-venue-card__note">詳細・応募はこちら</span></p>
 
-            </a> -->
+            </a> 
         </div>
         <ul class="jak-list-notes">
             <li>イベントの詳細や応募資格については、応募ページをご確認ください。</li>
@@ -105,7 +105,7 @@
                     <th scope="row">5月23日（土）<br>ＪＡ鈴鹿 会場</th>
                     <td>応募期間　4/7（火）～5/1（金）-応募は締切しました-<br><a href="suzuka_1.php">ＪＡ鈴鹿 会場のページ</a></td>
                 </tr>
-                <!-- <tr>
+                 <tr>
                     <th scope="row">8月1日（土）<br>ＪＡみえなか 会場</th>
                     <td>応募期間　5/7（木）～6/12（金）<br><a href="mienaka_1.php">ＪＡみえなか 会場の応募ページ</a></td>
                 </tr>
@@ -116,7 +116,7 @@
                 <tr>
                     <th scope="row">8月22日（土）<br>ＪＡいがふるさと 会場</th>
                     <td>応募期間　5/7（木）～6/12（金）<br><a href="iga_1.php">ＪＡいがふるさと 会場の応募ページ</a></td>
-                </tr> -->
+                </tr> 
             </tbody>
         </table>
     </section>

@@ -218,15 +218,15 @@ $_POST['fm_title'] = $fm_title_value;
 $_POST['msg_body'] = isset($msg_body) ? $msg_body : '';
 $_POST['u_agent'] = $_SERVER['HTTP_USER_AGENT'];
 $_POST['u_ip'] = $_SERVER["REMOTE_ADDR"];
-if($fm_id==28){
+if($_POST['form_id']==28){
     awsapi_formz_regist($_POST);
 }else{
     aws_formz_regist($_POST);
 }
 
-if($_POST['form_id']==28 or $kinkyuformz == 1){
-    include '/home/kir691871/public_html/fmmie.jp/_app/formz_regist_kagoya.php';
-}
+// if($_POST['form_id']==28 or $kinkyuformz == 1){
+//     include '/home/kir691871/public_html/fmmie.jp/_app/formz_regist_kagoya.php';
+// }
 
     $tit= urlencode($fm_title_value);
     $page = '/complete.php?s='.(isset($_POST['send_user']) ? $_POST['send_user'] : '').'&t='.$tit.'&r='.(isset($row) && isset($row['fm_mail']) ? $row['fm_mail'] : '').'&d='.$_POST['form_id'];
