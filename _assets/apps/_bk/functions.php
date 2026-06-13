@@ -435,19 +435,6 @@ function aws_formz_regist($POST){
     return $contents;
 }
 
-// 新 formz（fmmie.backsite.pro）並行テスト用。本番切替後は aws_formz_regist をこちらに統合予定。
-function aws_formz_regist_new($POST){
-    $url = 'https://fmmie.backsite.pro/formz/regist';
-    $POST = http_build_query($POST, "", "&");
-	$options = array(
-		'http' => array('method' => 'POST','content' => $POST),
-		'ssl' => array('verify_peer'=> false,'verify_peer_name' => false)
-	);
-    $options = stream_context_create($options);
-	$contents = file_get_contents($url, false, $options);
-    return $contents;
-}
-
 function awsapi_formz_regist($POST){
     $url = 'https://b5lmch2ac3.execute-api.ap-northeast-1.amazonaws.com/formz';
     $POST = http_build_query($POST, "", "&");

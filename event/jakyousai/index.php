@@ -52,14 +52,14 @@
     <section class="jak-section" aria-labelledby="jak-schedule-heading">
         <h2 id="jak-schedule-heading" class="jak-section-title">開催エリア／日時／募集人数</h2>
         <div class="jak-venue-grid">
-            <a class="jak-venue-card" href="suzuka_1.php">
+            <!--<a class="jak-venue-card" href="suzuka_1.php">
                 <p class="jak-venue-card__name">ＪＡ鈴鹿 会場</p>
                 <p class="jak-venue-card__meta">5月23日（土）<span class="jak-venue-card__note">詳細はこちら</span></p>
                 
-            </a>
+            </a>-->
             <a class="jak-venue-card" href="mienaka_1.php">
                 <p class="jak-venue-card__name">ＪＡみえなか 会場</p>
-                <p class="jak-venue-card__meta">8月1日（土）<span class="jak-venue-card__note">詳細・応募はこちら</span></p>
+                <p class="jak-venue-card__meta">8月1日（土）<span class="jak-venue-card__note">詳細はこちら</span></p>
 
             </a>
             <a class="jak-venue-card" href="ise_1.php">
@@ -69,7 +69,7 @@
             </a>
             <a class="jak-venue-card" href="iga_1.php">
                 <p class="jak-venue-card__name">ＪＡいがふるさと 会場</p>
-                <p class="jak-venue-card__meta">8月22日（土）<span class="jak-venue-card__note">詳細・応募はこちら</span></p>
+                <p class="jak-venue-card__meta">8月22日（土）<span class="jak-venue-card__note">詳細はこちら</span></p>
 
             </a> 
         </div>
@@ -101,13 +101,13 @@
         <p class="jak-lead">※応募は１組１回限りとさせていただきます。</p>
         <table class="jak-period-table">
             <tbody>
-                <tr>
+                <!--<tr>
                     <th scope="row">5月23日（土）<br>ＪＡ鈴鹿 会場</th>
                     <td>応募期間　4/7（火）～5/1（金）-応募は締切しました-<br><a href="suzuka_1.php">ＪＡ鈴鹿 会場のページ</a></td>
-                </tr>
+                </tr>-->
                  <tr>
                     <th scope="row">8月1日（土）<br>ＪＡみえなか 会場</th>
-                    <td>応募期間　5/7（木）～6/12（金）<br><a href="mienaka_1.php">ＪＡみえなか 会場の応募ページ</a></td>
+                    <td>応募期間　5/7（木）～6/12（金）-応募は締切しました-<br><a href="mienaka_1.php">ＪＡみえなか 会場のページ</a></td>
                 </tr>
                 <tr>
                     <th scope="row">8月8日（土）<br>ＪＡ伊勢 会場</th>
@@ -115,7 +115,7 @@
                 </tr>
                 <tr>
                     <th scope="row">8月22日（土）<br>ＪＡいがふるさと 会場</th>
-                    <td>応募期間　5/7（木）～6/12（金）<br><a href="iga_1.php">ＪＡいがふるさと 会場の応募ページ</a></td>
+                    <td>応募期間　5/7（木）～6/12（金）-応募は締切しました-<br><a href="iga_1.php">ＪＡいがふるさと 会場のページ</a></td>
                 </tr> 
             </tbody>
         </table>

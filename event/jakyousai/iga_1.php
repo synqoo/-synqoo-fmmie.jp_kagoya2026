@@ -71,10 +71,10 @@ if($_POST['act']==1){
 
     <p class="jak-meta-bar"><strong>応募期間：</strong>5/7（木）～6/12（金）</p>
 
-    <!-- <div class="jak-closed">
+    <div class="jak-closed">
         <p>JAいがふるさと会場の応募は締め切りました。</p>
         <p>たくさんのご応募をありがとうございました。</p>
-    </div> -->
+    </div>
     
     <section class="jak-section" aria-labelledby="jak-overview-heading">
         <h2 id="jak-overview-heading" class="jak-section-title">開催概要</h2>
@@ -89,14 +89,14 @@ if($_POST['act']==1){
                 </dl>
     </section>
 
-    <section class="jak-section" aria-labelledby="jak-elig-heading">
+<!--    <section class="jak-section" aria-labelledby="jak-elig-heading">
         <h2 id="jak-elig-heading" class="jak-section-title">応募資格</h2>
         <p>小学１年生～６年生</p>
     </section>
 
     <section class="jak-section" aria-labelledby="jak-form-heading">
         <h2 id="jak-form-heading" class="jak-section-title">応募フォーム</h2>
-        <div class="jak-form-slot" aria-label="応募フォーム設置予定エリア">
+        <div class="jak-form-slot" aria-label="応募フォーム設置予定エリア">-->
             
         <div class="stack stack-md"  <?php if($submitmode==1){echo 'style="display:none;"';}?>>
         <p class="text-muted"><span class="vad">必須</span> 印は入力必須項目です。 </p>
@@ -229,10 +229,10 @@ if($_POST['act']==1){
     </div>
     
     
-
+<!--
 
         </div>
-    </section>
+    </section>-->
 
     <section class="jak-section" aria-labelledby="jak-notes-heading">
         <h2 id="jak-notes-heading" class="jak-section-title">特記事項（お読みください）</h2>
