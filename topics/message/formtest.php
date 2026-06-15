@@ -28,7 +28,7 @@ if($_POST['act']==1){
         }
         define('FORMZ_CONFIRM_STEP', true);
         require_once(rtrim($_SERVER['DOCUMENT_ROOT'], '/\\') . '/_assets/apps/formz/formz_regist.php');
-        require_once(__DIR__ . '/formz_confirm.php');
+        require_once(rtrim($_SERVER['DOCUMENT_ROOT'], '/\\') . '/_assets/apps/formz/formz_confirm_test.php');
         exit;
     }else{
         $_SESSION['reg']=0;
