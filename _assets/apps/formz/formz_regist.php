@@ -208,6 +208,7 @@ if (defined('FORMZ_CONFIRM_STEP')) {
     return;
 }
 // フォーム名: 呼び出し元の $row['fm_title'] が無い場合は POST の form_title を使用（complete.php の表示用）
+
 $fm_title_value = '';
 if (isset($row) && !empty($row['fm_title'])) {
     $fm_title_value = $row['fm_title'];
@@ -218,11 +219,12 @@ $_POST['fm_title'] = $fm_title_value;
 $_POST['msg_body'] = isset($msg_body) ? $msg_body : '';
 $_POST['u_agent'] = $_SERVER['HTTP_USER_AGENT'];
 $_POST['u_ip'] = $_SERVER["REMOTE_ADDR"];
-if($_POST['form_id']==28){
-    awsapi_formz_regist($_POST);
-}else{
-    aws_formz_regist($_POST);
-}
+// if($_POST['form_id']==28){
+//     awsapi_formz_regist($_POST);
+// }else{
+//     aws_formz_regist($_POST);
+// }
+
 // 新 formz テストDBへ並行送信（旧経路は上記のまま維持）
 aws_formz_regist_new($_POST);
 

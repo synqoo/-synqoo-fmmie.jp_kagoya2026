@@ -1,5 +1,6 @@
 <?php
 $fp = file_get_contents('https://backsite.pro/fmmie/storage/formzconfig/'.$fm_id.'_config.txt');
+//$fp = file_get_contents('https://fmmie.backsite.pro/formzconfig'.$fm_id.'_config.txt');
 $conf_array = explode(";",$fp);
 $stateusmode = $conf_array[0];
 $opendate = $conf_array[1];
