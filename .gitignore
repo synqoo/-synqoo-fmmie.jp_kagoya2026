@@ -25,3 +25,6 @@ $RECYCLE.BIN/
 # ログ・一時
 *.log
 **/access_logweb.txt
+
+# イベント画像（容量大・Dropbox/SFTP で管理）
+event/winefesta/images/
