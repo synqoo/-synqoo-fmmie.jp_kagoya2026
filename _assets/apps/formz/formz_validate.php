@@ -12,8 +12,8 @@ viewformztemp();
 
 // バリデーション設定ファイルの読み込み
 // セキュリティ: タイムアウト設定とエラーハンドリングを追加
-$configUrl = 'https://backsite.pro/fmmie/storage/formzconfig/' . $fm_id . '_setbody.txt';
-//$configUrl = 'https://fmmie.backsite.pro/formzconfig/' . $fm_id . '_setbody.txt';
+//$configUrl = 'https://backsite.pro/fmmie/storage/formzconfig/' . $fm_id . '_setbody.txt';
+$configUrl = 'https://fmmie.backsite.pro/formzconfig/' . $fm_id . '_setbody.txt';
 // コンテキスト設定（タイムアウト: 5秒）
 $context = stream_context_create([
     'http' => [

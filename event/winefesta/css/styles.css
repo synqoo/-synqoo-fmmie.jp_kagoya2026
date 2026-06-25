@@ -1,0 +1,553 @@
+/* ========================================
+   ワインフェスタ四日市2026
+   /event/winefesta/
+   prefix: wf-
+======================================== */
+
+.wf-container {
+    /* ワイン専用カラー（ボルドー・ゴールド系／背景は白） */
+    --wf-wine:        #6E1423;  /* ボルドー（メイン） */
+    --wf-wine-dark:   #4A0D18;  /* 濃いボルドー */
+    --wf-wine-light:  #8B1E3F;  /* 明るいワインレッド */
+    --wf-gold:        #B08D3C;  /* ゴールド（差し色） */
+    --wf-gold-light:  #D9C089;
+    --wf-cream:       #FBF7F2;  /* ごく淡いクリーム（カード背景） */
+    --wf-blush:       #FBEEF0;  /* 淡いワインピンク */
+    --wf-line:        #EADFE0;  /* 境界線 */
+    --wf-ink:         #2A2326;  /* 本文 */
+
+    max-width: var(--layout-max-width);
+    margin: 0 auto;
+    padding: var(--space-lg) var(--layout-inline-padding);
+    color: var(--wf-ink);
+    background: #fff;
+}
+
+/* 画像プレースホルダー（実画像は後ではめ込み。未配置でもレイアウト確認できるよう枠を表示） */
+.wf-photo {
+    position: relative;
+    background: linear-gradient(135deg, var(--wf-blush), var(--wf-cream));
+    border: 1px dashed var(--wf-gold-light);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    min-height: 120px;
+}
+.wf-photo::after {
+    content: "\f03e"; /* fa-image */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: var(--wf-gold-light);
+    z-index: 0;
+}
+.wf-photo img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* ========================================
+   共通見出し
+======================================== */
+.wf-heading {
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    color: var(--wf-wine);
+    text-align: center;
+    margin: 0 0 var(--space-lg);
+    letter-spacing: 0.04em;
+    position: relative;
+    padding-bottom: var(--space-sm);
+}
+.wf-heading::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 3px;
+    background: var(--wf-gold);
+    border-radius: 2px;
+}
+.wf-heading--left { text-align: left; }
+.wf-heading--left::after { left: 0; transform: none; }
+
+.wf-subheading {
+    font-size: var(--font-size-h3);
+    color: var(--wf-wine-light);
+    font-weight: 700;
+    margin: 0 0 var(--space-md);
+    text-align: center;
+}
+.wf-subheading i { color: var(--wf-gold); margin-right: .4em; }
+
+.wf-lead {
+    text-align: center;
+    line-height: 1.9;
+    margin: 0 auto var(--space-lg);
+    /* max-width: 760px; */
+    color: var(--wf-ink);
+}
+
+.wf-section { margin-bottom: var(--space-xl); }
+
+/* ========================================
+   ヒーロー
+======================================== */
+.wf-hero {
+    margin-bottom: var(--space-xl);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--wf-line);
+    box-shadow: 0 12px 28px rgba(110, 20, 35, 0.08);
+}
+.wf-hero__media {
+    aspect-ratio: 16 / 7;
+    min-height: 200px;
+    border: none;
+    border-radius: 0;
+}
+.wf-hero__body {
+    padding: var(--space-lg) var(--layout-inline-padding) var(--space-xl);
+    text-align: center;
+    background:
+        radial-gradient(120% 120% at 50% 0%, var(--wf-blush) 0%, #fff 70%);
+}
+.wf-hero__eyebrow {
+    color: var(--wf-wine-light);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    margin: 0 0 var(--space-sm);
+}
+.wf-hero__eyebrow i { color: var(--wf-gold); }
+.wf-hero__title {
+    font-size: clamp(2rem, 1.4rem + 3vw, 3.4rem);
+    font-weight: 900;
+    color: var(--wf-wine);
+    margin: 0 0 var(--space-md);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.wf-hero__year {
+    font-family: "Oswald", "Noto Sans JP", sans-serif;
+    color: var(--wf-gold);
+    margin-left: .15em;
+}
+.wf-hero__lead {
+    line-height: 1.9;
+    margin: 0 0 var(--space-lg);
+    color: var(--wf-ink);
+}
+.wf-hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm) var(--space-lg);
+    justify-content: center;
+    margin: 0 auto var(--space-lg);
+    max-width: 760px;
+}
+.wf-hero__meta-item { text-align: left; }
+.wf-hero__meta dt {
+    font-size: 0.85rem;
+    color: var(--wf-wine-light);
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.wf-hero__meta dt i { color: var(--wf-gold); margin-right: .3em; }
+.wf-hero__meta dd { margin: 0; font-weight: 500; }
+.wf-day { font-size: 0.85em; }
+.wf-hero__cta { margin: 0; }
+
+/* ========================================
+   ボタン
+======================================== */
+.wf-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .5em;
+    padding: .85em 1.8em;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.2;
+    transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease;
+}
+.wf-btn--primary {
+    background: var(--wf-wine);
+    color: #fff;
+    box-shadow: 0 8px 18px rgba(110, 20, 35, 0.28);
+}
+.wf-btn--primary:hover {
+    background: var(--wf-wine-light);
+    transform: translateY(-2px);
+}
+.wf-btn--outline {
+    background: #fff;
+    color: var(--wf-wine);
+    border: 1.5px solid var(--wf-wine);
+    padding: .65em 1.2em;
+    font-size: 0.9rem;
+}
+.wf-btn--outline:hover {
+    background: var(--wf-wine);
+    color: #fff;
+}
+
+/* ========================================
+   イントロ / TOPICS
+======================================== */
+.wf-intro {
+    text-align: center;
+    background: var(--wf-cream);
+    border: 1px solid var(--wf-line);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg) var(--layout-inline-padding);
+}
+.wf-intro__topics {
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 0.2em;
+    color: var(--wf-gold);
+    border-bottom: 2px solid var(--wf-gold-light);
+    padding-bottom: 4px;
+    margin: 0 0 var(--space-md);
+}
+.wf-intro__text { line-height: 2; margin: 0; }
+.wf-intro__text strong { color: var(--wf-wine); }
+
+/* ========================================
+   開催概要テーブル
+======================================== */
+.wf-overview {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--wf-line);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    line-height: 1.7;
+}
+.wf-overview th,
+.wf-overview td {
+    border: 1px solid var(--wf-line);
+    padding: var(--space-sm) var(--space-md);
+    text-align: left;
+    vertical-align: middle;
+}
+.wf-overview th {
+    background: var(--wf-blush);
+    color: var(--wf-wine);
+    font-weight: 700;
+    white-space: nowrap;
+    width: 8em;
+}
+@media (max-width: 560px) {
+    .wf-overview th { width: 6em; font-size: 0.9rem; }
+}
+
+/* ========================================
+   ご利用案内（ステップ）
+======================================== */
+.wf-steps {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.wf-step {
+    background: var(--wf-cream);
+    border: 1px solid var(--wf-line);
+    padding: var(--space-lg);
+}
+.wf-step__no {
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    background: var(--wf-wine);
+    color: #fff;
+    padding: .25em 1em;
+    border-radius: 999px;
+    margin-bottom: var(--space-sm);
+}
+.wf-step__title {
+    font-size: var(--font-size-h3);
+    color: var(--wf-wine);
+    margin: 0 0 var(--space-sm);
+    font-weight: 700;
+}
+.wf-step p { line-height: 1.9; margin: 0 0 var(--space-sm); }
+.wf-step__price {
+    font-size: 1.15rem;
+    color: var(--wf-wine);
+    font-weight: 700;
+    margin-top: var(--space-md) !important;
+}
+.wf-step__price b { font-size: 1.3em; color: var(--wf-wine-light); }
+.wf-step__arrow {
+    text-align: center;
+    color: var(--wf-gold);
+    font-size: 1.6rem;
+    padding: var(--space-sm) 0;
+}
+
+/* 注意書きリスト */
+.wf-notes {
+    list-style: none;
+    padding: var(--space-sm) var(--space-md);
+    margin: 0 0 var(--space-sm);
+    background: #fff;
+    border: 1px solid var(--wf-line);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    line-height: 1.8;
+}
+.wf-notes li { padding-left: 1.2em; position: relative; }
+.wf-notes li::before {
+    content: "※";
+    position: absolute;
+    left: 0;
+    color: var(--wf-gold);
+}
+.wf-notes--center {
+    max-width: 620px;
+    margin: 0 auto var(--space-lg);
+    text-align: left;
+}
+
+/* ========================================
+   出店ブース / フード（カードグリッド）
+======================================== */
+.wf-shops {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-md);
+}
+.wf-shop {
+    background: #fff;
+    border: 1px solid var(--wf-line);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.wf-shop__photo {
+    aspect-ratio: 4 / 3;
+    border: none;
+    border-radius: var(--radius-md);
+    margin: var(--space-sm) var(--space-sm) 0;
+}
+.wf-shop__body { padding: var(--space-md); }
+.wf-shop__name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--wf-wine);
+    margin: 0 0 .4em;
+    padding-bottom: .4em;
+    border-bottom: 2px solid var(--wf-blush);
+}
+.wf-shop__desc {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin: 0 0 var(--space-sm);
+}
+.wf-shop__addr,
+.wf-shop__tel {
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    margin: 0 0 .25em;
+    line-height: 1.5;
+}
+.wf-shop__addr i,
+.wf-shop__tel i { color: var(--wf-gold); margin-right: .4em; }
+.wf-shop__holiday {
+    display: inline-block;
+    font-size: 0.78rem;
+    background: var(--wf-blush);
+    color: var(--wf-wine-light);
+    padding: .2em .8em;
+    border-radius: 999px;
+    margin: .4em 0 0;
+}
+
+/* 略図など単独の図 */
+.wf-mapfig {
+    margin: var(--space-lg) auto 0;
+    aspect-ratio: 16 / 9;
+    max-width: 900px;
+}
+.wf-mapfig__label {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--wf-wine-light);
+}
+
+/* ========================================
+   チケット
+======================================== */
+.wf-tickets { display: grid; gap: var(--space-md); }
+.wf-ticket {
+    background: #fff;
+    border: 1px solid var(--wf-line);
+    padding: var(--space-lg);
+    text-align: center;
+}
+.wf-ticket--main { border: 2px solid var(--wf-wine); }
+.wf-ticket__type {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    color: var(--wf-wine);
+    margin: 0 0 .3em;
+}
+.wf-ticket__type span { font-size: 0.7em; color: var(--color-muted); }
+.wf-ticket__price {
+    font-family: "Oswald", "Noto Sans JP", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--wf-wine-light);
+    line-height: 1.1;
+    margin: 0 0 .3em;
+}
+.wf-yen { font-size: 0.5em; margin-left: .1em; }
+.wf-tax { font-size: 0.4em; color: var(--color-muted); }
+.wf-ticket__note {
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    line-height: 1.7;
+    margin: 0;
+}
+.wf-ticket__buy {
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: 1px dashed var(--wf-line);
+}
+.wf-ticket__buy-title { font-weight: 700; color: var(--wf-wine); margin: 0 0 .3em; }
+.wf-ticket__buy-cap { font-size: 0.8rem; color: var(--color-muted); margin: 0 0 var(--space-sm); }
+.wf-ticket__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    justify-content: center;
+}
+.wf-ticket-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+}
+@media (max-width: 560px) {
+    .wf-ticket-sub { grid-template-columns: 1fr; }
+}
+
+/* ========================================
+   よくある質問
+======================================== */
+.wf-faq { margin: 0 auto; max-width: 860px; }
+.wf-faq__item {
+    border-bottom: 1px solid var(--wf-line);
+    padding: var(--space-md) 0;
+}
+.wf-faq dt,
+.wf-faq dd {
+    display: flex;
+    gap: .7em;
+    line-height: 1.8;
+    margin: 0;
+}
+.wf-faq dt { font-weight: 700; color: var(--wf-ink); }
+.wf-faq dd { margin-top: .6em; color: var(--color-muted); }
+.wf-faq__mark {
+    flex: 0 0 auto;
+    width: 1.7em;
+    height: 1.7em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.wf-faq__mark--q { background: var(--wf-wine); color: #fff; }
+.wf-faq__mark--a { background: var(--wf-gold); color: #fff; }
+
+/* ========================================
+   アクセス
+======================================== */
+.wf-access {
+    text-align: center;
+    line-height: 2;
+    margin: var(--space-md) 0 0;
+}
+.wf-access i { color: var(--wf-gold); margin-right: .3em; }
+.wf-access strong { font-size: 1.3rem; color: var(--wf-wine); }
+
+/* ========================================
+   JAZZ FESTIVAL
+======================================== */
+.wf-jazz {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: var(--space-lg);
+    align-items: center;
+    background: var(--wf-cream);
+    border: 1px solid var(--wf-line);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+}
+.wf-jazz__body p { line-height: 1.9; margin: 0 0 var(--space-sm); }
+.wf-jazz__flyer { aspect-ratio: 3 / 4; }
+@media (max-width: 720px) {
+    .wf-jazz { grid-template-columns: 1fr; }
+    .wf-jazz__flyer { max-width: 320px; margin: 0 auto; }
+}
+
+/* ========================================
+   主催・後援・協賛
+======================================== */
+.wf-credits { text-align: center; }
+.wf-credit { margin-bottom: var(--space-lg); }
+.wf-credit__label {
+    font-weight: 700;
+    color: var(--wf-wine);
+    letter-spacing: 0.3em;
+    margin: 0 0 var(--space-sm);
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--wf-line);
+}
+.wf-credit__logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    justify-content: center;
+    align-items: center;
+}
+.wf-photo--logo {
+    display: inline-block;
+    width: 160px;
+    aspect-ratio: 16 / 9;
+    min-height: 0;
+}
+.wf-credit:first-child .wf-photo {
+    width: 220px;
+    aspect-ratio: 16 / 6;
+    min-height: 0;
+    margin: 0 auto;
+}
+/* ロゴ欄は白背景（プレースホルダーの地色・枠・アイコンを解除） */
+.wf-credit .wf-photo {
+    background: #fff;
+    border: none;
+}
+.wf-credit .wf-photo::after { content: none; }
+.wf-photo--logo img { object-fit: contain; }
