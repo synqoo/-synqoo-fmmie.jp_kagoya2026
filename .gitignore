@@ -4,6 +4,9 @@
 # サイト設定（reCAPTCHA 等。config.example.php をコピーして config.php を作成）
 _assets/config.php
 
+# formin リレー（formin_config.example.php をコピーして formin_config.php を作成）
+_assets/apps/formz/formin_config.php
+
 # OS
 .DS_Store
 Thumbs.db

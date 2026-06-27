@@ -225,6 +225,10 @@ $_POST['u_ip'] = $_SERVER["REMOTE_ADDR"];
 //     aws_formz_regist($_POST);
 // }
 
+// Kagoya formin へ先にリレー（AWS 応答待ちでブロックされないよう AWS より前）
+require_once __DIR__ . '/formin_regist.php';
+formin_regist($_POST);
+
 // 新 formz テストDBへ並行送信（旧経路は上記のまま維持）
 aws_formz_regist_new($_POST);
 
