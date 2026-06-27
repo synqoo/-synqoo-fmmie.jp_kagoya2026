@@ -345,7 +345,7 @@
             </div>
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>会場にテーブル・椅子はありますか？</dt>
-                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>丸テーブルを用意しております。椅子の用意はありません。</dd>
+                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>丸テーブルを用意しております。椅子の用意はありません。有料着席スペースは椅子の用意があります。</dd>
             </div>
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>ワイン引き換えチケットに入場日時指定はありますか？</dt>
@@ -384,6 +384,7 @@
             <h2 class="wf-heading wf-heading--left">四日市JAZZ FESTIVAL 2026</h2>
             <p>四日市市内14会場でプロアマ100組以上のアーティストが、ジャズをはじめ様々なジャンルのライブ演奏が楽しめる無料のイベントです。</p>
             <p>今年で13回目を迎える、四日市の街が音楽で溢れる2日間です。</p>
+            <p><a href="https://yokkaichi-jazz.com/index.php" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i> WEBサイトはこちら</a></p>
         </div>
         <div class="wf-jazz__flyer wf-photo">
             <a href="https://yokkaichi-jazz.com/index.php" target="_blank" rel="noopener noreferrer"><img src="images/jazz-flyer.jpg" alt="四日市JAZZ FESTIVAL 2026 チラシ" /></a>

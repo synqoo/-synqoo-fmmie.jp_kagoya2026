@@ -1,0 +1,6 @@
+# 層 A 設定ファイル — 直リンク拒否（receive API 経由のみ更新）
+<IfModule mod_authz_core.c>
+    <FilesMatch "\.(txt|json|csv)$">
+        Require all denied
+    </FilesMatch>
+</IfModule>
