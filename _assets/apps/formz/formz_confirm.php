@@ -7,8 +7,9 @@
  *   require_once(...'/formz_confirm_test.php');
  *
  * データ取得:
- *   1. formdef.json … 開発中新本番 fmmie.backsite.pro（/make で生成される想定）
- *   2. フォールバック … 現行本番 backsite.pro の _setbody.txt + formztemp（§6-1）
+ *   formz_load_config_file / formz_load_config_file_with_fallback（functions.php 経由）
+ *   1. formdef.json … fmmie.backsite.pro（kinkyuformz=1 時はローカル formzconfig）
+ *   2. フォールバック … backsite.pro レガシー setbody + formztemp（§6-1）
  *
  * 優先順位（ラベル・値・並び）:
  *   formdef 自動 → confirm_display/{id}.php 手動上書き（最優先）→ x_prez 特例
@@ -25,12 +26,6 @@ require_once(rtrim($_SERVER['DOCUMENT_ROOT'], '/\\') . '/_assets/apps/functions.
 // --- 本番化時は false（黄色デバッグバナー・[TEST] タイトル接頭辞を非表示） ---
 $formzConfirmShowDebug = false;
 
-// --- 設定: 並走環境 URL（本番 DB 切替時はコメント等で調整） ---
-/** 開発中新本番 — formdef.json / setbody の第一取得先（Laravel 公開ルート） */
-$formzConfigBaseNew = 'https://fmmie.backsite.pro/formzconfig/';
-/** 現行本番 backsite.pro — setbody / prez フォールバック */
-$formzConfigBaseLegacy = 'https://backsite.pro/fmmie/storage/formzconfig/';
-
 $formz_caller = isset($_SERVER['SCRIPT_NAME']) ? $_SERVER['SCRIPT_NAME'] : '/';
 $formz_caller_dir = 'https://fmmie.jp' . rtrim(dirname($formz_caller), '/\\') . '/';
 
@@ -45,25 +40,6 @@ formz_config($fm_id);
 $form_title = isset($_POST['form_title']) ? $_POST['form_title'] : '入力の確認';
 
 viewformztemp();
-
-$httpContext = stream_context_create([
-    'http' => ['timeout' => 5, 'method' => 'GET'],
-    'ssl' => ['verify_peer' => false, 'verify_peer_name' => false],
-]);
-
-/**
- * @return array<string, mixed>|null
- */
-function formz_confirm_test_fetch_json(string $url, $context)
-{
-    $raw = @file_get_contents($url, false, $context);
-    if ($raw === false || trim($raw) === '') {
-        return null;
-    }
-    $decoded = json_decode($raw, true);
-
-    return is_array($decoded) ? $decoded : null;
-}
 
 /**
  * 選択肢 index → 文言。非数値は生値のまま（旧 p_sex='女性' 混在対策。21 §3-4）
@@ -88,16 +64,6 @@ function formz_confirm_test_resolve_choice_label(array $choices, $value): string
     $idx = (int)$valueString;
 
     return isset($choices[$idx]) ? (string)$choices[$idx] : $valueString;
-}
-
-/**
- * @return string|false
- */
-function formz_confirm_test_fetch_text(string $url, $context)
-{
-    $raw = @file_get_contents($url, false, $context);
-
-    return ($raw !== false && trim($raw) !== '') ? $raw : false;
 }
 
 /**
@@ -262,8 +228,7 @@ function formz_confirm_test_parse_formdef_maps(array $formDef): array
 }
 
 // --- formdef.json 取得（新環境。未生成時は setbody フォールバック） ---
-$formDefUrl = $formzConfigBaseNew.$fm_id.'_formdef.json';
-$formDef = formz_confirm_test_fetch_json($formDefUrl, $httpContext);
+$formDef = formz_load_config_formdef($fm_id);
 $formDefFetchStatus = $formDef !== null ? 'ok' : 'failed';
 
 $configSource = 'none';
@@ -276,15 +241,7 @@ $setbodySource = '';
 $typeNames = ['number', 'varchar', 'text', 'date', 'ind'];
 
 // setbody は formdef 成否にかかわらず取得（フォールバック／ラベル補完用）
-$setbodyContent = false;
-foreach ([$formzConfigBaseNew, $formzConfigBaseLegacy] as $base) {
-    $content = formz_confirm_test_fetch_text($base.$fm_id.'_setbody.txt', $httpContext);
-    if ($content !== false) {
-        $setbodyContent = $content;
-        $setbodySource = $base;
-        break;
-    }
-}
+$setbodyContent = formz_load_config_file_with_fallback($fm_id, 'setbody.txt', $setbodySource);
 $setbodyMaps = formz_confirm_test_parse_setbody_maps($setbodyContent, $formztemp, $typeNames);
 
 if ($formDef !== null && ! empty($formDef['fields']) && is_array($formDef['fields'])) {
@@ -348,12 +305,9 @@ if ($formDef !== null && ! empty($formDef['fields']) && is_array($formDef['field
 
 // --- 以下、旧 setbody ブロック削除済み ---
 
-// --- プレゼント（x_prez）: 新環境 → 現行本番フォールバック ---
+// --- プレゼント（x_prez）: formz_load_config_file_with_fallback（新環境 → レガシー） ---
 $prezValueToName = [];
-$prezContent = formz_confirm_test_fetch_text($formzConfigBaseNew . $fm_id . '_prez.txt', $httpContext);
-if ($prezContent === false) {
-    $prezContent = formz_confirm_test_fetch_text($formzConfigBaseLegacy . $fm_id . '_prez.txt', $httpContext);
-}
+$prezContent = formz_load_config_file_with_fallback($fm_id, 'prez.txt');
 if ($prezContent !== false) {
     $prezLines = array_filter(array_map('trim', explode("\n", $prezContent)));
     foreach ($prezLines as $prezLine) {
@@ -479,7 +433,15 @@ $configSourceLabel = [
     'setbody' => 'setbody.txt フォールバック',
     'none' => '設定未取得（formztemp のみ）',
 ];
-$setbodySourceLabel = $setbodySource === '' ? 'なし' : $setbodySource;
+$configFileSourceLabels = [
+    'remote' => 'fmmie.backsite.pro',
+    'local' => 'local formzconfig',
+    'legacy' => 'backsite.pro (legacy)',
+    'none' => 'なし',
+];
+$setbodySourceLabel = isset($configFileSourceLabels[$setbodySource])
+    ? $configFileSourceLabels[$setbodySource]
+    : ($setbodySource === '' ? 'なし' : $setbodySource);
 ?>
 <!DOCTYPE html>
 <html lang="ja" itemscope itemtype="http://schema.org/Blog">

@@ -158,36 +158,210 @@ function gpc_stripslashes($st) {
  	} 
 
 
-function formz_config($fm_id){
-	global $stateusmode,$testmode,$submitmode,$submit_mess,$faxactive,$prezcsv,$kinkyuformz;
-	
-	// !! If backsite.pro is server down then kinkyuformz sets '1' otherwise default is '0'
-	$kinkyuformz = 0;
-	
-	// コンテキスト設定（タイムアウト: 5秒）
+/**
+ * formin 層 A 設定ファイルのローカル保存先（kinkyuformz=1 時）。
+ * .htaccess で HTTP 直リンク拒否のため file_get_contents(URL) 不可。
+ *
+ * @return string
+ */
+function formz_config_local_dir()
+{
+	return rtrim($_SERVER['DOCUMENT_ROOT'], '/\\') . '/_assets/apps/formz/formzconfig';
+}
+
+/**
+ * 通常時（kinkyuformz=0）の AWS formzconfig 公開 URL ベース（Laravel /formzconfig/ ルート）
+ *
+ * @return string
+ */
+function formz_config_remote_base()
+{
+	return 'https://fmmie.backsite.pro/formzconfig/';
+}
+
+/**
+ * formin 緊急モードフラグ（mode.php → formin_set_mode_manual が書き込む）
+ *
+ * @return string
+ */
+function formz_kinkyuformz_flag_path()
+{
+	return formz_config_local_dir() . '/.kinkyuformz';
+}
+
+/**
+ * 緊急モードフラグを読む。未存在・読取不可時は 0（通常モード）。
+ *
+ * @return int
+ */
+function formz_read_kinkyuformz()
+{
+	$path = formz_kinkyuformz_flag_path();
+	if (! is_file($path) || ! is_readable($path)) {
+		return 0;
+	}
+
+	$value = file_get_contents($path);
+	if ($value === false) {
+		return 0;
+	}
+
+	return trim($value) === '1' ? 1 : 0;
+}
+
+/**
+ * @param int|string $fm_id
+ * @param string     $suffix  config.txt / setbody.txt / prez.txt / formdef.json 等
+ * @return string|false
+ */
+function formz_load_config_file($fm_id, $suffix)
+{
+	global $kinkyuformz;
+
+	$fm_id = (int) $fm_id;
+	if ($fm_id <= 0) {
+		return false;
+	}
+
+	$filename = $fm_id . '_' . $suffix;
+
+	if ($kinkyuformz == 1) {
+		$path = formz_config_local_dir() . '/' . $filename;
+		if (! is_file($path) || ! is_readable($path)) {
+			error_log('Failed to load formz config (local): ' . $path);
+
+			return false;
+		}
+		$content = file_get_contents($path);
+
+		return $content === false ? false : $content;
+	}
+
+	$url = formz_config_remote_base() . $filename;
 	$context = stream_context_create([
 		'http' => [
 			'timeout' => 5,
-			'method' => 'GET'
+			'method' => 'GET',
 		],
 		'ssl' => [
 			'verify_peer' => false,
-			'verify_peer_name' => false
-		]
+			'verify_peer_name' => false,
+		],
 	]);
+	$content = @file_get_contents($url, false, $context);
+	if ($content === false) {
+		error_log('Failed to load formz config (remote): ' . $url);
+	}
+
+	return $content;
+}
+
+/**
+ * レガシー formzconfig URL（backsite.pro 公開ストレージ。confirm 等のフォールバック用）
+ *
+ * @return string
+ */
+function formz_config_legacy_remote_base()
+{
+	return 'https://backsite.pro/fmmie/storage/formzconfig/';
+}
+
+/**
+ * formz_load_config_file に加え、kinkyuformz=0 時のみレガシー URL へフォールバック。
+ *
+ * @param int|string  $fm_id
+ * @param string      $suffix  config.txt / setbody.txt / prez.txt / formdef.json 等
+ * @param string|null $sourceLabel  debug 用取得元（remote / local / legacy / none）
+ * @return string|false
+ */
+function formz_load_config_file_with_fallback($fm_id, $suffix, &$sourceLabel = null)
+{
+	global $kinkyuformz;
+
+	$content = formz_load_config_file($fm_id, $suffix);
+	if ($content !== false && trim($content) !== '') {
+		if ($sourceLabel !== null) {
+			$sourceLabel = ($kinkyuformz == 1) ? 'local' : 'remote';
+		}
+
+		return $content;
+	}
+
+	if ($kinkyuformz == 1) {
+		if ($sourceLabel !== null) {
+			$sourceLabel = 'none';
+		}
+
+		return false;
+	}
+
+	$url = formz_config_legacy_remote_base() . (int) $fm_id . '_' . $suffix;
+	$context = stream_context_create([
+		'http' => [
+			'timeout' => 5,
+			'method' => 'GET',
+		],
+		'ssl' => [
+			'verify_peer' => false,
+			'verify_peer_name' => false,
+		],
+	]);
+	$content = @file_get_contents($url, false, $context);
+	if ($content !== false && trim($content) !== '') {
+		if ($sourceLabel !== null) {
+			$sourceLabel = 'legacy';
+		}
+
+		return $content;
+	}
+
+	error_log('Failed to load formz config (legacy fallback): ' . $url);
+	if ($sourceLabel !== null) {
+		$sourceLabel = 'none';
+	}
+
+	return false;
+}
+
+/**
+ * formdef.json を配列で取得（formz_load_config_file_with_fallback 経由）
+ *
+ * @param int|string  $fm_id
+ * @param string|null $sourceLabel
+ * @return array|null
+ */
+function formz_load_config_formdef($fm_id, &$sourceLabel = null)
+{
+	$raw = formz_load_config_file_with_fallback($fm_id, 'formdef.json', $sourceLabel);
+	if ($raw === false) {
+		return null;
+	}
+
+	$decoded = json_decode($raw, true);
+	if (! is_array($decoded)) {
+		error_log('Failed to decode formdef.json for form_id=' . (int) $fm_id);
+		if ($sourceLabel !== null) {
+			$sourceLabel = 'none';
+		}
+
+		return null;
+	}
+
+	return $decoded;
+}
+
+function formz_config($fm_id){
+	global $stateusmode,$testmode,$submitmode,$submit_mess,$faxactive,$prezcsv,$kinkyuformz;
+	
+	// formin mode.php が formzconfig/.kinkyuformz に書込（emergency=1 / normal=0）
+	$kinkyuformz = formz_read_kinkyuformz();
 	
 	// 設定ファイルの読み込み
-	if($kinkyuformz==1){
-		$configUrl = 'https://backsite.fmmie.jp/formzconfig/'.$fm_id.'_config.txt';
-	}else{
-		$configUrl = 'http://backsite.pro/fmmie/storage/formzconfig/'.$fm_id.'_config.txt';
-	}
-	
-	$fp = @file_get_contents($configUrl, false, $context);
+	$fp = formz_load_config_file($fm_id, 'config.txt');
 	
 	// ファイル読み込み失敗時のエラーハンドリング
 	if ($fp === false) {
-		error_log("Failed to load formz config: " . $configUrl);
+		error_log('Failed to load formz config for form_id=' . (int) $fm_id);
 		// デフォルト値を設定
 		$stateusmode = 0;
 		$testmode = 1;
@@ -242,13 +416,7 @@ function formz_config($fm_id){
 	}
 	
 	// プレゼント設定の読み込み
-	if($kinkyuformz == 1){
-		$prezUrl = 'https://backsite.fmmie.jp/formzconfig/'.$fm_id.'_prez.txt';
-	}else{
-		$prezUrl = 'http://backsite.pro/fmmie/storage/formzconfig/'.$fm_id.'_prez.txt';
-	}
-	
-	$prezContent = @file_get_contents($prezUrl, false, $context);
+	$prezContent = formz_load_config_file($fm_id, 'prez.txt');
 	
 	if($prezContent !== false){
 		$prezcsv = array();
@@ -276,6 +444,9 @@ function prezsource(){
 		$prmother = $pr[1];
 
 		$now=date('Y-m-d H:i:s');
+		// prtype=2（複数選択式）は商品ごとに日付判定。1行目 prmother による全体ゲートは使わない
+		// （新 formz の「2;{setid}」出力で、setid 商品の日付だけが他商品を巻き込んで非表示になるのを防ぐ）
+		if($prtype <= 1 || $prtype >= 3){
 		for($i=1;$i<$linecount;$i++){
 			if($prezcsv[$i]!=''){
 				$line = explode(';',$prezcsv[$i]);
@@ -306,6 +477,7 @@ function prezsource(){
 					}
 				}
 			}
+		}
 		}
 		if($prtype<=2){
 			for($i=1;$i<$linecount;$i++){

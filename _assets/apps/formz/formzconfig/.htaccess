@@ -3,4 +3,7 @@
     <FilesMatch "\.(txt|json|csv)$">
         Require all denied
     </FilesMatch>
+    <Files ".kinkyuformz">
+        Require all denied
+    </Files>
 </IfModule>

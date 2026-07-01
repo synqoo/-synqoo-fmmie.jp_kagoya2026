@@ -10,24 +10,10 @@ $error = null;
 // フォームテンプレートの読み込み
 viewformztemp();
 
-// バリデーション設定ファイルの読み込み
-// セキュリティ: タイムアウト設定とエラーハンドリングを追加
-//$configUrl = 'https://backsite.pro/fmmie/storage/formzconfig/' . $fm_id . '_setbody.txt';
-$configUrl = 'https://fmmie.backsite.pro/formzconfig/' . $fm_id . '_setbody.txt';
-// コンテキスト設定（タイムアウト: 5秒）
-$context = stream_context_create([
-    'http' => [
-        'timeout' => 5,
-        'method' => 'GET'
-    ]
-]);
+// バリデーション設定ファイルの読み込み（formz_load_config_file 経由: kinkyuformz / URL 統一）
+$fp = formz_load_config_file($fm_id, 'setbody.txt');
 
-$fp = @file_get_contents($configUrl, false, $context);
-
-// ファイル読み込み失敗時のエラーハンドリング
-if ($fp === false) {
-    error_log("Failed to load validation config: " . $configUrl);
-    //$error['config'] = '<span class="error_mess">設定ファイルの読み込みに失敗しました。しばらくしてから再度お試しください。</span>';
+if ($fp === false || trim($fp) === '') {
     $validateListbuf = [];
 } else {
     $validateListbuf = explode("\n", $fp);
