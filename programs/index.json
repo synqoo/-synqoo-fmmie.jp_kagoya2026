@@ -1,122 +1,149 @@
 {
-  "programs": [
-    {
-      "a_url": "/programs/pomie/",
-      "img_url": "/programs/pomie/assets_c/2026/02/main2-thumb-640x400-1077.jpg",
-      "name": "Pick up On Mie ～POMie！(ポミー)～",
-      "dtime": "月～木7:30～8:55/金7:30～10:00",
-      "message": true,
-      "message_url": "/programs/pomie/message.php"
-    },
-    {
-      "a_url": "/program/tsunagaruzikan/",
-      "img_url": "/program/tsunagaruzikan/images/main.jpg",
-      "name": "つながるジカン",
-      "dtime": "月～金 17:00～18:55",
-      "message": true,
-      "message_url": "/program/hapihapi/message.php"
-    },
-    {
-      "a_url": "/program/hapihapi/",
-      "img_url": "/program/hapihapi/images/main.jpg",
-      "name": "はぴはぴ子育て",
-      "dtime": "毎週金曜日 10:00～10:55",
-      "message": true,
-      "message_url": "/program/hapihapi/message.php"
-    },
-    {
-      "a_url": "/program/andojuku/",
-      "img_url": "/program/andojuku/images/main.jpg",
-      "name": "安藤大作・エデュケーションラジオ",
-      "dtime": "毎週金曜日 16:45～16:55",
-      "message": true,
-      "message_url": "/program/andojuku/message.php"
-    },
-    {
-      "a_url": "/programs/heartfullife/",
-      "img_url": "/program/heartfullife/images/main.jpg",
-      "name": "ハートフルライフ",
-      "dtime": "毎週金曜日 17:50～18:00",
-      "message": true,
-      "message_url": "/programs/heartfullife/message.php"
-    },
-    {
-      "a_url": "/programs/akikomaradio/",
-      "img_url": "/programs/akikomaradio/images/main.jpg",
-      "name": "空きコマRadio",
-      "dtime": "毎週金曜日 20:30～21:00",
-      "message": true,
-      "message_url": "/programs/akikomaradio/message.php"
-    },
-    {
-      "a_url": "/programs/FlidayNightFever/",
-      "img_url": "/program/FlidayNightFever/images/main.jpg",
-      "name": "FlidayNightFever",
-      "dtime": "毎週金曜日 21:00～21:30",
-      "message": true,
-      "message_url": "/programs/FlidayNightFever/message.php"
-    },
-    {
-      "a_url": "/programs/junlennon/",
-      "img_url": "/program/junlennon/images/main.jpg",
-      "name": "純れのん一目瞭然E",
-      "dtime": "毎週金曜日 16:00～16:30",
-      "message": true,
-      "message_url": "/programs/junlennon/message.php"
-    },
-    {
-      "a_url": "/programs/talkbeyond/",
-      "img_url": "/program/talkbeyond/images/main2.jpg",
-      "name": "Talk,beyond ",
-      "dtime": "毎週金曜日 21:30～21:55",
-      "message": true,
-      "message_url": "/programs/talkbeyond/message.php"
-    },
-    {
-      "a_url": "/programs/maroq/",
-      "img_url": "/programs/maroq/assets_c/2026/03/maroq-thumb-1280x800-1098.jpg",
-      "name": "うたまろの『まろＱ』",
-      "dtime": "毎週金曜日 20:00～20:30",
-      "message": false
-    },
-    {
-      "a_url": "/programs/buzzbuzz/",
-      "img_url": "/programs/buzzbuzz/assets_c/2026/03/buzz-thumb-1707x1067-1176.jpg",
-      "name": "今夜もBuzz Buzzツ!!～えりかと津ぅで遊ボ～っト。～",
-      "dtime": "毎週土曜日 18:00～18:55",
-      "message": true,
-      "message_url": "/programs/buzzbuzz/message.php"
-    },
-    {
-      "a_url": "/program/weekendcafe2/",
-      "img_url": "/program/weekendcafe2/images/main.jpg",
-      "name": "ウィークエンドカフェ",
-      "dtime": "毎週土曜日 9:00～9:15",
-      "message": false
-    },
-    {
-      "a_url": "/programs/takumi-radio/",
-      "img_url": "/program/takumi-radio/images/main.jpg",
-      "name": "takumi-radio",
-      "dtime": "火曜18:12~,水曜8:25~",
-      "message": true,
-      "message_url": "/programs/takumi-radio/"
-    },
-    {
-      "a_url": "/programs/moridai/",
-      "img_url": "/program/moridai/images/main.jpg",
-      "name": "森大建地産の住まいの達人",
-      "dtime": "毎週水曜日 17:55～18:00",
-      "message": true,
-      "message_url": "/programs/moridai/index.php"
-    },
-    {
-      "a_url": "/programs/nextage/",
-      "img_url": "/programs/nextage/images/nextageradiko.jpg",
-      "name": "nextage",
-      "dtime": "毎週木曜日 18:55～19:00",
-      "message": true,
-      "message_url": "/programs/nextage/"
-    }
-  ]
-}
+    "programs": [
+      {
+        "a_url": "/programs/pomie/",
+        "img_url": "/programs/pomie/assets_c/2026/02/main2-thumb-640x400-1077.jpg",
+        "name": "Pick up On Mie ～POMie！(ポミー)～",
+        "dtime": "月～木7:30～8:55/金7:30～10:00",
+        "message": true,
+        "message_url": "/programs/pomie/message.php"
+      },
+      {
+        "a_url": "/programs/tsunagaruzikan/",
+        "img_url": "/programs/tsunagaruzikan/assets_c/2026/03/tunakan-thumb-640x400-4903.jpg",
+        "name": "つながるジカン",
+        "dtime": "月～金 17:00～18:55",
+        "message": true,
+        "message_url": "/programs/tsunagaruzikan/message.php"
+      },
+      {
+        "a_url": "/programs/hapihapi/",
+        "img_url": "https://fmmie.jp/programs/hapihapi/assets_c/2026/03/hapihapi2026-thumb-640x400-4711.jpg",
+        "name": "はぴはぴ子育て",
+        "dtime": "毎週金曜日 10:00～10:55",
+        "message": true,
+        "message_url": "/programs/hapihapi/message.php"
+      },
+  {
+        "a_url": "/programs/junlennon/",
+        "img_url": "/program/junlennon/images/main.jpg",
+        "name": "純れのん一目瞭然!",
+        "dtime": "毎週金曜日 16:00～16:30",
+        "message": true,
+        "message_url": "/programs/junlennon/message.php"
+      },
+      {
+        "a_url": "/programs/andojuku/",
+        "img_url": "/programs/andojuku/assets_c/2026/03/a81adfa29e3c33a92e9101d736fa4db1a3b872d3-thumb-640x400-4713.jpg",
+        "name": "安藤大作・エデュケーションラジオ",
+        "dtime": "毎週金曜日 16:45～16:55",
+        "message": true,
+        "message_url": "/programs/andojuku/message.php"
+      },
+  {
+        "a_url": "/programs/guttoword/",
+        "img_url": "/programs/guttoword/assets_c/2026/03/goodword-thumb-640x405-4907.jpg",
+        "name": "たそがれコラムニストの ＜グッとワード＞",
+        "dtime": "毎週金曜日 16:55～17:00",
+        "message": true
+      },
+      {
+        "a_url": "/programs/heartfullife/",
+        "img_url": "/programs/heartfullife/images/heartful.jpg",
+        "name": "ハートフルライフ",
+        "dtime": "毎週金曜日 17:50～18:00",
+        "message": true,
+        "message_url": "/programs/heartfullife/message.php"
+      },
+  {
+        "a_url": "/programs/maroq/",
+        "img_url": "/programs/maroq/assets_c/2026/03/maroq-thumb-1280x800-1098.jpg",
+        "name": "うたまろの『まろＱ』",
+        "dtime": "毎週金曜日 20:00～20:30",
+        "message": false
+      },
+      {
+        "a_url": "/programs/akikomaradio/",
+        "img_url": "/programs/akikomaradio/images/main.jpg",
+        "name": "空きコマRadio",
+        "dtime": "毎週金曜日 20:30～21:00",
+        "message": true,
+        "message_url": "/programs/akikomaradio/message.php"
+      },
+      {
+        "a_url": "/programs/FlidayNightFever/",
+        "img_url": "/program/FlidayNightFever/images/main.jpg",
+        "name": "FlidayNightFever",
+        "dtime": "毎週金曜日 21:00～21:30",
+        "message": true,
+        "message_url": "/programs/FlidayNightFever/message.php"
+      },
+      
+  
+      {
+        "a_url": "/programs/talkbeyond/",
+        "img_url": "/program/talkbeyond/images/main2.jpg",
+        "name": "Talk,beyond ",
+        "dtime": "毎週金曜日 21:30～21:55",
+        "message": true,
+        "message_url": "/programs/talkbeyond/message.php"
+      },
+      
+  {
+        "a_url": "/programs/weekendcafe2/",
+        "img_url": "/programs/weekendcafe2/assets_c/2026/03/main6-thumb-640x400-4014.jpg",
+        "name": "ウィークエンドカフェ",
+        "dtime": "毎週土曜日 9:00～9:15",
+        "message": false
+      },
+  {
+        "a_url": "/programs/oinai_radio/",
+        "img_url": "/programs/oinai_radio/assets_c/2026/03/jj3-thumb-640x400-4919.jpg",
+        "name": "バッテリィズ寺家の三重おいないラジオ",
+        "dtime": "毎週土曜日 18:00〜18:30",
+        "message": true,
+        "message_url": "/programs/oinai_radio/message.php"
+      },
+      {
+        "a_url": "/programs/buzzbuzz/",
+        "img_url": "/programs/buzzbuzz/assets_c/2026/03/buzz2-thumb-1707x1067-1187.jpg",
+        "name": "今夜もBuzz Buzzツ!!～えりかと津ぅで遊ボ～っト。～",
+        "dtime": "毎週土曜日 18:30～18:55",
+        "message": true,
+        "message_url": "/programs/buzzbuzz/message.php"
+      },
+          {
+        "a_url": "/programs/tankanojikan/",
+        "img_url": "/programs/tankanojikan/assets_c/2026/07/tanka-thumb-960x600-5083.jpg",
+        "name": "短歌の時間",
+        "dtime": "毎週日曜日 14:55～15:00",
+        "message": true,
+        "message_url": "/programs/tankanojikan/message.php"
+      },
+      {
+        "a_url": "/programs/takumi-radio/",
+        "img_url": "/program/takumi-radio/images/main.jpg",
+        "name": "匠Radio!",
+        "dtime": "火曜18:12~,水曜8:25~",
+        "message": true,
+        "message_url": "/programs/takumi-radio/"
+      },
+      {
+        "a_url": "/programs/moridai/",
+        "img_url": "/program/moridai/images/main.jpg",
+        "name": "森大建地産の住まいの達人",
+        "dtime": "毎週水曜日 17:55～18:00",
+        "message": true,
+        "message_url": "/programs/moridai/index.php"
+      },
+      {
+        "a_url": "/programs/nextage/",
+        "img_url": "/programs/nextage/images/nextageradiko.jpg",
+        "name": "教えて！森川先生",
+        "dtime": "毎週木曜日 18:55～19:00",
+        "message": true,
+        "message_url": "/programs/nextage/"
+      }
+    ]
+  }
+  
