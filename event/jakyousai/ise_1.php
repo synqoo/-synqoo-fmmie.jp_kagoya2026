@@ -71,10 +71,10 @@ if($_POST['act']==1){
 
     <p class="jak-meta-bar"><strong>応募期間：</strong>5/7（木）～6/30（火）</p>
 
-    <!-- <div class="jak-closed">
+    <div class="jak-closed">
         <p>ＪＡ伊勢会場の応募は締め切りました。</p>
         <p>たくさんのご応募をありがとうございました。</p>
-    </div> -->
+    </div> 
 
     <section class="jak-section" aria-labelledby="jak-overview-heading">
         <h2 id="jak-overview-heading" class="jak-section-title">開催概要</h2>
@@ -107,7 +107,7 @@ if($_POST['act']==1){
             <li>紀宝町</li>
         </ul>
     </section>
-
+<!--
     <section class="jak-section" aria-labelledby="jak-form-heading">
         <h2 id="jak-form-heading" class="jak-section-title">応募フォーム</h2>
         <div class="jak-form-slot" aria-label="応募フォーム設置予定エリア">
@@ -200,7 +200,7 @@ if($_POST['act']==1){
                 <?php endif; ?>
             </div>
             <?php if ($enable_optional_fields_toggle): ?>
-            </div><!-- /#optional-fields-container -->
+            </div><!-- /#optional-fields-container --
             <?php endif; ?>
             <hr />
             
@@ -224,7 +224,7 @@ if($_POST['act']==1){
             </div>
             
             <!-- 既に同意済みの場合はhidden inputで送信 -->
-            <!--<input type="hidden" name="privacy_consent" id="privacy_consent_hidden" value="1" />-->
+            <!--<input type="hidden" name="privacy_consent" id="privacy_consent_hidden" value="1" />--
             
             <input type="hidden" name="form_type" value="2" />
             <input type="hidden" name="act" value="1" />
@@ -246,7 +246,7 @@ if($_POST['act']==1){
 
 
         </div>
-    </section>
+    </section>-->
 
     <section class="jak-section" aria-labelledby="jak-notes-heading">
         <h2 id="jak-notes-heading" class="jak-section-title">特記事項</h2>
