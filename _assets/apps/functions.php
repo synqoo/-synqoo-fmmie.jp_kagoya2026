@@ -122,7 +122,7 @@ function synqoomail2($maildata){
 function connectKami(){
 	global $mysqli,$baseurl;
 	if(!$mysqli = new mysqli('o4043-462.kagoya.net','kir691871','2d791a8032876e7e','fmmie_backsite')){$ecode=3;}
-	$result = $mysqli->query('set names utf8');
+	$result = $mysqli->query('set names utf8mb4');
 	if ($ecode <> 0){
     	header("HTTP/1.1 301 Moved Permanently");
 		header("Location: ".$baseurl."/?ecode=".$ecode);
