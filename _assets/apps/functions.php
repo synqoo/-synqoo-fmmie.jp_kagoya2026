@@ -257,21 +257,12 @@ function formz_load_config_file($fm_id, $suffix)
 }
 
 /**
- * レガシー formzconfig URL（backsite.pro 公開ストレージ。confirm 等のフォールバック用）
- *
- * @return string
- */
-function formz_config_legacy_remote_base()
-{
-	return 'https://backsite.pro/fmmie/storage/formzconfig/';
-}
-
-/**
- * formz_load_config_file に加え、kinkyuformz=0 時のみレガシー URL へフォールバック。
+ * formz_load_config_file のラッパー（debug 用 sourceLabel 付与）。
+ * 旧 backsite.pro レガシー URL へのフォールバックは廃止済みのため行わない。
  *
  * @param int|string  $fm_id
  * @param string      $suffix  config.txt / setbody.txt / prez.txt / formdef.json 等
- * @param string|null $sourceLabel  debug 用取得元（remote / local / legacy / none）
+ * @param string|null $sourceLabel  debug 用取得元（remote / local / none）
  * @return string|false
  */
 function formz_load_config_file_with_fallback($fm_id, $suffix, &$sourceLabel = null)
@@ -287,35 +278,6 @@ function formz_load_config_file_with_fallback($fm_id, $suffix, &$sourceLabel = n
 		return $content;
 	}
 
-	if ($kinkyuformz == 1) {
-		if ($sourceLabel !== null) {
-			$sourceLabel = 'none';
-		}
-
-		return false;
-	}
-
-	$url = formz_config_legacy_remote_base() . (int) $fm_id . '_' . $suffix;
-	$context = stream_context_create([
-		'http' => [
-			'timeout' => 5,
-			'method' => 'GET',
-		],
-		'ssl' => [
-			'verify_peer' => false,
-			'verify_peer_name' => false,
-		],
-	]);
-	$content = @file_get_contents($url, false, $context);
-	if ($content !== false && trim($content) !== '') {
-		if ($sourceLabel !== null) {
-			$sourceLabel = 'legacy';
-		}
-
-		return $content;
-	}
-
-	error_log('Failed to load formz config (legacy fallback): ' . $url);
 	if ($sourceLabel !== null) {
 		$sourceLabel = 'none';
 	}

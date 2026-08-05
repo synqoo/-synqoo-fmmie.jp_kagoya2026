@@ -23,7 +23,159 @@
 
     <section class="pm-section pm-events">
   
+    <article class="pm-event card card-radius-lg card-shadow-sm">
+    <div class="pm-event__body">
+        <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 9月12日<span class="pm-sat">（土）</span></p>
+        <p class="pm-event__time">第1部 10時30分～ 第2部 13時～</p>
+        <p class="pm-event__place">場所：津市産業・スポーツセンター メッセウイングNHW（メッセウイング・みえ）</p>
+        <button type="button" class="pm-btn pm-btn--detail" aria-expanded="false" aria-controls="pm-event-detail-1">詳細を見る</button>
+        <div class="pm-event__detail" id="pm-event-detail-1" hidden>
+            <div class="pm-event__detail-title">9月12日（土）出店者一覧</div>
+            <div class="pm-cards">
+                <div class="pm-card">
+                    <p class="pm-card__name">アトリエウフ</p>
+                    <p class="pm-card__addr">伊賀市土橋741</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">カメイドー</p>
+                    <p class="pm-card__addr">松阪市川井町828-7</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ルポッシュ</p>
+                    <p class="pm-card__addr">鈴鹿市西条4丁目10</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ヒローズ</p>
+                    <p class="pm-card__addr">津市半田243-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">かぜのテラス</p>
+                    <p class="pm-card__addr">四日市市下海老町字平野109-8</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">KOKO</p>
+                    <p class="pm-card__addr">桑名市西別所296-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ドミニク</p>
+                    <p class="pm-card__addr">鈴鹿市南江島町17-30</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">桑パン</p>
+                    <p class="pm-card__addr">桑名市新西方2-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">マーブルラパン</p>
+                    <p class="pm-card__addr">鈴鹿市中旭が丘3丁目10-26</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">NOKOTOKO</p>
+                    <p class="pm-card__addr">多気郡多気町相可127</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">パンとほっぺ</p>
+                    <p class="pm-card__addr">松阪市伊勢寺町555-3　ベルファーム内</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">コクリコルージュ</p>
+                    <p class="pm-card__addr">伊勢市御薗町王中島字垣溝766</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">1000sticks</p>
+                    <p class="pm-card__addr">鈴鹿市西条６‐40</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">なもパン</p>
+                    <p class="pm-card__addr">桑名市城山台121</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">kujiraドライブイン</p>
+                    <p class="pm-card__addr">四日市市松原町1-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">わしの津こっぺ</p>
+                    <p class="pm-card__addr">津市久居本町1396-2</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ローゼンボルク</p>
+                    <p class="pm-card__addr">松阪市中央町453</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">BRIXTON</p>
+                    <p class="pm-card__addr">——</p>
+                </div>
+            </div>
+            <p class="pm-event__flyer"><a href="pdf/20260911pan.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> チラシのダウンロード</a></p>
+        </div>
+    </div>
+</article>
 
+<article class="pm-event card card-radius-lg card-shadow-sm">
+    <div class="pm-event__body">
+        <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 9月13日<span class="pm-sun">（日）</span></p>
+        <p class="pm-event__time">第1部 10時30分～ 第2部 13時～</p>
+        <p class="pm-event__place">場所：津市産業・スポーツセンター メッセウイングNHW（メッセウイング・みえ）</p>
+        <button type="button" class="pm-btn pm-btn--detail" aria-expanded="false" aria-controls="pm-event-detail-2">詳細を見る</button>
+        <div class="pm-event__detail" id="pm-event-detail-2" hidden>
+            <div class="pm-event__detail-title">9月13日（日）出店者一覧</div>
+            <div class="pm-cards">
+                <div class="pm-card">
+                    <p class="pm-card__name">アトリエウフ</p>
+                    <p class="pm-card__addr">伊賀市土橋741</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ヒラノベーカリー</p>
+                    <p class="pm-card__addr">桑名市多度町小山台1丁目4-18</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">chuchu</p>
+                    <p class="pm-card__addr">津市久居野口町2477-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ルポッシュ</p>
+                    <p class="pm-card__addr">鈴鹿市西条4丁目10</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">KOKO</p>
+                    <p class="pm-card__addr">桑名市西別所296-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ドミニク</p>
+                    <p class="pm-card__addr">鈴鹿市南江島町17-30</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">マーブルラパン</p>
+                    <p class="pm-card__addr">鈴鹿市中旭が丘3丁目10-26</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">パンとほっぺ</p>
+                    <p class="pm-card__addr">松阪市伊勢寺町555-3　ベルファーム内</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">コクリコルージュ</p>
+                    <p class="pm-card__addr">伊勢市御薗町王中島字垣溝766</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">1000sticks</p>
+                    <p class="pm-card__addr">鈴鹿市西条６‐40</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">kujiraドライブイン</p>
+                    <p class="pm-card__addr">四日市市松原町1-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">わしの津こっぺ</p>
+                    <p class="pm-card__addr">津市久居本町1396-2</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">BRIXTON</p>
+                    <p class="pm-card__addr">——</p>
+                </div>
+            </div>
+            <p class="pm-event__flyer"><a href="pdf/20260911pan.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> チラシのダウンロード</a></p>
+        </div>
+    </div>
+</article>
 <article class="pm-event card card-radius-lg card-shadow-sm" style="display:none">
     <div class="pm-event__body">
         <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 5月17日<span class="pm-sun">（日）</span></p>

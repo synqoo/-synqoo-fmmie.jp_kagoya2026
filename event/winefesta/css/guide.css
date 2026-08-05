@@ -1,0 +1,281 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@100;700&display=swap');
+
+/* スマホレイアウトをベースにしたレスポンシブ（web用レイアウトは不使用） */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color: #ffffff;
+}
+
+img {
+	vertical-align: bottom;
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+.noto-serif-jp {
+	font-family: 'Noto Serif JP', serif;
+}
+
+.guide-wrapper {
+	width: 100%;
+	max-width: 480px;
+	margin: 0 auto;
+}
+
+.guide-back {
+	margin: 0;
+	padding: 12px 16px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.guide-back a {
+	font-size: 14px;
+	color: #00033C;
+	text-decoration: none;
+}
+
+.guide-back a:hover {
+	text-decoration: underline;
+}
+
+.step-01-container {
+	width: 100%;
+	background-color: #EEF3F6;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.step-01 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 12px;
+}
+
+.step-01 > img {
+	width: 41px;
+	margin-right: 10px;
+	flex-shrink: 0;
+}
+
+.step-01-title {
+	display: flex;
+	height: fit-content;
+	align-items: center;
+}
+
+.step-01-title > span {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.4;
+	color: #16163B;
+	border-bottom: 2px solid #0C0852;
+	width: fit-content;
+}
+
+.step-01-title > img {
+	height: 35px;
+	margin-left: 10px;
+	flex-shrink: 0;
+}
+
+.qr-code {
+	display: block;
+}
+
+.qr-code-item {
+	margin: 30px 0;
+	padding: 0 16px;
+}
+
+.qr-code-item > div {
+	font-size: 15px;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.qr-code-item-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.qr-code-item-flex > img {
+	width: 76px;
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+
+.qr-code-bottom-link {
+	text-align: left;
+}
+
+.qr-code-bottom-link > button {
+	width: 163px;
+	height: 27px;
+	border: none;
+	font-size: 13px;
+	color: #ffffff;
+	background-color: #00033C;
+	border-radius: 20%;
+	margin-left: 0;
+	cursor: pointer;
+	padding: 0 8px;
+}
+
+.qr-code-introduction {
+	margin-left: 0;
+	font-size: 13px;
+	text-align: left;
+	margin-top: 10px;
+	color: #16163B;
+}
+
+.mobile-phone-one,
+.mobile-phone-two,
+.mobile-phone-three,
+.mobile-phone-four,
+.mobile-phone-five {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: min(340px, 100%);
+	margin: auto;
+	padding: 0 12px;
+}
+
+.mobile-phone-one > img,
+.mobile-phone-two > img,
+.mobile-phone-three > img,
+.mobile-phone-four > img,
+.mobile-phone-five > img {
+	width: 130px;
+	flex-shrink: 0;
+}
+
+.mobile-phone-one > img,
+.mobile-phone-three > img,
+.mobile-phone-five > img {
+	margin-right: 15px;
+}
+
+.mobile-phone-two,
+.mobile-phone-three,
+.mobile-phone-five {
+	margin-top: -30px;
+}
+
+.mobile-phone-introduction {
+	width: 185px;
+	text-align: center;
+	flex-shrink: 0;
+}
+
+.mobile-phone-introduction > img {
+	width: 39px;
+	margin-bottom: 10px;
+}
+
+.mobile-phone-introduction > div {
+	font-size: 13px;
+	color: #16163B;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.step-02-container {
+	width: 100%;
+	background-color: #fff6ee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.step-02 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 12px;
+}
+
+.step-02 > img {
+	width: 39px;
+	margin-right: 10px;
+	flex-shrink: 0;
+}
+
+.step-02-title > span {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 32px;
+	color: #16163B;
+	border-bottom: 2px solid #0C0852;
+	width: fit-content;
+}
+
+.number-one {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	margin-top: 0;
+}
+
+.number-one > img {
+	width: 39px;
+	margin-right: 0;
+	flex-shrink: 0;
+}
+
+.step-02-fount-size {
+	font-size: 13px;
+	margin-top: 0;
+	margin-left: 20px;
+	text-align: left;
+	color: #16163B;
+	line-height: 1.5;
+}
+
+.guide-atobaru {
+	display: block;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.guide-wrapper {
+		max-width: 520px;
+	}
+
+	.step-01-title > span {
+		font-size: 18px;
+	}
+
+	.step-02-title > span {
+		font-size: 15px;
+	}
+
+	.qr-code-item > div {
+		font-size: 16px;
+	}
+
+	.qr-code-introduction,
+	.mobile-phone-introduction > div,
+	.step-02-fount-size {
+		font-size: 14px;
+	}
+}

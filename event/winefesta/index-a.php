@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>ワインフェスタ四日市2026｜レディオキューブFM三重</title>
-    <meta name="description" content="2026年10月17日(土)・18日(日)、近鉄四日市駅前商店街アーケード内公園通りで開催。LINEロイティⅩでデジタルチケット購入。世界のワインと四日市の人気店の美食、四日市JAZZ FESTIVALのライブ演奏を楽しむ大人のワインイベント。" />
+    <meta name="description" content="2026年10月17日(土)・18日(日)、近鉄四日市駅前商店街アーケード内公園通りで開催。世界のワイン100種類以上と四日市の人気店の美食、四日市JAZZ FESTIVALのライブ演奏を楽しむ大人のワインイベント。" />
     <meta name="color-scheme" content="light">
 
     <?php require_once(INCLUDE_HTMLHEAD_PATH); ?>
-    <link rel="stylesheet" href="css/styles.css?p=7" />
+    <link rel="stylesheet" href="css/styles.css?p=1" />
 </head>
 <body>
 <?php require_once(INCLUDE_GLOBALHEADER_PATH); ?>
 <!-- コンテンツエリア -->
 
 <div class="wf-container">
+    
 
     <!-- ========== ヒーロー ========== -->
     <header class="wf-hero">
         <div class="wf-hero__media wf-photo" aria-hidden="true">
-            <img src="images/winefesta3.jpg" alt="" />
+            <img src="images/winefesta1.jpg" alt="" />
         </div>
         <div class="wf-hero__body">
-            <p class="wf-hero__eyebrow">秋をおしゃれに楽しむ、大人のワイン時間</p>
+            <p class="wf-hero__eyebrow"><!--<i class="fa-solid fa-wine-glass" aria-hidden="true"></i> -->秋をおしゃれに楽しむ大人のワイン時間</p>
             <h1 class="wf-hero__title">ワインフェスタ四日市<span class="wf-hero__year">2026</span></h1>
-            <p class="wf-hero__lead">ワインとグルメ、そして心地よい音楽に包まれて、<br>いつもの商店街が特別な空間に生まれ変わる2日間</p>
+            <p class="wf-hero__lead">ワインとグルメ、そして心地よい音楽に包まれて、<br>いつもの商店街が特別な空間に生まれ変わる2日間。</p>
             <dl class="wf-hero__meta">
                 <div class="wf-hero__meta-item">
                     <dt><i class="fa-regular fa-calendar" aria-hidden="true"></i> 開催日</dt>
@@ -46,8 +47,7 @@
         <p class="wf-intro__topics">TOPICS</p>
         <p class="wf-intro__text">
             四日市はワインバーやワインが楽しめる魅力的な飲食店が多い街です。<br>
-            ワインフェスタ四日市2026は、そんな四日市の人気店を商店街に集め、<br>
-            多彩なワインと数々の美食を、四日市JAZZ FESTIVALのライブ演奏と共に楽しむ、<strong>ヨーロッパの祝祭のようなイベント</strong>です。
+            ワインフェスタ四日市2026は、そんな四日市の人気店を商店街に集め、多彩なワインと数々の美食を、<br />四日市JAZZ FESTIVALのライブ演奏と共に楽しむ、<strong>ヨーロッパの祝祭のようなイベント</strong>です
         </p>
     </section>
 
@@ -57,72 +57,14 @@
         <table class="wf-overview">
             <tbody>
                 <tr><th>イベント名</th><td>ワインフェスタ四日市2026</td></tr>
-                <tr><th>開催日時</th><td>2026年10月17日（土）11:00〜19:00<br />
-                2026年10月18日（日） 11:00〜17:00</td></tr>
+                <tr><th>開催日時</th><td>2026年10月17日（土）〜18日（日） 11:00〜17:00</td></tr>
                 <tr><th>会　場</th><td>近鉄四日市駅前商店街 アーケード内公園通り</td></tr>
-                <tr><th>入場料</th><td>無料<br />※ワインを楽しむにはワイン飲料券の購入（要LINEアプリ）と、現金1000円のデポジットが必要です）</td></tr>
+                <tr><th>入場料</th><td>無料（ワインを楽しむにはワイン飲料券の購入が必要）</td></tr>
                 <tr><th>主　催</th><td>FM三重</td></tr>
                 <tr><th>後　援</th><td>四日市市 四日市商工会議所 （一社）四日市観光協会<br>中日新聞社 四日市JAZZ FESTIVAL実行委員会</td></tr>
-                <tr><th>協　賛</th><td>朝日ガスエナジー㈱、㈱五十嵐建設、㈱i-kyo 水沢ワイン ドメーヌ フイアージュ、㈱エイワ、㈱オートモール フォルクスワーゲン鈴鹿 四日市、㈱誠文社、㈲ダイトー地所、㈱トワ、㈱フォレスト・オオモリ、プラトンホテル四日市、三重日野自動車㈱、㈱リョーケン、APPI、LIFE VISION協同組合</td></tr>
+                <tr><th>協　賛</th><td>日本トランスシティ㈱ appi LIFE vision協同組合 ㈱リョーケン ㈱フォレスト・オオモリ ㈱i-kyo 三重日野自動車㈱ ㈱エイワ ㈱角屋 ㈱サノプランニング ㈲ダイトー地所 ㈱トワ</td></tr>
             </tbody>
         </table>
-    </section>
-
-    <!-- ========== チケット購入方法 ========== -->
-    <section class="wf-section" id="ticket">
-        <h2 class="wf-heading">チケット購入方法</h2>
-        <div class="wf-ticket-box card card-radius-lg card-shadow-sm">
-            <div class="wf-line-intro">
-                <p class="wf-line-intro__lead"><i class="fa-brands fa-line" aria-hidden="true"></i> <strong>LINE ロイティⅩ</strong>でチケットを簡単に購入できます。（LINEアプリが必要です）</p>
-                <p class="wf-line-intro__sub">デジタルチケットなので、いつでもどこでも購入でき、紛失の心配もなし！<br />ワインチケットは8月1日から前売り開始です。</p>
-            </div>
-
-            <div class="wf-ticket-plans">
-                <article class="wf-ticket-plan wf-ticket-plan--main">
-                    <p class="wf-ticket-plan__label">前売券</p>
-                    <p class="wf-ticket-plan__price">5,000<span class="wf-yen">円</span></p>
-                    <p class="wf-ticket-plan__unit">（10枚綴り／税込）</p>
-                    <p class="wf-ticket-plan__detail">販売期間：前売り8/1（土）〜10/16（金）</p>
-                </article>
-                <article class="wf-ticket-plan wf-ticket-plan--main">
-                    <p class="wf-ticket-plan__label">プレミアムシート</p>
-                    <p class="wf-ticket-plan__price">2,000<span class="wf-yen">円</span></p>
-                    <p class="wf-ticket-plan__unit">（1人／税込）</p>
-                    <p class="wf-ticket-plan__detail">2時間制（11時〜13時、13時〜15時、15時〜17時）<br>THE CENTRAL（パーティースペース／公園通り沿い）</p>
-                </article>
-                <article class="wf-ticket-plan wf-ticket-plan--main">
-                    <p class="wf-ticket-plan__label">当日券・追加券</p>
-                    <p class="wf-ticket-plan__price">5,500<span class="wf-yen">円</span></p>
-                    <p class="wf-ticket-plan__unit">（10枚綴り／税込）</p>
-                    <p class="wf-ticket-plan__detail">当日会場にて販売</p>
-                </article>
-            </div>
-
-            <div class="wf-line-purchase">
-                <div class="wf-step wf-step--with-qr">
-                    <div class="wf-step__body">
-                        <div class="wf-step__no">STEP 1 登録</div>
-                        <h4 class="wf-step__title"></h4>
-                        <p>こちらからまず <a href="https://liff.line.me/2004655229-34YvRXqN/530/" target="_blank">LINEで「ロイティⅩ」お友だち登録</a> <i class="fa-solid fa-up-right-from-square"></i> をしてください。</p>
-                    </div>
-                    <a href="https://liff.line.me/2004655229-34YvRXqN/530/" target="_blank"><div class="wf-line-qr">
-                        <div class="wf-line-qr__fig wf-photo">
-                            <img src="images/aa.png" alt="ロイティⅩチケット購入用 QR" />
-                        </div>
-                        <p class="wf-line-qr__label">「ロイティⅩ」<br>チケット購入用 QR</p>
-                    </div></a>
-                </div>
-                <div class="wf-step__arrow" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></div>
-                <div class="wf-step">
-                    <div class="wf-step__no">STEP 2 購入</div>
-                    <h4 class="wf-step__title"></h4>
-                    <p>[Ⅹチケット]をタップ ⇒ <strong>[ワインフェスタ四日市2026]</strong>をタップし、購入手続きをしてください。</p>
-                    
-                </div>
-                <p>※ <a href="guide.php" target="_blank">デジタルチケット ロイティXの詳しい使用方法はこちら</a>  <i class="fa-solid fa-up-right-from-square"></i></p>
-
-            </div>
-        </div>
     </section>
 
     <!-- ========== ご利用案内 ========== -->
@@ -133,15 +75,19 @@
         <div class="wf-steps">
             <div class="wf-step card card-radius-lg card-shadow-sm">
                 <div class="wf-step__no">STEP 1</div>
-                <h4 class="wf-step__title">会場受付</h4>
-                <p>購入したLINE「ロイティⅩ」の「マイチケット」画面を表示してください。</p>
-                <p>担当者が確認し、ワイングラスとリストバンドをお渡しします。（デポジット制 1脚1,000円）</p>
+                <h4 class="wf-step__title">会場にてワイン飲料券と引換え</h4>
+                <p>前売り券をお持ちの方は、受付カウンターにお持ちください。ワイン飲料券（10枚綴り）と引換ます。リストバンドとワイングラスをお渡しします。</p>
                 <ul class="wf-notes">
-                    <li>お帰りの際ワイングラス返却で1,000円をお返しします。</li>
-                    <li>ワイングラスを破損した場合は1,000円は返却しません。</li>
+                    <li>ワイングラスはデポジット制（1脚1,000円）。お帰りの際の返却で1,000円をお返しします。</li>
+                    <li>ワイングラスを破損した場合、1,000円は返却しません。</li>
                     <li>持込グラスはご利用できません。</li>
-                    <li>「マイチケット」をお持ちでない方にはワイングラスをお渡しすることはできません。</li>
+                    <li>お支払いは現金とPayPayでお願いします。</li>
+                    <li>状況によりまして、当日券の販売を終了させていただくことがございます。</li>
+                    <li>飲酒運転および２０歳未満の飲酒は固く禁じられています。</li>
+                    <li>ご来場の際は公共交通機関をご利用ください。</li>
+                    <li>２０歳未満の飲酒防止のため、スタッフが年齢確認をさせていただく場合がございます。</li>
                 </ul>
+                <p class="wf-step__price">前売り券 <b>5,000円</b>／当日券 <b>5,500円</b></p>
             </div>
 
             <div class="wf-step__arrow" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></div>
@@ -149,26 +95,17 @@
             <div class="wf-step card card-radius-lg card-shadow-sm">
                 <div class="wf-step__no">STEP 2</div>
                 <h4 class="wf-step__title">お好みのワインブースへ</h4>
-                <ol class="wf-step__flow">
-                    <li>ワインフェスタ四日市2026のチケットをタッチ</li>
-                    <li>ワインの枚数を選び「確定する」を押してください。</li>
-                    <li>カメラが起動するので「ワインブース」の専用QRコードをスキャンして受付完了。</li>
-                    <li>お店の人にその画面を必ず見せてください。</li>
-                </ol>
-                <p>お好みのワインをお楽しみください。</p>
-                <p>白・赤・スパークリング、オーガニック 世界のワイン<strong>70種類以上</strong>ご用意しております。</p>
-                <p>追加でワインを楽しむ場合は、当日券を購入ください。</p>
+                <p>ワインブースでお好みのワインをお楽しみください。ワインのグレードによってワイン飲料券の枚数が変わります。</p>
+                <p>白・赤・スパークリング、オーガニックの世界のワイン<strong>100種類以上</strong>ご用意しております。</p>
+                <p>追加でワインを楽しむ場合は、受付でチケットをご購入ください。（2枚綴り 1,000円）</p>
             </div>
-            <p>※ <a href="guide.php#use" target="_blank">ロイティXの詳しい使用方法はこちら</a>  <i class="fa-solid fa-up-right-from-square"></i></p>
         </div>
-
-
     </section>
-<hr />
+
     <!-- ========== 出店ワインブース ========== -->
     <section class="wf-section">
         <h2 class="wf-heading">出店ワインブース</h2>
-        <p class="wf-lead">人気のワインバーソムリエ厳選の、各国の赤ワインや白ワインや泡など100種類以上のワインをご用意しています。お好みのワインはワイン飲料券でご利用いただけます。</p>
+        <p class="wf-lead">人気のワインバーソムリエ厳選の、各国の赤ワインや白ワイン、泡など100種類以上のワインをご用意しています。お好みのワインはワイン飲料券でご利用いただけます。</p>
 
         <div class="wf-shops">
             <article class="wf-shop card card-radius-lg card-shadow-sm">
@@ -185,8 +122,8 @@
             <article class="wf-shop card card-radius-lg card-shadow-sm">
                 <div class="wf-shop__photo wf-photo"><img src="images/shop-flapper.jpg" alt="Wine bar flapper" /></div>
                 <div class="wf-shop__body">
-                    <h3 class="wf-shop__name">wine bar flapper</h3>
-                    <p class="wf-shop__desc">Vin Naturel（ナチュラルワイン）専門のワインバー。原材料、製法、作り手、テロワールにこだわった品揃えでお待ち申し上げます。</p>
+                    <h3 class="wf-shop__name">Wine bar flapper</h3>
+                    <p class="wf-shop__desc">ワインの風味を生かす薄暗い店内のワインバー。世界のナチュラルワインが楽しめる。</p>
                     <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市西新地13-1 パールプラザ4F</p>
                     <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-351-1828</p>
                     <p class="wf-shop__holiday">定休日 第2・3火曜</p>
@@ -197,7 +134,7 @@
                 <div class="wf-shop__photo wf-photo"><img src="images/shop-ichinose.jpg" alt="ワイン.イチノセ" /></div>
                 <div class="wf-shop__body">
                     <h3 class="wf-shop__name">ワイン.イチノセ</h3>
-                    <p class="wf-shop__desc">イタリア各地を巡って選んだ、本当に飲んでほしいワインをご用意します。</p>
+                    <p class="wf-shop__desc">イタリアワイン専門のワインバー。</p>
                     <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市西新地8-1 ダイヤモンドビル2階</p>
                     <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 090-9911-9533</p>
                     <p class="wf-shop__holiday">定休日 日曜</p>
@@ -207,8 +144,8 @@
             <article class="wf-shop card card-radius-lg card-shadow-sm">
                 <div class="wf-shop__photo wf-photo"><img src="images/shop-assemblage.jpg" alt="ワインバーアッサンブラージュ" /></div>
                 <div class="wf-shop__body">
-                    <h3 class="wf-shop__name">wine bar assemblage</h3>
-                    <p class="wf-shop__desc">落ち着いた雰囲気でワインと向き合っていただけるワインバー。</p>
+                    <h3 class="wf-shop__name">ワインバーアッサンブラージュ</h3>
+                    <p class="wf-shop__desc">手料理と手摘みのワインの店。</p>
                     <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市西浦1-5-16 宮崎ビル1F</p>
                     <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-336-6300</p>
                     <p class="wf-shop__holiday">定休日 火曜</p>
@@ -229,11 +166,11 @@
             <article class="wf-shop card card-radius-lg card-shadow-sm">
                 <div class="wf-shop__photo wf-photo"><img src="images/shop-velo.jpg" alt="vèlo" /></div>
                 <div class="wf-shop__body">
-                    <h3 class="wf-shop__name">wine&kitchen vèlo</h3>
-                    <p class="wf-shop__desc">フランスをはじめ各国のワインをフランス田舎料理に合わせてご提供しております。ソムリエ厳選のさまざまな個性のあるワインをお楽しみください。</p>
+                    <h3 class="wf-shop__name">vèlo</h3>
+                    <p class="wf-shop__desc">手間暇かけたフランス田舎料理とソムリエ厳選のワインが楽しめる。</p>
                     <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市諏訪栄町16-3 2F</p>
                     <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-356-1545</p>
-                    <p class="wf-shop__holiday">定休日 火曜日、第1・第3月曜日</p>
+                    <p class="wf-shop__holiday">定休日 火曜・第2月曜</p>
                 </div>
             </article>
         </div>
@@ -246,6 +183,7 @@
         <ul class="wf-notes wf-notes--center">
             <li>ワイン飲料券はご利用できません。</li>
             <li>お支払いはお店の決済方法でお願いします。</li>
+            <li>お店での飲食はできません。</li>
         </ul>
 
         <div class="wf-shops">
@@ -253,10 +191,22 @@
                 <div class="wf-shop__photo wf-photo"><img src="images/food-bar.jpg" alt="フレンチ酒場 四日市バール" /></div>
                 <div class="wf-shop__body">
                     <h3 class="wf-shop__name">フレンチ酒場 四日市バール</h3>
-                    <p class="wf-shop__desc">『週に一度はフレンチを』をコンセプトにしたフレンチバル。三重県さんジビエや紀伊長島直送の魚介類を自然派ワインとご一緒に！</p>
+                    <p class="wf-shop__desc">『週に一度はフレンチを』をコンセプトにしたフレンチバル。高級食材を使用した本格フレンチをお手頃に。</p>
                     <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市諏訪栄町22-5</p>
                     <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-336-5486</p>
                     <p class="wf-shop__holiday">定休日 月曜・第2・4日曜</p>
+                </div>
+            </article>
+
+            <article class="wf-shop card card-radius-lg card-shadow-sm">
+                <div class="wf-shop__photo wf-photo"><img src="images/food-dragon.jpg" alt="ドラゴン食堂" /></div>
+                <div class="wf-shop__body">
+                    <h3 class="wf-shop__name">ドラゴン食堂</h3>
+                    <p class="wf-shop__desc">中華料理とシェリー酒との相性を考え抜いたお店。ワインを料理と合わせてセレクトします。</p>
+                    <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市諏訪栄町7-30 7番街ビル1F</p>
+                    <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-355-3355</p>
+                    <p class="wf-shop__holiday">定休日 日曜</p>
+                    <p class="wf-shop__holiday"><strong>出店：10月18日（日）のみ</strong></p>
                 </div>
             </article>
 
@@ -266,19 +216,8 @@
                     <h3 class="wf-shop__name">虎鉄</h3>
                     <p class="wf-shop__desc">上品でオシャレな面持ちの創作料理のお店。高級食材を芸術的な盛り付けで種類も豊富な料理が楽しめる。</p>
                     <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市諏訪栄町16-1</p>
-                    <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-352-5188</p>
+                    <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-352-5277</p>
                     <p class="wf-shop__holiday">定休日 日曜・月曜</p>
-                </div>
-            </article>
-
-            <article class="wf-shop card card-radius-lg card-shadow-sm">
-                <div class="wf-shop__photo wf-photo"><img src="images/food-dragon.jpg" alt="ドラゴン食堂" /></div>
-                <div class="wf-shop__body">
-                    <h3 class="wf-shop__name">ドラゴン食堂</h3>
-                    <p class="wf-shop__desc">四川・上海をベースに、香りと余韻を大切に仕立てた中国料理と厳選したお酒をゆったり味わう大人の中国料理店。</p>
-                    <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市諏訪栄町7-30 7番街ビル1F</p>
-                    <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-355-3355</p>
-                    <p class="wf-shop__holiday">定休日 日曜・第2,4月曜</p>
                 </div>
             </article>
 
@@ -307,19 +246,78 @@
             <article class="wf-shop card card-radius-lg card-shadow-sm">
                 <div class="wf-shop__photo wf-photo"><img src="images/food-moliere.jpg" alt="モリエール" /></div>
                 <div class="wf-shop__body">
-                    <h3 class="wf-shop__name">お菓子のお店・モリエール</h3>
+                    <h3 class="wf-shop__name">モリエール</h3>
                     <p class="wf-shop__desc">季節の素材を取り入れ色んなお菓子のテイストを表現しているお店。</p>
                     <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市笹川2-7</p>
                     <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-322-2100</p>
-                    <p class="wf-shop__holiday">定休日 火曜日、月2回不定休有り</p>
+                    <p class="wf-shop__holiday">定休日 火曜</p>
+                </div>
+            </article>
+
+            <article class="wf-shop card card-radius-lg card-shadow-sm">
+                <div class="wf-shop__photo wf-photo"><img src="images/food-flowers.jpg" alt="フラワーズ" /></div>
+                <div class="wf-shop__body">
+                    <h3 class="wf-shop__name">フラワーズ</h3>
+                    <p class="wf-shop__desc">完全予約制のフレンチレストラン。ワインはヴァンナチュレル専門です。</p>
+                    <p class="wf-shop__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 四日市市西浦1-10-25</p>
+                    <p class="wf-shop__tel"><i class="fa-solid fa-phone" aria-hidden="true"></i> 059-357-5100</p>
+                    <p class="wf-shop__holiday">定休日 火曜</p>
+                    <p class="wf-shop__holiday"><strong>出店：10月17日（土）のみ</strong></p>
                 </div>
             </article>
         </div>
 
-        <!-- <div class="wf-mapfig wf-photo">
+        <div class="wf-mapfig wf-photo">
             <img src="images/map-shopguide.jpg" alt="出店店舗 略図" />
             <span class="wf-mapfig__label">略図</span>
-        </div> -->
+        </div>
+    </section>
+
+    <!-- ========== チケット ========== -->
+    <section class="wf-section" id="ticket">
+        <h2 class="wf-heading">チケット</h2>
+        <div class="wf-tickets">
+            <div class="wf-ticket wf-ticket--main card card-radius-lg card-shadow-sm">
+                <p class="wf-ticket__type">前売券<span>（10枚綴り）</span></p>
+                <p class="wf-ticket__price">5,000<span class="wf-yen">円</span> <span class="wf-tax">（税込）</span></p>
+                <p class="wf-ticket__note">チケットぴあ・イープラス・四日市観光協会・各出展店舗にて8月1日より販売</p>
+                <div class="wf-ticket__buy">
+                    <p class="wf-ticket__buy-title">購入方法</p>
+                    <p class="wf-ticket__buy-cap">※チケットぴあ、イープラスは別途システム手数料が必要です。</p>
+                    <div class="wf-ticket__buttons">
+                        <a href="#" class="wf-btn wf-btn--outline">チケットぴあで購入</a>
+                        <a href="#" class="wf-btn wf-btn--outline">イープラスで購入</a>
+                        <a href="#" class="wf-btn wf-btn--outline">四日市観光協会で購入</a>
+                        <a href="#" class="wf-btn wf-btn--outline">出店店舗で購入</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wf-ticket card card-radius-lg card-shadow-sm">
+                <p class="wf-ticket__type">有料着席スペース<span>（４０席限定）</span></p>
+                <p class="wf-ticket__price">6,000<span class="wf-yen">円</span> <span class="wf-tax">（税込）</span></p>
+                <p class="wf-ticket__note">時間指定（２時間）</p>
+                <div class="wf-ticket__buy">
+                    <p class="wf-ticket__buy-title">購入方法</p>
+                    <div class="wf-ticket__buttons">
+                        <a href="#" class="wf-btn wf-btn--outline">チケットぴあで購入</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wf-ticket-sub">
+                <div class="wf-ticket card card-radius-lg card-shadow-sm">
+                    <p class="wf-ticket__type">当日券</p>
+                    <p class="wf-ticket__price">5,500<span class="wf-yen">円</span> <span class="wf-tax">（税込）</span></p>
+                    <p class="wf-ticket__note">当日会場にて販売</p>
+                </div>
+                <div class="wf-ticket card card-radius-lg card-shadow-sm">
+                    <p class="wf-ticket__type">追加券<span>（2枚綴り）</span></p>
+                    <p class="wf-ticket__price">1,000<span class="wf-yen">円</span> <span class="wf-tax">（税込）</span></p>
+                    <p class="wf-ticket__note">当日会場にて販売<br>※リストバンドを提示ください。</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ========== よくある質問 ========== -->
@@ -328,12 +326,12 @@
         <dl class="wf-faq">
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>あまりアルコールが強くないので、ワイン引換チケット1枚を複数でシェアしたいのですが、複数のワイングラスを用意できますか？</dt>
-                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>デジタルチケットをお持ちの方につきワイングラスを1つお渡しします。追加のワイングラスはお渡しできません。</dd>
+                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>ワイン引換チケット1枚、又は当日払いの方（1名）につきワイングラスを1つお渡しします。追加のワイングラスをお渡しできません。</dd>
             </div>
-            <!-- <div class="wf-faq__item">
-                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>ワインチケットが余った場合は？</dt>
-                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>ワイン出展店舗で10月末まで金券としてご利用ください。</dd>
-            </div> -->
+            <div class="wf-faq__item">
+                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>ワインチケットが余った場合、他の人に渡してもいいですか？</dt>
+                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>ワイングラスを持っている人にお渡しください。※17日に参加してチケットが余った場合、18日にも参加される方はご利用できます。</dd>
+            </div>
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>雨天でも開催されますか？</dt>
                 <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>開催します。公園通り商店街は屋根付きアーケードです。</dd>
@@ -348,20 +346,10 @@
             </div>
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>会場にテーブル・椅子はありますか？</dt>
-                <dd>
-                    <span class="wf-faq__mark wf-faq__mark--a">A</span>
-                    <div>
-                        <p>丸テーブルを用意しております。椅子の用意はありません。但し有料のプレミアム席は椅子の用意があります。</p>
-                        <dl class="wf-faq__detail">
-                            <div><dt>場所</dt><dd>THE CENTRAL（パーティールーム） 会場のお店</dd></div>
-                            <div><dt>内容</dt><dd>2時間制 11時〜13時の部／13時〜15時／15時〜17時</dd></div>
-                            <div><dt>料金</dt><dd>2,000円（1人、税込）</dd></div>
-                        </dl>
-                    </div>
-                </dd>
+                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>丸テーブルを用意しております。椅子の用意はありません。有料着席スペースは椅子の用意があります。</dd>
             </div>
             <div class="wf-faq__item">
-                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>チケットに入場日時指定はありますか？</dt>
+                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>ワイン引き換えチケットに入場日時指定はありますか？</dt>
                 <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>日にち指定ですが、時間指定はございません。</dd>
             </div>
             <div class="wf-faq__item">
@@ -369,8 +357,8 @@
                 <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>お酒の持ち込みは禁止させていただきます。なお会場内でもソフトドリンクの販売を行いますのでご利用ください。</dd>
             </div>
             <div class="wf-faq__item">
-                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>追加でワインを楽しむ場合はどうしたらいいですか？</dt>
-                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>当日券（ロイティＸのデジタルチケット）の購入でお楽しみください。</dd>
+                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>当日券・追加ワイン飲料券の購入は現金のみですか？</dt>
+                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>PayPayと現金で購入をお願いします。</dd>
             </div>
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>チケットの払い戻しはできますか？</dt>
@@ -381,7 +369,7 @@
 
     <!-- ========== アクセス ========== -->
     <section class="wf-section">
-        <h2 class="wf-heading">アクセス</h2>
+        <h2 class="wf-heading">会場MAP・アクセス</h2>
         <div class="wf-mapfig wf-photo">
             <img src="images/access-map.jpg" alt="会場アクセスマップ" />
         </div>
@@ -423,23 +411,17 @@
         <div class="wf-credit">
             <p class="wf-credit__label">協賛</p>
             <div class="wf-credit__logos">
-                <a href="https://i-kyo.co" class="wf-photo wf-photo--logo"><img src="images/logo-ikyo.jpg" alt="株式会社i-kyo" /></a>
+                <a href="https://i-kyo.co" class="wf-photo wf-photo--logo"><img src="images/logo-ikyo.png" alt="株式会社i-kyo" /></a>
                 <a href="https://ryokenholdings.jp/" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-ryoken.png" alt="リョーケン" /></a>
-                <a href="" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-asahi.jpg" alt="株式会社AsahiGAS" /></a>
-                <a href="https://daitojisho.jp" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-daito.jpg" alt="ダイトー地所" /></a>
-                <a href="" target="" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-seibunnsya.jpg" alt="" /></a>
-                <a href="" target="" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-platon.jpg" alt="" /></a>
-                <a href="" target="" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-appi.jpg" alt="" /></a>
-                <a href="" target="" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-lvc.jpg" alt="" /></a>
-
-<!-- 
                 <a href="https://tamayura-sp.com" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-sano.png" alt="株式会社サノプランニング" /></a>
+                <a href="https://daitojisho.jp" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-daito.png" alt="ダイトー地所" /></a>
                 <a href="https://www.mie-hino.co.jp" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-hino.png" alt="三重日野自動車" /></a>
                 <a href="https://forest-o.co.jp" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-forest.png" alt="フォレスト・オオモリ" /></a>
                 <a href="https://eiwa.jpn.com" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-eiwa.png" alt="エイワ" /></a>
                 <a href="https://kadoya-mie.com" target="_blank" rel="noopener noreferrer" class="wf-photo wf-photo--logo"><img src="images/logo-kadoya.png" alt="角屋" /></a>
-                <span class="wf-photo wf-photo--logo"><img src="images/logo-trancy.png" alt="日本トランスシティ" /></span> -->
-
+                <span class="wf-photo wf-photo--logo"><img src="images/logo-trancy.png" alt="日本トランスシティ" /></span>
+                <span class="wf-photo wf-photo--logo"><img src="images/logo-sumitomo.png" alt="住友電装" /></span>
+                <span class="wf-photo wf-photo--logo"><img src="images/logo-33bank.png" alt="三十三銀行" /></span>
             </div>
         </div>
     </section>

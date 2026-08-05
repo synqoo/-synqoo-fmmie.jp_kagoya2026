@@ -9,7 +9,7 @@
  * データ取得:
  *   formz_load_config_file / formz_load_config_file_with_fallback（functions.php 経由）
  *   1. formdef.json … fmmie.backsite.pro（kinkyuformz=1 時はローカル formzconfig）
- *   2. フォールバック … backsite.pro レガシー setbody + formztemp（§6-1）
+ *   2. formdef 未取得時 … setbody.txt + formztemp（§6-1）
  *
  * 優先順位（ラベル・値・並び）:
  *   formdef 自動 → confirm_display/{id}.php 手動上書き（最優先）→ x_prez 特例
@@ -305,7 +305,7 @@ if ($formDef !== null && ! empty($formDef['fields']) && is_array($formDef['field
 
 // --- 以下、旧 setbody ブロック削除済み ---
 
-// --- プレゼント（x_prez）: formz_load_config_file_with_fallback（新環境 → レガシー） ---
+// --- プレゼント（x_prez）: prez.txt（未配置時はスキップ） ---
 $prezValueToName = [];
 $prezContent = formz_load_config_file_with_fallback($fm_id, 'prez.txt');
 if ($prezContent !== false) {
@@ -436,7 +436,6 @@ $configSourceLabel = [
 $configFileSourceLabels = [
     'remote' => 'fmmie.backsite.pro',
     'local' => 'local formzconfig',
-    'legacy' => 'backsite.pro (legacy)',
     'none' => 'なし',
 ];
 $setbodySourceLabel = isset($configFileSourceLabels[$setbodySource])

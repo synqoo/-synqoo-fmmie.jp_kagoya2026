@@ -4,6 +4,7 @@
    prefix: wf-
 ======================================== */
 
+
 .wf-container {
     /* ワイン専用カラー（ボルドー・ゴールド系／背景は白） */
     --wf-wine:        #6E1423;  /* ボルドー（メイン） */
@@ -15,7 +16,6 @@
     --wf-blush:       #FBEEF0;  /* 淡いワインピンク */
     --wf-line:        #EADFE0;  /* 境界線 */
     --wf-ink:         #2A2326;  /* 本文 */
-    --wf-hero-bg:     #FAFAF2;  /* ヒーロー画像背景（winefesta3.jpg と同色） */
 
     max-width: var(--layout-max-width);
     margin: 0 auto;
@@ -116,34 +116,6 @@
     min-height: 200px;
     border: none;
     border-radius: 0;
-    background-color: var(--wf-hero-bg);
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-}
-.wf-hero__media.wf-photo {
-    background: var(--wf-hero-bg);
-    border: none;
-}
-.wf-hero__media.wf-photo::after {
-    content: none;
-}
-.wf-hero__media img {
-    width: auto;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-}
-@media (max-width: 720px) {
-    .wf-hero__media {
-        aspect-ratio: auto;
-        min-height: 0;
-        display: block;
-    }
-    .wf-hero__media img {
-        width: 100%;
-        height: auto;
-    }
 }
 .wf-hero__body {
     padding: var(--space-lg) var(--layout-inline-padding) var(--space-xl);
@@ -423,162 +395,59 @@
 }
 
 /* ========================================
-   チケット購入方法（LINE ロイティⅩ）
+   チケット
 ======================================== */
-.wf-ticket-box {
-    background: var(--wf-cream);
-    border: 1px solid var(--wf-line);
-    padding: var(--space-lg);
-}
-.wf-line-intro {
-    text-align: center;
-    padding-bottom: var(--space-md);
-    margin-bottom: var(--space-md);
-    border-bottom: 1px dashed var(--wf-line);
-}
-.wf-line-intro__lead {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: var(--wf-wine);
-    margin: 0 0 .5em;
-    line-height: 1.7;
-}
-.wf-line-intro__lead i { color: #06C755; margin-right: .4em; }
-.wf-line-intro__sub {
-    margin: 0;
-    color: var(--color-muted);
-    line-height: 1.8;
-}
-
-.wf-ticket-plans {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-md);
-    margin-bottom: var(--space-lg);
-}
-.wf-ticket-plan {
+.wf-tickets { display: grid; gap: var(--space-md); }
+.wf-ticket {
     background: #fff;
     border: 1px solid var(--wf-line);
-    border-radius: var(--radius-md);
-    padding: var(--space-md) var(--space-sm);
+    padding: var(--space-lg);
     text-align: center;
 }
-.wf-ticket-plan--main { border: 2px solid var(--wf-wine); }
-.wf-ticket-plan__label {
-    font-size: 1rem;
+.wf-ticket--main { border: 2px solid var(--wf-wine); }
+.wf-ticket__type {
+    font-size: var(--font-size-h3);
     font-weight: 700;
     color: var(--wf-wine);
     margin: 0 0 .3em;
 }
-.wf-ticket-plan__price {
+.wf-ticket__type span { font-size: 0.7em; color: var(--color-muted); }
+.wf-ticket__price {
     font-family: "Oswald", "Noto Sans JP", sans-serif;
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     color: var(--wf-wine-light);
     line-height: 1.1;
-    margin: 0;
+    margin: 0 0 .3em;
 }
-.wf-ticket-plan__unit {
-    font-size: 0.8rem;
-    color: var(--color-muted);
-    margin: 0 0 .5em;
-}
-.wf-ticket-plan__detail {
-    font-size: 0.82rem;
+.wf-yen { font-size: 0.5em; margin-left: .1em; }
+.wf-tax { font-size: 0.4em; color: var(--color-muted); }
+.wf-ticket__note {
+    font-size: 0.9rem;
     color: var(--color-muted);
     line-height: 1.7;
     margin: 0;
 }
-.wf-yen { font-size: 0.5em; margin-left: .1em; }
-
-.wf-ticket-box .wf-line-purchase {
-    max-width: 820px;
-    margin: 0 auto var(--space-md);
+.wf-ticket__buy {
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: 1px dashed var(--wf-line);
 }
-.wf-ticket-box .wf-step {
-    background: #fff;
-    border: 1px solid var(--wf-line);
-    border-radius: var(--radius-md);
-    padding: var(--space-md);
-}
-.wf-ticket-box .wf-step--with-qr {
+.wf-ticket__buy-title { font-weight: 700; color: var(--wf-wine); margin: 0 0 .3em; }
+.wf-ticket__buy-cap { font-size: 0.8rem; color: var(--color-muted); margin: 0 0 var(--space-sm); }
+.wf-ticket__buttons {
     display: flex;
-    gap: var(--space-md);
-    align-items: flex-start;
-    justify-content: space-between;
-}
-.wf-ticket-box .wf-step__body { flex: 1; min-width: 0; }
-.wf-ticket-box .wf-line-qr {
-    flex: 0 0 100px;
-    text-align: center;
-    margin: 0;
-    max-width: none;
-}
-.wf-ticket-box .wf-line-qr__fig {
-    width: 100px;
-    aspect-ratio: 1;
-    min-height: 0;
-    margin: 0 auto;
-    background: #fff;
-    border: 1px solid var(--wf-line);
-}
-.wf-line-qr__fig::after { content: none; }
-.wf-line-qr__fig img {
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-}
-.wf-ticket-box .wf-line-qr__label {
-    margin: .35em 0 0;
-    font-size: 0.68rem;
-    font-weight: 700;
-    color: var(--wf-wine-light);
-    line-height: 1.4;
-}
-@media (max-width: 720px) {
-    .wf-ticket-plans { grid-template-columns: 1fr; }
-    .wf-ticket-box .wf-step--with-qr { flex-wrap: wrap; }
-    .wf-ticket-box .wf-line-qr {
-        flex: 0 0 88px;
-        margin-left: auto;
-    }
-    .wf-ticket-box .wf-line-qr__fig { width: 88px; }
-}
-
-/* ご利用案内：操作フロー */
-.wf-step__flow {
-    list-style: none;
-    counter-reset: wf-flow;
-    padding: var(--space-sm) var(--space-md);
-    margin: 0 0 var(--space-sm);
-    background: #fff;
-    border: 1px solid var(--wf-line);
-    border-radius: var(--radius-sm);
-}
-.wf-step__flow li {
-    counter-increment: wf-flow;
-    padding-left: 2em;
-    position: relative;
-    line-height: 1.8;
-    margin-bottom: .4em;
-}
-.wf-step__flow li:last-child { margin-bottom: 0; }
-.wf-step__flow li::before {
-    content: counter(wf-flow);
-    position: absolute;
-    left: 0;
-    top: .15em;
-    width: 1.5em;
-    height: 1.5em;
-    background: var(--wf-wine);
-    color: #fff;
-    border-radius: 50%;
-    font-family: "Oswald", sans-serif;
-    font-size: 0.75rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
     justify-content: center;
+}
+.wf-ticket-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+}
+@media (max-width: 560px) {
+    .wf-ticket-sub { grid-template-columns: 1fr; }
 }
 
 /* ========================================
@@ -589,15 +458,15 @@
     border-bottom: 1px solid var(--wf-line);
     padding: var(--space-md) 0;
 }
-.wf-faq > .wf-faq__item > dt,
-.wf-faq > .wf-faq__item > dd {
+.wf-faq dt,
+.wf-faq dd {
     display: flex;
     gap: .7em;
     line-height: 1.8;
     margin: 0;
 }
-.wf-faq > .wf-faq__item > dd { margin-top: .6em; color: var(--color-muted); }
-.wf-faq > .wf-faq__item > dt { font-weight: 700; color: var(--wf-ink); }
+.wf-faq dt { font-weight: 700; color: var(--wf-ink); }
+.wf-faq dd { margin-top: .6em; color: var(--color-muted); }
 .wf-faq__mark {
     flex: 0 0 auto;
     width: 1.7em;
@@ -612,36 +481,6 @@
 }
 .wf-faq__mark--q { background: var(--wf-wine); color: #fff; }
 .wf-faq__mark--a { background: var(--wf-gold); color: #fff; }
-.wf-faq dd > div { flex: 1; }
-.wf-faq dd > div > p { margin: 0; }
-.wf-faq__detail {
-    margin: .8em 0 0;
-    padding: var(--space-sm) var(--space-md);
-    background: var(--wf-cream);
-    border: 1px solid var(--wf-line);
-    border-radius: var(--radius-sm);
-    font-size: 0.9rem;
-}
-.wf-faq__detail > div {
-    display: grid;
-    grid-template-columns: 3.5em 1fr;
-    column-gap: .8em;
-    align-items: baseline;
-    padding: .35em 0;
-    border-bottom: 1px dashed var(--wf-line);
-}
-.wf-faq__detail > div:last-child { border-bottom: none; }
-.wf-faq__detail dt {
-    font-weight: 700;
-    color: var(--wf-wine);
-    margin: 0;
-    line-height: 1.7;
-}
-.wf-faq__detail dd {
-    margin: 0;
-    color: var(--wf-ink);
-    line-height: 1.7;
-}
 
 /* ========================================
    アクセス
