@@ -1,5 +1,6 @@
 # SFTP / エディタ（認証情報を含むため GitHub に含めない）
 .vscode/sftp.json
+.gitignore
 
 # サイト設定（reCAPTCHA 等。config.example.php をコピーして config.php を作成）
 _assets/config.php
