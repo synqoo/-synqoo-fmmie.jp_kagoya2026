@@ -166,6 +166,92 @@
     </div>
 </article>
 
+<article class="pm-event card card-radius-lg card-shadow-sm">
+    <div class="pm-event__body">
+        <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 9月22日<span class="pm-sun">（火・祝）</span></p>
+        <p class="pm-event__time">第1部 11:00～ / 第2部 15:00～</p>
+        <p class="pm-event__place">場所：イオンモール東員1F カブキコート</p>
+        <button type="button" class="pm-btn pm-btn--detail" aria-expanded="false" aria-controls="pm-event-detail-2">詳細を見る</button>
+        <div class="pm-event__detail" id="pm-event-detail-2" hidden>
+            <div class="pm-event__detail-title">9月22日（日）出店</div>
+            <div class="pm-cards">
+                <div class="pm-card">
+                    <p class="pm-card__name">アトリエウフ</p>
+                    <p class="pm-card__addr">伊賀市土橋741</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ヒラノベーカリー</p>
+                    <p class="pm-card__addr">桑名市多度町小山台1丁目4-18</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">カメイドー</p>
+                    <p class="pm-card__addr">松阪市川井町828-7</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">chuchu</p>
+                    <p class="pm-card__addr">津市久居野口町2477-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ルポッシュ</p>
+                    <p class="pm-card__addr">鈴鹿市西条4丁目10</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">Bakery&amp;Café かぜのテラス</p>
+                    <p class="pm-card__addr">四日市市下海老町字平野109-8</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">パン工房KOKO</p>
+                    <p class="pm-card__addr">桑名市西別所296-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">ドミニクドゥーセの店</p>
+                    <p class="pm-card__addr">鈴鹿市南江島町17-30</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">桑ぱん</p>
+                    <p class="pm-card__addr">桑名市新西方2-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">マーブルラパン</p>
+                    <p class="pm-card__addr">鈴鹿市中旭が丘3丁目10-26</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">NOKOTOKO</p>
+                    <p class="pm-card__addr">多気郡多気町相可127</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">コクリコルージュ</p>
+                    <p class="pm-card__addr">伊勢市御薗町王中島字垣溝766</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">1000sticks</p>
+                    <p class="pm-card__addr">鈴鹿市西条6-40</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">なもパン</p>
+                    <p class="pm-card__addr">桑名市城山台121</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">kujiraドライブイン</p>
+                    <p class="pm-card__addr">四日市市松原町1-1</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">わしの津こっぺ</p>
+                    <p class="pm-card__addr">津市久居本町1396-2</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">BRIXTON</p>
+                    <p class="pm-card__addr">——</p>
+                </div>
+                <div class="pm-card">
+                    <p class="pm-card__name">アンティーク</p>
+                    <p class="pm-card__addr">員弁郡東員町長深築田510-1</p>
+                </div>
+            </div>
+            <p class="pm-event__flyer"><a href="pdf/20260922pan.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> チラシのダウンロード</a></p>
+        </div>
+    </div>
+</article>
 
 <article class="pm-event card card-radius-lg card-shadow-sm" style="display:none">
     <div class="pm-event__body">

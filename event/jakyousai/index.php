@@ -57,7 +57,7 @@
                 <p class="jak-venue-card__meta">5月23日（土）<span class="jak-venue-card__note">詳細はこちら</span></p>
                 
             </a>-->
-            <a class="jak-venue-card" href="mienaka_1.php">
+            <!-- <a class="jak-venue-card" href="mienaka_1.php">
                 <p class="jak-venue-card__name">ＪＡみえなか 会場</p>
                 <p class="jak-venue-card__meta">8月1日（土）<span class="jak-venue-card__note">詳細はこちら</span></p>
 
@@ -66,7 +66,7 @@
                 <p class="jak-venue-card__name">ＪＡ伊勢 会場</p>
                 <p class="jak-venue-card__meta">8月8日（土）<span class="jak-venue-card__note">詳細はこちら</span></p>
 
-            </a>
+            </a> -->
             <a class="jak-venue-card" href="iga_1.php">
                 <p class="jak-venue-card__name">ＪＡいがふるさと 会場</p>
                 <p class="jak-venue-card__meta">8月22日（土）<span class="jak-venue-card__note">詳細はこちら</span></p>
@@ -105,14 +105,14 @@
                     <th scope="row">5月23日（土）<br>ＪＡ鈴鹿 会場</th>
                     <td>応募期間　4/7（火）～5/1（金）-応募は締切しました-<br><a href="suzuka_1.php">ＪＡ鈴鹿 会場のページ</a></td>
                 </tr>-->
-                 <tr>
+                 <!-- <tr>
                     <th scope="row">8月1日（土）<br>ＪＡみえなか 会場</th>
                     <td>応募期間　5/7（木）～6/12（金）-応募は締切しました-<br><a href="mienaka_1.php">ＪＡみえなか 会場のページ</a></td>
                 </tr>
                 <tr>
                     <th scope="row">8月8日（土）<br>ＪＡ伊勢 会場</th>
                     <td>応募期間　5/7（木）～6/30（火）-応募は締切しました-<br><a href="ise_1.php">ＪＡ伊勢 会場の応募ページ</a></td>
-                </tr>
+                </tr> -->
                 <tr>
                     <th scope="row">8月22日（土）<br>ＪＡいがふるさと 会場</th>
                     <td>応募期間　5/7（木）～6/12（金）-応募は締切しました-<br><a href="iga_1.php">ＪＡいがふるさと 会場のページ</a></td>
