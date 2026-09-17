@@ -23,7 +23,7 @@
 
     <section class="pm-section pm-events">
   
-    <article class="pm-event card card-radius-lg card-shadow-sm">
+    <!--<article class="pm-event card card-radius-lg card-shadow-sm">
     <div class="pm-event__body">
         <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 9月12日<span class="pm-sat">（土）</span>・9月13日<span class="pm-sun">（日）</span></p>
         <p class="pm-event__time">第1部 10時30分～ 第2部 13時～</p>
@@ -105,7 +105,7 @@
                     <p class="pm-card__addr">——</p>
                 </div>
             </div>
-            <!-- <div class="pm-event__detail" id="pm-event-detail-2" hidden> -->
+            <- <div class="pm-event__detail" id="pm-event-detail-2" hidden> --
             <div class="pm-event__detail-title">9月13日（日）出店者一覧</div>
             <div class="pm-cards">
                 <div class="pm-card">
@@ -164,7 +164,7 @@
             <p class="pm-event__flyer"><a href="pdf/20260911pan.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> チラシのダウンロード</a></p>
         </div>
     </div>
-</article>
+</article>-->
 
 <article class="pm-event card card-radius-lg card-shadow-sm">
     <div class="pm-event__body">

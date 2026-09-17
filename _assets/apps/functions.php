@@ -766,13 +766,15 @@ function radiko_timefree($radiko_week,$radiko_time){
 	if($sm == 1){
 		$u = "http://radiko.jp/share/?sid=FMMIE&t=";
 	}else{
-		$u = "http://radiko.jp/#!/ts/FMMIE/";
+		//$u = "http://radiko.jp/#!/ts/FMMIE/";
+		$u = "http://radiko.jp/share/?sid=FMMIE&t=";
 	}
 
 	for($i=0;$i<count($playdays);$i++){
 		$r = $playdays[$i] * -1;
 		$timesx = sprintf('%04d', $radiko_time_first);
-		$playurl[] = $u.date("Ymd",strtotime($r." day")).$timesx.'01'.'&noreload=1';  // .= ではなく = を使用
+		//$playurl[] = $u.date("Ymd",strtotime($r." day")).$timesx.'01'.'&noreload=1';  // .= ではなく = を使用
+		$playurl[] = $u.date("Ymd",strtotime($r." day")).$timesx.'01';  // .= ではなく = を使用
 		$playpast[] = date("m月d日",strtotime($r." day"));  // .= ではなく = を使用
 	}
 	//print_r($playdays);print_r($playurl);echo '<br />';
