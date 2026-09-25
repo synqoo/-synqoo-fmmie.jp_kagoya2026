@@ -166,7 +166,7 @@
     </div>
 </article>-->
 
-<article class="pm-event card card-radius-lg card-shadow-sm">
+<article class="pm-event card card-radius-lg card-shadow-sm" style="display:none">
     <div class="pm-event__body">
         <p class="pm-event__date"><i class="fa-solid fa-bread-slice"></i> 9月22日<span class="pm-sun">（火・祝）</span></p>
         <p class="pm-event__time">第1部 11:00～ / 第2部 15:00～</p>
