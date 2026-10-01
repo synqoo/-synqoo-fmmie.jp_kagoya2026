@@ -16,9 +16,12 @@
                     <li><a href="/profiles/info-rinen.php">企業理念・行動指針</a></li>
                     <li><a href="/profiles/info-kizyun.php">番組放送基準</a></li>
                     <li><a href="/profiles/shingikai/">番組審議会</a></li>
+                    <li><a href="/profiles/compliance.php">コンプライアンス憲章</a></li>
+                    <li><a href="/profiles/Customer-harassment.php">カスタマーハラスメントに対する基本方針</a></li>
                     <li><a href="/profiles/CivilProtectionLaw.php">国民保護業務計画</a></li>
                     <li><a href="/profiles/privacypolicy.php">個人情報保護方針</a></li>
                     <li><a href="/profiles/security.php">情報セキュリティ</a></li>
+                    <li><a href="/profiles/governance.php">「民間放送ガバナンス指針」に基づく公表事項</a></li>
                     <li><a href="/profiles/recruit/">採用情報</a></li>
                 </ul>
             </div>

@@ -1,6 +1,10 @@
 <?php
 require_once(rtrim($_SERVER['DOCUMENT_ROOT'], '/\\') . '/_assets/config.php');
 //error_reporting(0);
+if(empty($submitmode)){
+    $submitmode = 0;
+}
+if(empty($submit_mess)){$submit_mess = '';}
 session_start();
 $_SESSION['reg']=0;
 $error=array();
@@ -106,12 +110,12 @@ if($_POST['act']==1){
                 <div class="rc-cm-type">
                     <h3 class="rc-cm-type__name">スポットCM</h3>
                     <p class="rc-cm-type__desc">極端にいえば「1本」からでも放送が可能です。CM枠の空きがあれば、番組の間でも、番組と番組の間でも、コマーシャルを流すことができます。「この期間内に」など期限があるイベント告知などは、スポットCMで広く集中的に知っていただくことができます。</p>
-                    <p class="rc-cm-type__price">【費用】10〜20本で5万円（税込55,000円）〜20万円（税込22万円）　※企画により金額が異なります</p>
+                    <p class="rc-cm-type__price">【費用】10〜20本で10万円（税込110,000円）〜20万円（税込22万円）　※企画により金額が異なります</p>
                 </div>
                 <div class="rc-cm-type">
                     <h3 class="rc-cm-type__name">インフォマーシャルCM</h3>
-                    <p class="rc-cm-type__desc">3万円（税込33,000円）／1回で広告が可能です。事前に収録したものを放送する通常のCMと違い、生放送の番組内でパーソナリティが直接原稿を読んで告知するCMです。インフォマーシャルCM（約60秒）なら、1回3万円（税込33,000円）で広くPRできます。</p>
-                    <p class="rc-cm-type__price">【費用】1回3万円（税込33,000円）</p>
+                    <p class="rc-cm-type__desc">4万円（税込44,000円）／1回で広告が可能です。事前に収録したものを放送する通常のCMと違い、生放送の番組内でパーソナリティが直接原稿を読んで告知するCMです。インフォマーシャルCM（約60秒）なら、1回4万円（税込44,000円）で広くPRできます。</p>
+                    <p class="rc-cm-type__price">【費用】1回4万円（税込44,000円）</p>
                 </div>
                 <div class="rc-cm-type">
                     <h3 class="rc-cm-type__name">三重リポート（生放送）</h3>
@@ -136,7 +140,7 @@ if($_POST['act']==1){
                             <span class="rc-reporter__name">(金) 山田梨果</span>
                         </li>
                     </ul>
-                    <p class="rc-cm-type__price">【費用】1回5万円（税込55,000円） ※行政、準じる機関など設定料金が異なります。</p>
+                    <p class="rc-cm-type__price">【費用】1回7万円（税込77,000円） ※行政、準じる機関など設定料金が異なります。</p>
                 </div>
             </div>
         </div>
@@ -156,9 +160,9 @@ if($_POST['act']==1){
 
             <section class="rc-costs__price-section">
   <h2 class="rc-costs__price-title">FM三重 CM料金表（定価・税込み）</h2>
-  <p class="rc-costs__price-note">
+  <!-- <p class="rc-costs__price-note">
     ※税込価格　W：電波料　P：制作費
-  </p>
+  </p> -->
 
   <div class="rc-costs__price-grid">
   <div class="rc-costs__price-block">
@@ -172,15 +176,15 @@ if($_POST['act']==1){
         </tr>
       </thead>
       <tbody>
-        <tr><td>5秒</td><td>9,900</td></tr>
-        <tr><td>10秒</td><td>13,200</td></tr>
-        <tr><td>15秒</td><td>15,400</td></tr>
-        <tr><td>20秒</td><td>17,600</td></tr>
-        <tr><td>30秒</td><td>23,100</td></tr>
-        <tr><td>40秒</td><td>28,600</td></tr>
-        <tr><td>50秒</td><td>34,100</td></tr>
-        <tr><td>60秒</td><td>39,600</td></tr>
-        <tr><td>80秒</td><td>50,600</td></tr>
+        <tr><td>5秒</td><td>12,000</td></tr>
+        <tr><td>10秒</td><td>16,000</td></tr>
+        <tr><td>15秒</td><td>18,000</td></tr>
+        <tr><td>20秒</td><td>21,000</td></tr>
+        <tr><td>30秒</td><td>28,000</td></tr>
+        <tr><td>40秒</td><td>34,000</td></tr>
+        <!-- <tr><td>50秒</td><td>34,100</td></tr> -->
+        <tr><td>60秒</td><td>48,000</td></tr>
+        <!-- <tr><td>80秒</td><td>50,600</td></tr> -->
       </tbody>
     </table>
   </div>
@@ -197,36 +201,36 @@ if($_POST['act']==1){
         </tr>
       </thead>
       <tbody>
-        <tr><td>5分</td><td>209,000</td></tr>
-        <tr><td>10分</td><td>242,000</td></tr>
-        <tr><td>15分</td><td>286,000</td></tr>
-        <tr><td>25分</td><td>429,000</td></tr>
-        <tr><td>30分</td><td>473,000</td></tr>
+        <tr><td>5分</td><td>220,000</td></tr>
+        <tr><td>10分</td><td>250,000</td></tr>
+        <tr><td>15分</td><td>300,000</td></tr>
+        <tr><td>25分</td><td>440,000</td></tr>
+        <tr><td>30分</td><td>480,000</td></tr>
         <tr><td>55分</td><td>770,000</td></tr>
-        <tr><td>60分</td><td>814,000</td></tr>
+        <tr><td>60分</td><td>790,000</td></tr>
       </tbody>
     </table>
   </div>
   </div>
 
   <div class="rc-costs__price-block">
-  <h3>生CM（W：電波料 / P：制作費）</h3>
+  <h3>生CM（金額は電波料金 制作費は一律24,000円）</h3>
   <div class="rc-costs__price-scroll">
-    <table class="rc-costs__price-table rc-costs__price-table--wide">
+    <table class="rc-costs__price-table">
       <thead>
         <tr>
           <th>秒数</th>
-          <th>W（円）</th>
-          <th>P（円）</th>
+          <th>電波料金（円）</th>
+          <!-- <th>P（円）</th> -->
         </tr>
       </thead>
       <tbody>
-        <tr><td>40秒</td><td>27,500</td><td>22,000</td></tr>
-        <tr><td>60秒</td><td>33,000</td><td>22,000</td></tr>
-        <tr><td>80秒</td><td>44,000</td><td>22,000</td></tr>
-        <tr><td>120秒</td><td>55,000</td><td>22,000</td></tr>
-        <tr><td>180秒</td><td>77,000</td><td>22,000</td></tr>
-        <tr><td>240秒</td><td>99,000</td><td>22,000</td></tr>
+        <tr><td>40秒</td><td>30,000</td><!--<td>22,000</td>--></tr>
+        <tr><td>60秒</td><td>40,000</td><!--<td>22,000</td>--></tr>
+        <tr><td>80秒</td><td>50,000</td><!--<td>22,000</td>--></tr>
+        <tr><td>120秒</td><td>60,000</td><!--<td>22,000</td>--></tr>
+        <tr><td>180秒</td><td>80,000</td><!--<td>22,000</td>--></tr>
+        <tr><td>240秒</td><td>100,000</td><!--<td>22,000</td>--></tr>
       </tbody>
     </table>
   </div>
@@ -235,7 +239,8 @@ if($_POST['act']==1){
 
   <p class="rc-costs__price-disclaimer">
     ※各種契約条件、実勢単価（価格）は異なる場合もありますので、都度お問合せください。<br>
-    ※各企画により、リーズナブルな価格設定もありますので、お問合せください。
+    ※各企画により、リーズナブルな価格設定もありますので、お問合せください。<br />
+    2026年10月1日現在
   </p>
 
   <!-- <p class="rc-costs__price-source">
