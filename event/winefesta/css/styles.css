@@ -283,6 +283,58 @@
 }
 
 /* ========================================
+   メニュー一覧テーブル
+======================================== */
+.wf-table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: var(--space-md);
+    border: 1px solid var(--wf-line);
+    border-radius: var(--radius-md);
+}
+.wf-menu-table {
+    width: 100%;
+    min-width: 0;
+    border-collapse: collapse;
+    line-height: 1.65;
+    font-size: 0.95rem;
+}
+.wf-menu-table th,
+.wf-menu-table td {
+    border: 1px solid var(--wf-line);
+    padding: var(--space-sm) var(--space-md);
+    text-align: left;
+    vertical-align: top;
+}
+.wf-menu-table thead th {
+    background: var(--wf-wine);
+    color: #fff;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.wf-menu-table tbody th[scope="row"] {
+    background: var(--wf-blush);
+    color: var(--wf-wine);
+    font-weight: 700;
+    white-space: nowrap;
+}
+.wf-menu-table td:nth-child(2) {
+    min-width: 12em;
+}
+.wf-menu-table td:nth-child(3) {
+    white-space: nowrap;
+}
+.wf-shops + .wf-subheading {
+    margin-top: var(--space-xl);
+}
+.wf-subheading + .wf-table-scroll {
+    margin-top: var(--space-sm);
+}
+@media (max-width: 560px) {
+    .wf-menu-table { font-size: 0.85rem; }
+}
+
+/* ========================================
    ご利用案内（ステップ）
 ======================================== */
 .wf-steps {
@@ -422,6 +474,20 @@
     color: var(--wf-wine-light);
 }
 
+.wf-container .wf-map-full {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 var(--space-lg);
+    box-sizing: border-box;
+}
+.wf-container .wf-map-full img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
 /* ========================================
    チケット購入方法（LINE ロイティⅩ）
 ======================================== */
@@ -448,6 +514,21 @@
     margin: 0;
     color: var(--color-muted);
     line-height: 1.8;
+}
+
+.wf-ticket-bar {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    text-align: center;
+    background: var(--wf-wine);
+    color: #fff;
+    padding: 0.65em var(--space-md);
+    margin: 0 0 var(--space-md);
+    width:60%;
+    margin: 20px auto;
+}
+.wf-ticket-box hr + .wf-ticket-bar {
+    margin-top: var(--space-md);
 }
 
 .wf-ticket-plans {

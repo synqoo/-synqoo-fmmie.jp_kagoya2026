@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* guide.css のスマホ縦レイアウトに追加（PPTX 由来ガイド用） */
+
+.guide2-banner {
+	display: block;
+	width: 100%;
+	margin: 0 0 12px;
+}
+
+.guide2-lead {
+	margin: 0 0 8px;
+	padding: 0 16px;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+	color: #16163B;
+	line-height: 1.5;
+}
+
+.guide2-lead--sub {
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 4px;
+}

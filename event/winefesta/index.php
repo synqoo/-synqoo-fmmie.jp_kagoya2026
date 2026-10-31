@@ -8,7 +8,7 @@
     <meta name="color-scheme" content="light">
 
     <?php require_once(INCLUDE_HTMLHEAD_PATH); ?>
-    <link rel="stylesheet" href="css/styles.css?p=7" />
+    <link rel="stylesheet" href="css/styles.css?p=9" />
 </head>
 <body>
 <?php require_once(INCLUDE_GLOBALHEADER_PATH); ?>
@@ -60,10 +60,12 @@
                 <tr><th>開催日時</th><td>2026年10月17日（土）11:00〜19:00<br />
                 2026年10月18日（日） 11:00〜17:00</td></tr>
                 <tr><th>会　場</th><td>近鉄四日市駅前商店街 アーケード内公園通り</td></tr>
-                <tr><th>入場料</th><td>無料<br />※ワインを楽しむにはワイン飲料券の購入（要LINEアプリ）と、現金1000円のデポジットが必要です）</td></tr>
+                <tr><th>入場料</th><td>無料</td></tr>
                 <tr><th>主　催</th><td>FM三重</td></tr>
                 <tr><th>後　援</th><td>四日市市 四日市商工会議所 （一社）四日市観光協会<br>中日新聞社 四日市JAZZ FESTIVAL実行委員会</td></tr>
                 <tr><th>協　賛</th><td>朝日ガスエナジー㈱、㈱五十嵐建設、㈱i-kyo 水沢ワイン ドメーヌ フイアージュ、㈱エイワ、㈱オートモール フォルクスワーゲン鈴鹿 四日市、㈱誠文社、㈲ダイトー地所、㈱トワ、㈱フォレスト・オオモリ、プラトンホテル四日市、三重日野自動車㈱、㈱リョーケン、APPI、LIFE VISION協同組合</td></tr>
+                <tr><th>購入方法</th><td>ワインを楽しむ場合 => <strong>ワインチケット</strong>前売 5000円 LINEアプリのロイティⅩ<br />
+                　　　　　　　　　　　　<strong>当日券</strong> 5500円 現金・PayPay<br />フードを楽しむ場合 => <strong>現金・PayPay・よんデジ券</strong>※お店によって異なります。</td></tr>
             </tbody>
         </table>
     </section>
@@ -74,9 +76,9 @@
         <div class="wf-ticket-box card card-radius-lg card-shadow-sm">
             <div class="wf-line-intro">
                 <p class="wf-line-intro__lead"><i class="fa-brands fa-line" aria-hidden="true"></i> <strong>LINE ロイティⅩ</strong>でチケットを簡単に購入できます。（LINEアプリが必要です）</p>
-                <p class="wf-line-intro__sub">デジタルチケットなので、いつでもどこでも購入でき、紛失の心配もなし！<br />ワインチケットは8月1日から前売り開始です。</p>
+                <p class="wf-line-intro__sub">デジタルチケットなので、いつでもどこでも購入でき、紛失の心配もなし！<br />ワインチケットはお得な前売り券は数に限りがありますのでお早めに！</p>
             </div>
-
+            <p class="wf-ticket-bar">前売り券</p>
             <div class="wf-ticket-plans">
                 <article class="wf-ticket-plan wf-ticket-plan--main">
                     <p class="wf-ticket-plan__label">前売券</p>
@@ -87,14 +89,14 @@
                 <article class="wf-ticket-plan wf-ticket-plan--main">
                     <p class="wf-ticket-plan__label">プレミアムシート</p>
                     <p class="wf-ticket-plan__price">2,000<span class="wf-yen">円</span></p>
-                    <p class="wf-ticket-plan__unit">（1人／税込）</p>
-                    <p class="wf-ticket-plan__detail">2時間制（11時〜13時、13時〜15時、15時〜17時）<br>THE CENTRAL（パーティースペース／公園通り沿い）</p>
+                    <p class="wf-ticket-plan__unit">（2時間制・1人／税込）</p>
+                    <p class="wf-ticket-plan__detail">土曜 11時～13時 13時～15時 15時～17時 17時～19時<br />日曜 11時～13時 13時～15時 15時～17時<br>THE CENTRAL（パーティースペース/公園通り沿い）<br />※お席の指定はできません。お席は当日、会場スタッフがご案内します。ご予約状況により、他のお客様とテーブルをご一緒いただく場合がございますので、あらかじめご了承ください。）</p>
                 </article>
                 <article class="wf-ticket-plan wf-ticket-plan--main">
                     <p class="wf-ticket-plan__label">当日券・追加券</p>
                     <p class="wf-ticket-plan__price">5,500<span class="wf-yen">円</span></p>
                     <p class="wf-ticket-plan__unit">（10枚綴り／税込）</p>
-                    <p class="wf-ticket-plan__detail">当日会場にて販売</p>
+                    <p class="wf-ticket-plan__detail">当日ロイティⅩで購入してください。</p>
                 </article>
             </div>
 
@@ -119,8 +121,24 @@
                     <p>[Ⅹチケット]をタップ ⇒ <strong>[ワインフェスタ四日市2026]</strong>をタップし、購入手続きをしてください。</p>
                     
                 </div>
-                <p>※ <a href="guide.php" target="_blank">デジタルチケット ロイティXの詳しい使用方法はこちら</a>  <i class="fa-solid fa-up-right-from-square"></i></p>
-
+                <p>※ <a href="guide2.php" target="_blank">デジタルチケット ロイティXの詳しい使用方法はこちら</a>  <i class="fa-solid fa-up-right-from-square"></i></p>
+                
+            </div>
+            <hr />
+            <p class="wf-ticket-bar">当日券</p>
+            <div class="wf-ticket-plans">
+                <article class="wf-ticket-plan wf-ticket-plan--main">
+                    <p class="wf-ticket-plan__label">当日券</p>
+                    <p class="wf-ticket-plan__price">5,500<span class="wf-yen">円</span></p>
+                    <p class="wf-ticket-plan__unit">（10枚綴り／税込）</p>
+                    <p class="wf-ticket-plan__detail">受付当日券販売所でお買い求めください。（現金・PayPay）ワイングラスとコイン10枚をお渡しします。</p>
+                </article>
+                <article class="wf-ticket-plan wf-ticket-plan--main">
+                    <p class="wf-ticket-plan__label">プレミアムシート</p>
+                    <p class="wf-ticket-plan__price">2,000<span class="wf-yen">円</span></p>
+                    <p class="wf-ticket-plan__unit">（2時間制・1人／税込）</p>
+                    <p class="wf-ticket-plan__detail">土曜 11時～13時 13時～15時 15時～17時 17時～19時<br />日曜 11時～13時 13時～15時 15時～17時<br>プレミアムシート（THE CENTRAL）前の受付でお買い求めください。（現金・PayPay）<br />※空席がある場合のみとなりますので受付でご確認ください。</p>
+                </article>
             </div>
         </div>
     </section>
@@ -135,13 +153,14 @@
                 <div class="wf-step__no">STEP 1</div>
                 <h4 class="wf-step__title">会場受付</h4>
                 <p>購入したLINE「ロイティⅩ」の「マイチケット」画面を表示してください。</p>
-                <p>担当者が確認し、ワイングラスとリストバンドをお渡しします。（デポジット制 1脚1,000円）</p>
+                <p>担当者が確認し、ワイングラスをお渡しします。（デポジット制 1脚1,000円）</p>
                 <ul class="wf-notes">
                     <li>お帰りの際ワイングラス返却で1,000円をお返しします。</li>
                     <li>ワイングラスを破損した場合は1,000円は返却しません。</li>
                     <li>持込グラスはご利用できません。</li>
                     <li>「マイチケット」をお持ちでない方にはワイングラスをお渡しすることはできません。</li>
                 </ul>
+                <p>※当日券購入の方はSTEP２に</p>
             </div>
 
             <div class="wf-step__arrow" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></div>
@@ -149,26 +168,41 @@
             <div class="wf-step card card-radius-lg card-shadow-sm">
                 <div class="wf-step__no">STEP 2</div>
                 <h4 class="wf-step__title">お好みのワインブースへ</h4>
+                前売り券<br />
                 <ol class="wf-step__flow">
                     <li>ワインフェスタ四日市2026のチケットをタッチ</li>
                     <li>ワインの枚数を選び「確定する」を押してください。</li>
                     <li>カメラが起動するので「ワインブース」の専用QRコードをスキャンして受付完了。</li>
                     <li>お店の人にその画面を必ず見せてください。</li>
                 </ol>
+                当日券<br />
+                <ul class="wf-step__flow">
+                    <li>お好みのワインの枚数のコインをお店の人に渡してください</li>
+                </ul>
+
                 <p>お好みのワインをお楽しみください。</p>
                 <p>白・赤・スパークリング、オーガニック 世界のワイン<strong>70種類以上</strong>ご用意しております。</p>
-                <p>追加でワインを楽しむ場合は、当日券を購入ください。</p>
+                <!-- <p>追加でワインを楽しむ場合は、当日券を購入ください。</p> -->
+                <blockquote><strong>追加でワインを楽しむには？</strong><br />
+・ロイティⅩご利用の方はロイティⅩで当日券を購入してください。<br />
+※5枚3000円をご希望の場合は、受付で現金かPayPayでお買い求めください。<br />
+・当日券を購入の方は、受付で追加券を購入ください。コインをお渡しします。その際ワイングラスをお持ちください。<br />
+5枚 3000円 10枚5500円（現金・PayPay）</blockquote>
             </div>
-            <p>※ <a href="guide.php#use" target="_blank">ロイティXの詳しい使用方法はこちら</a>  <i class="fa-solid fa-up-right-from-square"></i></p>
+            <p>※ <a href="guide2.php#use" target="_blank">ロイティXの詳しい使用方法はこちら</a>  <i class="fa-solid fa-up-right-from-square"></i></p>
         </div>
 
 
     </section>
 <hr />
+    <div class="wf-map-full">
+        <img src="images/map2.jpg" alt="会場・出店ブースマップ" />
+    </div>
+
     <!-- ========== 出店ワインブース ========== -->
     <section class="wf-section">
         <h2 class="wf-heading">出店ワインブース</h2>
-        <p class="wf-lead">人気のワインバーソムリエ厳選の、各国の赤ワインや白ワインや泡など100種類以上のワインをご用意しています。お好みのワインはワイン飲料券でご利用いただけます。</p>
+        <p class="wf-lead">人気のワインバーソムリエ厳選の、各国の赤ワインや白ワインや泡など70種類以上のワインをご用意しています。お好みのワインはワイン飲料券でご利用いただけます。</p>
 
         <div class="wf-shops">
             <article class="wf-shop card card-radius-lg card-shadow-sm">
@@ -245,7 +279,7 @@
         <p class="wf-lead">四日市を代表するフレンチ・イタリアン・中華・創作料理の人気店の美食の数々をお楽しみください。</p>
         <ul class="wf-notes wf-notes--center">
             <li>ワイン飲料券はご利用できません。</li>
-            <li>お支払いはお店の決済方法でお願いします。</li>
+            <li>お支払いはお店の購入方法でお願いします。</li>
         </ul>
 
         <div class="wf-shops">
@@ -320,6 +354,84 @@
             <img src="images/map-shopguide.jpg" alt="出店店舗 略図" />
             <span class="wf-mapfig__label">略図</span>
         </div> -->
+
+        <h3 class="wf-subheading">メニュー一覧</h3>
+        <div class="wf-table-scroll">
+            <table class="wf-menu-table">
+                <thead>
+                    <tr>
+                        <th scope="col">店名</th>
+                        <th scope="col">料理</th>
+                        <th scope="col">購入方法</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">虎鉄</th>
+                        <td>おでん　他</td>
+                        <td>現金</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">ドラゴン食堂</th>
+                        <td>水餃子 他</td>
+                        <td>現金</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">モリエール</th>
+                        <td>『オレンジと紅茶のムラング（ワイングラスを持っている人は無料）』　『シューピザ　500円』　『キッシュ　500円』　<br />『カヌレ　2個500円　1個300円』　『チーズパイ　500円』　『シューフロランタン　500円』　『パティシエおつまみ皿　1000円』</td>
+                        <td>現金・よんデジ券</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">スペインバル　ボスケ</th>
+                        <td>『海鮮のパエリア』　『イカ墨のパエリア』　『ヒルダ(ピンチョス)』　『ピンチョスモルノ（豚ヒレのスパイス串焼き）』<br />　『ハモンセラーノ生ハム』　『スペインオムレツ』</td>
+                        <td>現金</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">フレンチ酒場　四日市バール</th>
+                        <td>『牛すじ赤ワイン煮込み』他</td>
+                        <td>現金・PayPay</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">TAVERNETTA　MONTE</th>
+                        <td>『ギアラのフィレンツェ風煮込み』　『いなべ産鹿肉のソーセージジャガイモのピュレ添え』『イタリア産チーズの盛り合わせ』　<br />『秋野菜の煮込み　ファリナータ添え』　『カネーデルリ　バターとチーズ』、『時間を決めてできたパスタ　ナポリ風ジェノベーゼ、ゴルゴンゾーラ、自家製リコッタとトマトソースなど』</td>
+                        <td>現金</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">ワインと菓子　１eriプルミエリ</th>
+                        <td>甘口ワイン、デザートワイン</td>
+                        <td>ワイン飲料券</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">wine bar assemblage</th>
+                        <td>アメリカワイン</td>
+                        <td>ワイン飲料券</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">ワイン.イチノセ</th>
+                        <td>イタリアワイン</td>
+                        <td>ワイン飲料券</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">wine bar flapper</th>
+                        <td>ナチュラルワイン</td>
+                        <td>ワイン飲料券</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">葡萄酒亭きとう</th>
+                        <td>ヨーロッパ全般（フランス、イタリア除く）</td>
+                        <td>ワイン飲料券</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">vèlo</th>
+                        <td>フランス、オーストラリア、ニュージーランド</td>
+                        <td>ワイン飲料券</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <ul class="wf-notes wf-notes--center">
+            <li>※当日のメニューは変更になる場合があります。</li>
+        </ul>
     </section>
 
     <!-- ========== よくある質問 ========== -->
@@ -330,10 +442,14 @@
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>あまりアルコールが強くないので、ワイン引換チケット1枚を複数でシェアしたいのですが、複数のワイングラスを用意できますか？</dt>
                 <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>デジタルチケットをお持ちの方につきワイングラスを1つお渡しします。追加のワイングラスはお渡しできません。</dd>
             </div>
-            <!-- <div class="wf-faq__item">
-                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>ワインチケットが余った場合は？</dt>
-                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>ワイン出展店舗で10月末まで金券としてご利用ください。</dd>
-            </div> -->
+             <div class="wf-faq__item">
+                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>ワインチケットを複数枚購入した場合、ワイングラスは複数利用できますか？</dt>
+                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>はい。購入枚数分のワイングラスをお渡しします。</dd>
+            </div> 
+            <div class="wf-faq__item">
+                <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>当日券はありますか？</dt>
+                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>受付当日券売り場で1枚5500円でお買い求めください。<br />（現金とPayPay）ワイングラスとコイン10枚と引換になります。</dd>
+            </div>
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>雨天でも開催されますか？</dt>
                 <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>開催します。公園通り商店街は屋根付きアーケードです。</dd>
@@ -354,8 +470,8 @@
                         <p>丸テーブルを用意しております。椅子の用意はありません。但し有料のプレミアム席は椅子の用意があります。</p>
                         <dl class="wf-faq__detail">
                             <div><dt>場所</dt><dd>THE CENTRAL（パーティールーム） 会場のお店</dd></div>
-                            <div><dt>内容</dt><dd>2時間制 11時〜13時の部／13時〜15時／15時〜17時</dd></div>
-                            <div><dt>料金</dt><dd>2,000円（1人、税込）</dd></div>
+                            <div><dt>内容</dt><dd>土曜 11時～13時 13時～15時 15時～17時 17時～19時<br />日曜 11時～13時 13時～15時 15時～17時</dd></div>
+                            <div><dt>料金</dt><dd>2時間制 2,000円（1人、税込）</dd></div>
                         </dl>
                     </div>
                 </dd>
@@ -370,7 +486,7 @@
             </div>
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>追加でワインを楽しむ場合はどうしたらいいですか？</dt>
-                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>当日券（ロイティＸのデジタルチケット）の購入でお楽しみください。</dd>
+                <dd><span class="wf-faq__mark wf-faq__mark--a">A</span>受付の当日券販売所でお買い求めください。5枚（3000円）10枚（5500円）（現金・PayPay）</dd>
             </div>
             <div class="wf-faq__item">
                 <dt><span class="wf-faq__mark wf-faq__mark--q">Q</span>チケットの払い戻しはできますか？</dt>
