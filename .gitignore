@@ -2,6 +2,9 @@
 .vscode/sftp.json
 .gitignore
 
+# Markdown（設計・移転計画等は Dropbox 上で管理。Git には含めない）
+*.md
+
 # サイト設定（reCAPTCHA 等。config.example.php をコピーして config.php を作成）
 _assets/config.php
 
